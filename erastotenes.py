@@ -11,6 +11,7 @@ rank = comm.Get_rank()
 size = comm.Get_size()
 
 
+# Sito sekwencyjne
 def sieve_base(limit):
     if limit < 2:
         return []
@@ -37,7 +38,7 @@ n = int(sys.argv[1])
 
 if n < 2:
     if rank == 0:
-        print("There are no prime numbers in the given range.")
+        print("There are no prime numbers in the given range")
     sys.exit(0)
 
 sqrt_n = math.isqrt(n)
@@ -107,11 +108,7 @@ local_start = c_start + local_index_start
 local_end = c_start + local_index_end - 1
 
 
-print(
-    f"Process {rank}/{size}: "
-    f"range [{local_start}, {local_end}]"
-)
-
+print(f"Process {rank}/{size}: range [{local_start}, {local_end}]")
 
 comm.Barrier()
 
@@ -151,7 +148,6 @@ if rank == 0:
 
     all_primes = divisors.copy()
 
-    # Read prime numbers from interval C
     for i in range(total_size):
 
         if shared_array[i] == 1:
@@ -161,23 +157,12 @@ if rank == 0:
             all_primes.append(number)
 
 
-    print()
     print("n =", n)
     print("Number of processes =", size)
-    print(
-        "Number of prime numbers =",
-        len(all_primes)
-    )
-    print(
-        "Execution time =",
-        end_time - start_time,
-        "seconds"
-    )
-
+    print("Number of prime numbers =", len(all_primes))
+    print("Execution time =", end_time - start_time, "seconds")
 
     if n <= 1000:
-
-        print()
         print("Prime numbers:")
         print(all_primes)
 
