@@ -17,6 +17,6 @@ cd "$SLURM_SUBMIT_DIR"
 
 mkdir -p results
 
-python benchmark.py --sizes 1025,2049 --processes 1,2,4,8,16,32 --repeats 3 --max-iters 150000 --output results/benchmark.csv
+python benchmark.py --sizes 550,1000 --processes 1,2,4,8,16,32 --repeats 1 --max-iters 150000 --output results/benchmark.csv
 
 python plot_benchmarks.py --input results/benchmark.csv --output-dir results/plots
