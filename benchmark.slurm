@@ -1,6 +1,6 @@
 #!/bin/bash -l
 
-#SBATCH -A plgar2022-cpu
+#SBATCH -A plgar2026-cpu
 #SBATCH -p plgrid
 #SBATCH -N 1
 #SBATCH --ntasks-per-node=8
