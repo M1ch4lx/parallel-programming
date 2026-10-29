@@ -3,8 +3,8 @@
 #SBATCH -A plgar2026-cpu
 #SBATCH -p plgrid
 #SBATCH -N 1
-#SBATCH --ntasks-per-node=8
-#SBATCH -t 00:20:00
+#SBATCH --ntasks-per-node=32
+#SBATCH -t 04:00:00
 #SBATCH -J membrane
 #SBATCH -o benchmark-%j.out
 #SBATCH -e benchmark-%j.err
