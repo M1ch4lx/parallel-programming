@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
-    "mpi4py>=4.1.2",
-    "numpy>=2.0.2",
+    "matplotlib>=3.8",
+    "mpi4py>=3.1",
+    "numpy>=1.26",
 ]

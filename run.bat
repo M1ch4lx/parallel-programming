@@ -1,0 +1,1 @@
+mpiexec -n 4 python membrane_mpi.py --n 65 --a 1 --p 1 --tension 1 --tol 1e-8 --verify --plot-prefix results/small --save-npy results/small.npy
