@@ -1,0 +1,24 @@
+ gcccore/11.2.0 loaded.
+ zlib/1.2.11-gcccore-11.2.0 loaded.
+ binutils/2.37-gcccore-11.2.0 loaded.
+ intel-compilers/2021.4.0 loaded.
+ numactl/2.0.14-gcccore-11.2.0 loaded.
+ ucx/1.11.2-gcccore-11.2.0 loaded.
+ impi/2021.4.0-intel-compilers-2021.4.0 loaded.
+ imkl/2021.4.0 loaded.
+ iimpi/2021b loaded.
+ imkl-fftw/2021.4.0-iimpi-2021b loaded.
+ intel/2021b loaded.
+ bzip2/1.0.8-gcccore-11.2.0 loaded.
+ ncurses/6.2-gcccore-11.2.0 loaded.
+ libreadline/8.1-gcccore-11.2.0 loaded.
+ tcl/8.6.11-gcccore-11.2.0 loaded.
+ sqlite/3.36-gcccore-11.2.0 loaded.
+ xz/5.2.5-gcccore-11.2.0 loaded.
+ gmp/6.2.1-gcccore-11.2.0 loaded.
+ libffi/3.4.2-gcccore-11.2.0 loaded.
+ openssl/1.1 loaded.
+ python/3.9.6-gcccore-11.2.0 loaded.
+ pybind11/2.7.1-gcccore-11.2.0 loaded.
+ scipy-bundle/2021.10-intel-2021b loaded.
+slurmstepd: error: *** JOB 21587870 ON ac0072 CANCELLED AT 2026-11-05T01:27:20 ***

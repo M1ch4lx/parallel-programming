@@ -1,0 +1,11 @@
+{
+  "mode": "sleep",
+  "width": 1280,
+  "height": 960,
+  "mpi_workers": 8,
+  "sleep_line": 1,
+  "sleep_requested_s": 1.0,
+  "wall_s": 1.0405783401802182,
+  "csv": "sleep.csv",
+  "image": "sleep.pgm"
+}

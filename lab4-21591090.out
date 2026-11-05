@@ -1,0 +1,2029 @@
+MPI startup(): PMI server not found. Please set I_MPI_PMI_LIBRARY variable if it is not a singleton case.
+MPI: Intel(R) MPI Library 2021.4 for Linux* OS
+mpi4py OK
+=== PRZEBIEG 1: bez sleep ===
+START tryb=baseline; rozdzielczosc=1280x960; sleep_line=None; sleep_seconds=0.0
+linia=000 rank=01 czas_obliczen=0.001074s sleep=0.000000s czas_calkowity_linii=0.001075slinia=001 rank=02 czas_obliczen=0.001065s sleep=0.000000s czas_calkowity_linii=0.001066s
+linia=002 rank=03 czas_obliczen=0.001092s sleep=0.000000s czas_calkowity_linii=0.001093s
+linia=003 rank=04 czas_obliczen=0.001099s sleep=0.000000s czas_calkowity_linii=0.001100s
+linia=004 rank=05 czas_obliczen=0.001056s sleep=0.000000s czas_calkowity_linii=0.001057s
+linia=005 rank=06 czas_obliczen=0.001080s sleep=0.000000s czas_calkowity_linii=0.001081s
+linia=006 rank=07 czas_obliczen=0.001070s sleep=0.000000s czas_calkowity_linii=0.001070s
+linia=007 rank=08 czas_obliczen=0.001076s sleep=0.000000s czas_calkowity_linii=0.001076s
+
+linia=008 rank=02 czas_obliczen=0.001009s sleep=0.000000s czas_calkowity_linii=0.001010slinia=009 rank=03 czas_obliczen=0.001015s sleep=0.000000s czas_calkowity_linii=0.001015s
+linia=011 rank=04 czas_obliczen=0.001047s sleep=0.000000s czas_calkowity_linii=0.001047s
+
+linia=015 rank=01 czas_obliczen=0.001023s sleep=0.000000s czas_calkowity_linii=0.001024s
+linia=010 rank=05 czas_obliczen=0.001000s sleep=0.000000s czas_calkowity_linii=0.001001slinia=013 rank=07 czas_obliczen=0.001006s sleep=0.000000s czas_calkowity_linii=0.001007s
+linia=012 rank=08 czas_obliczen=0.001006s sleep=0.000000s czas_calkowity_linii=0.001007s
+
+linia=014 rank=06 czas_obliczen=0.001010s sleep=0.000000s czas_calkowity_linii=0.001011s
+linia=016 rank=03 czas_obliczen=0.001037s sleep=0.000000s czas_calkowity_linii=0.001038slinia=018 rank=02 czas_obliczen=0.001017s sleep=0.000000s czas_calkowity_linii=0.001018s
+linia=017 rank=04 czas_obliczen=0.001059s sleep=0.000000s czas_calkowity_linii=0.001059s
+
+linia=019 rank=01 czas_obliczen=0.001060s sleep=0.000000s czas_calkowity_linii=0.001060s
+linia=021 rank=08 czas_obliczen=0.001017s sleep=0.000000s czas_calkowity_linii=0.001017s
+linia=020 rank=07 czas_obliczen=0.001043s sleep=0.000000s czas_calkowity_linii=0.001044s
+linia=023 rank=06 czas_obliczen=0.001019s sleep=0.000000s czas_calkowity_linii=0.001020s
+linia=022 rank=05 czas_obliczen=0.001016s sleep=0.000000s czas_calkowity_linii=0.001016s
+linia=024 rank=03 czas_obliczen=0.001034s sleep=0.000000s czas_calkowity_linii=0.001035slinia=026 rank=02 czas_obliczen=0.001012s sleep=0.000000s czas_calkowity_linii=0.001012s
+linia=025 rank=04 czas_obliczen=0.001047s sleep=0.000000s czas_calkowity_linii=0.001047s
+linia=030 rank=06 czas_obliczen=0.001015s sleep=0.000000s czas_calkowity_linii=0.001015s
+
+linia=031 rank=05 czas_obliczen=0.001009s sleep=0.000000s czas_calkowity_linii=0.001009s
+linia=028 rank=08 czas_obliczen=0.001017s sleep=0.000000s czas_calkowity_linii=0.001017s
+linia=027 rank=01 czas_obliczen=0.001064s sleep=0.000000s czas_calkowity_linii=0.001065s
+linia=029 rank=07 czas_obliczen=0.001011s sleep=0.000000s czas_calkowity_linii=0.001011s
+linia=032 rank=02 czas_obliczen=0.001029s sleep=0.000000s czas_calkowity_linii=0.001029slinia=035 rank=03 czas_obliczen=0.001045s sleep=0.000000s czas_calkowity_linii=0.001046s
+linia=033 rank=04 czas_obliczen=0.001050s sleep=0.000000s czas_calkowity_linii=0.001051s
+linia=036 rank=05 czas_obliczen=0.001026s sleep=0.000000s czas_calkowity_linii=0.001026s
+linia=034 rank=06 czas_obliczen=0.001045s sleep=0.000000s czas_calkowity_linii=0.001045s
+linia=039 rank=07 czas_obliczen=0.001030s sleep=0.000000s czas_calkowity_linii=0.001031s
+linia=037 rank=08 czas_obliczen=0.001026s sleep=0.000000s czas_calkowity_linii=0.001026s
+
+linia=038 rank=01 czas_obliczen=0.001072s sleep=0.000000s czas_calkowity_linii=0.001073s
+linia=041 rank=05 czas_obliczen=0.001019s sleep=0.000000s czas_calkowity_linii=0.001019slinia=047 rank=01 czas_obliczen=0.001051s sleep=0.000000s czas_calkowity_linii=0.001051s
+linia=046 rank=02 czas_obliczen=0.001033s sleep=0.000000s czas_calkowity_linii=0.001034s
+linia=042 rank=03 czas_obliczen=0.001048s sleep=0.000000s czas_calkowity_linii=0.001049s
+linia=040 rank=04 czas_obliczen=0.001050s sleep=0.000000s czas_calkowity_linii=0.001050s
+linia=043 rank=06 czas_obliczen=0.001039s sleep=0.000000s czas_calkowity_linii=0.001039s
+linia=045 rank=07 czas_obliczen=0.001022s sleep=0.000000s czas_calkowity_linii=0.001023s
+linia=044 rank=08 czas_obliczen=0.001025s sleep=0.000000s czas_calkowity_linii=0.001025s
+
+linia=052 rank=02 czas_obliczen=0.001037s sleep=0.000000s czas_calkowity_linii=0.001037s
+linia=048 rank=04 czas_obliczen=0.001032s sleep=0.000000s czas_calkowity_linii=0.001032s
+linia=050 rank=07 czas_obliczen=0.001024s sleep=0.000000s czas_calkowity_linii=0.001025slinia=054 rank=01 czas_obliczen=0.001060s sleep=0.000000s czas_calkowity_linii=0.001060s
+linia=049 rank=03 czas_obliczen=0.001053s sleep=0.000000s czas_calkowity_linii=0.001053s
+linia=053 rank=06 czas_obliczen=0.001036s sleep=0.000000s czas_calkowity_linii=0.001036s
+linia=051 rank=08 czas_obliczen=0.001050s sleep=0.000000s czas_calkowity_linii=0.001050s
+
+linia=055 rank=05 czas_obliczen=0.001051s sleep=0.000000s czas_calkowity_linii=0.001051s
+linia=057 rank=02 czas_obliczen=0.001060s sleep=0.000000s czas_calkowity_linii=0.001060s
+linia=056 rank=04 czas_obliczen=0.001056s sleep=0.000000s czas_calkowity_linii=0.001057slinia=061 rank=01 czas_obliczen=0.001100s sleep=0.000000s czas_calkowity_linii=0.001101s
+linia=060 rank=03 czas_obliczen=0.001092s sleep=0.000000s czas_calkowity_linii=0.001093s
+linia=058 rank=06 czas_obliczen=0.001078s sleep=0.000000s czas_calkowity_linii=0.001078s
+linia=059 rank=08 czas_obliczen=0.001078s sleep=0.000000s czas_calkowity_linii=0.001078s
+linia=063 rank=05 czas_obliczen=0.001067s sleep=0.000000s czas_calkowity_linii=0.001068s
+
+linia=062 rank=07 czas_obliczen=0.001065s sleep=0.000000s czas_calkowity_linii=0.001065s
+linia=067 rank=03 czas_obliczen=0.001091s sleep=0.000000s czas_calkowity_linii=0.001092s
+linia=066 rank=06 czas_obliczen=0.001092s sleep=0.000000s czas_calkowity_linii=0.001092s
+linia=065 rank=08 czas_obliczen=0.001084s sleep=0.000000s czas_calkowity_linii=0.001084slinia=064 rank=02 czas_obliczen=0.001081s sleep=0.000000s czas_calkowity_linii=0.001081s
+linia=070 rank=04 czas_obliczen=0.001109s sleep=0.000000s czas_calkowity_linii=0.001110s
+linia=069 rank=05 czas_obliczen=0.001097s sleep=0.000000s czas_calkowity_linii=0.001097s
+linia=068 rank=01 czas_obliczen=0.001141s sleep=0.000000s czas_calkowity_linii=0.001142s
+linia=071 rank=07 czas_obliczen=0.001087s sleep=0.000000s czas_calkowity_linii=0.001088s
+
+linia=072 rank=03 czas_obliczen=0.001101s sleep=0.000000s czas_calkowity_linii=0.001102slinia=074 rank=02 czas_obliczen=0.001112s sleep=0.000000s czas_calkowity_linii=0.001113s
+linia=075 rank=05 czas_obliczen=0.001115s sleep=0.000000s czas_calkowity_linii=0.001115s
+linia=073 rank=06 czas_obliczen=0.001116s sleep=0.000000s czas_calkowity_linii=0.001116s
+
+linia=077 rank=01 czas_obliczen=0.001121s sleep=0.000000s czas_calkowity_linii=0.001121s
+linia=078 rank=07 czas_obliczen=0.001108s sleep=0.000000s czas_calkowity_linii=0.001108s
+linia=079 rank=08 czas_obliczen=0.001115s sleep=0.000000s czas_calkowity_linii=0.001115s
+linia=076 rank=04 czas_obliczen=0.001157s sleep=0.000000s czas_calkowity_linii=0.001157s
+linia=080 rank=02 czas_obliczen=0.001127s sleep=0.000000s czas_calkowity_linii=0.001127slinia=083 rank=03 czas_obliczen=0.001128s sleep=0.000000s czas_calkowity_linii=0.001128s
+linia=081 rank=05 czas_obliczen=0.001138s sleep=0.000000s czas_calkowity_linii=0.001138s
+linia=082 rank=06 czas_obliczen=0.001141s sleep=0.000000s czas_calkowity_linii=0.001141s
+linia=084 rank=07 czas_obliczen=0.001124s sleep=0.000000s czas_calkowity_linii=0.001124s
+linia=085 rank=08 czas_obliczen=0.001136s sleep=0.000000s czas_calkowity_linii=0.001136s
+linia=087 rank=04 czas_obliczen=0.001137s sleep=0.000000s czas_calkowity_linii=0.001137s
+linia=086 rank=01 czas_obliczen=0.001184s sleep=0.000000s czas_calkowity_linii=0.001184s
+
+linia=088 rank=03 czas_obliczen=0.001134s sleep=0.000000s czas_calkowity_linii=0.001135s
+linia=089 rank=05 czas_obliczen=0.001124s sleep=0.000000s czas_calkowity_linii=0.001125slinia=091 rank=07 czas_obliczen=0.001133s sleep=0.000000s czas_calkowity_linii=0.001133s
+linia=090 rank=06 czas_obliczen=0.001154s sleep=0.000000s czas_calkowity_linii=0.001154s
+linia=092 rank=08 czas_obliczen=0.001149s sleep=0.000000s czas_calkowity_linii=0.001150s
+
+linia=094 rank=01 czas_obliczen=0.001195s sleep=0.000000s czas_calkowity_linii=0.001195s
+linia=095 rank=02 czas_obliczen=0.001148s sleep=0.000000s czas_calkowity_linii=0.001148s
+linia=093 rank=04 czas_obliczen=0.001209s sleep=0.000000s czas_calkowity_linii=0.001210s
+linia=096 rank=03 czas_obliczen=0.001147s sleep=0.000000s czas_calkowity_linii=0.001148slinia=097 rank=07 czas_obliczen=0.001142s sleep=0.000000s czas_calkowity_linii=0.001143s
+linia=098 rank=08 czas_obliczen=0.001149s sleep=0.000000s czas_calkowity_linii=0.001149s
+linia=100 rank=05 czas_obliczen=0.001142s sleep=0.000000s czas_calkowity_linii=0.001142s
+linia=099 rank=06 czas_obliczen=0.001167s sleep=0.000000s czas_calkowity_linii=0.001167s
+
+linia=102 rank=02 czas_obliczen=0.001164s sleep=0.000000s czas_calkowity_linii=0.001164s
+linia=103 rank=04 czas_obliczen=0.001168s sleep=0.000000s czas_calkowity_linii=0.001168s
+linia=101 rank=01 czas_obliczen=0.001206s sleep=0.000000s czas_calkowity_linii=0.001206s
+linia=104 rank=07 czas_obliczen=0.001168s sleep=0.000000s czas_calkowity_linii=0.001168slinia=105 rank=08 czas_obliczen=0.001178s sleep=0.000000s czas_calkowity_linii=0.001179s
+linia=107 rank=05 czas_obliczen=0.001184s sleep=0.000000s czas_calkowity_linii=0.001184s
+linia=106 rank=06 czas_obliczen=0.001187s sleep=0.000000s czas_calkowity_linii=0.001187s
+
+linia=108 rank=03 czas_obliczen=0.001185s sleep=0.000000s czas_calkowity_linii=0.001186s
+linia=109 rank=02 czas_obliczen=0.001184s sleep=0.000000s czas_calkowity_linii=0.001184s
+linia=110 rank=04 czas_obliczen=0.001189s sleep=0.000000s czas_calkowity_linii=0.001189s
+linia=111 rank=01 czas_obliczen=0.001226s sleep=0.000000s czas_calkowity_linii=0.001226s
+linia=114 rank=06 czas_obliczen=0.001206s sleep=0.000000s czas_calkowity_linii=0.001207slinia=112 rank=05 czas_obliczen=0.001190s sleep=0.000000s czas_calkowity_linii=0.001191s
+linia=113 rank=08 czas_obliczen=0.001200s sleep=0.000000s czas_calkowity_linii=0.001201s
+linia=116 rank=03 czas_obliczen=0.001205s sleep=0.000000s czas_calkowity_linii=0.001205s
+linia=115 rank=07 czas_obliczen=0.001197s sleep=0.000000s czas_calkowity_linii=0.001198s
+
+linia=117 rank=02 czas_obliczen=0.001209s sleep=0.000000s czas_calkowity_linii=0.001209s
+linia=118 rank=04 czas_obliczen=0.001235s sleep=0.000000s czas_calkowity_linii=0.001235s
+linia=119 rank=01 czas_obliczen=0.001293s sleep=0.000000s czas_calkowity_linii=0.001293s
+linia=120 rank=05 czas_obliczen=0.001213s sleep=0.000000s czas_calkowity_linii=0.001213slinia=121 rank=03 czas_obliczen=0.001219s sleep=0.000000s czas_calkowity_linii=0.001220s
+linia=125 rank=02 czas_obliczen=0.001243s sleep=0.000000s czas_calkowity_linii=0.001244s
+linia=123 rank=07 czas_obliczen=0.001225s sleep=0.000000s czas_calkowity_linii=0.001225s
+linia=122 rank=08 czas_obliczen=0.001245s sleep=0.000000s czas_calkowity_linii=0.001246s
+
+linia=124 rank=06 czas_obliczen=0.001251s sleep=0.000000s czas_calkowity_linii=0.001251s
+linia=126 rank=04 czas_obliczen=0.001282s sleep=0.000000s czas_calkowity_linii=0.001283s
+linia=127 rank=01 czas_obliczen=0.001327s sleep=0.000000s czas_calkowity_linii=0.001327s
+linia=128 rank=03 czas_obliczen=0.001272s sleep=0.000000s czas_calkowity_linii=0.001273s
+linia=131 rank=08 czas_obliczen=0.001414s sleep=0.000000s czas_calkowity_linii=0.001414s
+linia=129 rank=07 czas_obliczen=0.001419s sleep=0.000000s czas_calkowity_linii=0.001420s
+linia=130 rank=02 czas_obliczen=0.001481s sleep=0.000000s czas_calkowity_linii=0.001481s
+linia=133 rank=06 czas_obliczen=0.001565s sleep=0.000000s czas_calkowity_linii=0.001566s
+linia=132 rank=05 czas_obliczen=0.001579s sleep=0.000000s czas_calkowity_linii=0.001579s
+linia=134 rank=04 czas_obliczen=0.001522s sleep=0.000000s czas_calkowity_linii=0.001522s
+linia=135 rank=01 czas_obliczen=0.001601s sleep=0.000000s czas_calkowity_linii=0.001602s
+linia=136 rank=03 czas_obliczen=0.001606s sleep=0.000000s czas_calkowity_linii=0.001607slinia=138 rank=07 czas_obliczen=0.001593s sleep=0.000000s czas_calkowity_linii=0.001594s
+linia=137 rank=08 czas_obliczen=0.001577s sleep=0.000000s czas_calkowity_linii=0.001577s
+
+linia=139 rank=02 czas_obliczen=0.001554s sleep=0.000000s czas_calkowity_linii=0.001555s
+linia=140 rank=06 czas_obliczen=0.001636s sleep=0.000000s czas_calkowity_linii=0.001636s
+linia=141 rank=05 czas_obliczen=0.001670s sleep=0.000000s czas_calkowity_linii=0.001670s
+linia=142 rank=04 czas_obliczen=0.001719s sleep=0.000000s czas_calkowity_linii=0.001720s
+linia=143 rank=01 czas_obliczen=0.001811s sleep=0.000000s czas_calkowity_linii=0.001812s
+linia=144 rank=08 czas_obliczen=0.001801s sleep=0.000000s czas_calkowity_linii=0.001801s
+linia=147 rank=02 czas_obliczen=0.001907s sleep=0.000000s czas_calkowity_linii=0.001908s
+linia=146 rank=03 czas_obliczen=0.002041s sleep=0.000000s czas_calkowity_linii=0.002041s
+linia=145 rank=07 czas_obliczen=0.002060s sleep=0.000000s czas_calkowity_linii=0.002061s
+linia=148 rank=06 czas_obliczen=0.001902s sleep=0.000000s czas_calkowity_linii=0.001903s
+linia=150 rank=04 czas_obliczen=0.001808s sleep=0.000000s czas_calkowity_linii=0.001809s
+linia=149 rank=05 czas_obliczen=0.001878s sleep=0.000000s czas_calkowity_linii=0.001878s
+linia=151 rank=01 czas_obliczen=0.001966s sleep=0.000000s czas_calkowity_linii=0.001967s
+linia=153 rank=02 czas_obliczen=0.001779s sleep=0.000000s czas_calkowity_linii=0.001780s
+linia=154 rank=03 czas_obliczen=0.001732s sleep=0.000000s czas_calkowity_linii=0.001732slinia=159 rank=01 czas_obliczen=0.001721s sleep=0.000000s czas_calkowity_linii=0.001721s
+linia=156 rank=06 czas_obliczen=0.001694s sleep=0.000000s czas_calkowity_linii=0.001694s
+
+linia=152 rank=08 czas_obliczen=0.001966s sleep=0.000000s czas_calkowity_linii=0.001967s
+linia=157 rank=04 czas_obliczen=0.001676s sleep=0.000000s czas_calkowity_linii=0.001677s
+linia=155 rank=07 czas_obliczen=0.001779s sleep=0.000000s czas_calkowity_linii=0.001779s
+linia=158 rank=05 czas_obliczen=0.001759s sleep=0.000000s czas_calkowity_linii=0.001759s
+linia=163 rank=03 czas_obliczen=0.001647s sleep=0.000000s czas_calkowity_linii=0.001648s
+linia=162 rank=06 czas_obliczen=0.001714s sleep=0.000000s czas_calkowity_linii=0.001715s
+linia=161 rank=01 czas_obliczen=0.001773s sleep=0.000000s czas_calkowity_linii=0.001774s
+linia=165 rank=04 czas_obliczen=0.001754s sleep=0.000000s czas_calkowity_linii=0.001754s
+linia=160 rank=02 czas_obliczen=0.001806s sleep=0.000000s czas_calkowity_linii=0.001807s
+linia=164 rank=08 czas_obliczen=0.001843s sleep=0.000000s czas_calkowity_linii=0.001844s
+linia=166 rank=07 czas_obliczen=0.001949s sleep=0.000000s czas_calkowity_linii=0.001949s
+linia=167 rank=05 czas_obliczen=0.002030s sleep=0.000000s czas_calkowity_linii=0.002030s
+linia=168 rank=06 czas_obliczen=0.002332s sleep=0.000000s czas_calkowity_linii=0.002333s
+linia=172 rank=02 czas_obliczen=0.002441s sleep=0.000000s czas_calkowity_linii=0.002441s
+linia=171 rank=04 czas_obliczen=0.002471s sleep=0.000000s czas_calkowity_linii=0.002471s
+linia=173 rank=08 czas_obliczen=0.002482s sleep=0.000000s czas_calkowity_linii=0.002483s
+linia=169 rank=03 czas_obliczen=0.002644s sleep=0.000000s czas_calkowity_linii=0.002644s
+linia=174 rank=07 czas_obliczen=0.002457s sleep=0.000000s czas_calkowity_linii=0.002458s
+linia=170 rank=01 czas_obliczen=0.002718s sleep=0.000000s czas_calkowity_linii=0.002718s
+linia=175 rank=05 czas_obliczen=0.002632s sleep=0.000000s czas_calkowity_linii=0.002632s
+linia=176 rank=06 czas_obliczen=0.002567s sleep=0.000000s czas_calkowity_linii=0.002568s
+linia=177 rank=02 czas_obliczen=0.002533s sleep=0.000000s czas_calkowity_linii=0.002534s
+linia=178 rank=04 czas_obliczen=0.002693s sleep=0.000000s czas_calkowity_linii=0.002694s
+linia=179 rank=08 czas_obliczen=0.002789s sleep=0.000000s czas_calkowity_linii=0.002789s
+linia=183 rank=05 czas_obliczen=0.002930s sleep=0.000000s czas_calkowity_linii=0.002930s
+linia=180 rank=03 czas_obliczen=0.002889s sleep=0.000000s czas_calkowity_linii=0.002889s
+linia=181 rank=07 czas_obliczen=0.002913s sleep=0.000000s czas_calkowity_linii=0.002914s
+linia=182 rank=01 czas_obliczen=0.003107s sleep=0.000000s czas_calkowity_linii=0.003107s
+linia=184 rank=06 czas_obliczen=0.003132s sleep=0.000000s czas_calkowity_linii=0.003133s
+linia=185 rank=02 czas_obliczen=0.003235s sleep=0.000000s czas_calkowity_linii=0.003235s
+linia=189 rank=03 czas_obliczen=0.003690s sleep=0.000000s czas_calkowity_linii=0.003690s
+linia=187 rank=08 czas_obliczen=0.003396s sleep=0.000000s czas_calkowity_linii=0.003396s
+linia=191 rank=01 czas_obliczen=0.003952s sleep=0.000000s czas_calkowity_linii=0.003952s
+linia=186 rank=04 czas_obliczen=0.003674s sleep=0.000000s czas_calkowity_linii=0.003674s
+linia=188 rank=05 czas_obliczen=0.003573s sleep=0.000000s czas_calkowity_linii=0.003573s
+linia=190 rank=07 czas_obliczen=0.003715s sleep=0.000000s czas_calkowity_linii=0.003716s
+linia=196 rank=01 czas_obliczen=0.003962s sleep=0.000000s czas_calkowity_linii=0.003963slinia=193 rank=02 czas_obliczen=0.003919s sleep=0.000000s czas_calkowity_linii=0.003920s
+
+linia=194 rank=03 czas_obliczen=0.003829s sleep=0.000000s czas_calkowity_linii=0.003829s
+linia=195 rank=08 czas_obliczen=0.004022s sleep=0.000000s czas_calkowity_linii=0.004022s
+linia=198 rank=05 czas_obliczen=0.004116s sleep=0.000000s czas_calkowity_linii=0.004116s
+linia=192 rank=06 czas_obliczen=0.003907s sleep=0.000000s czas_calkowity_linii=0.003908s
+linia=197 rank=04 czas_obliczen=0.004233s sleep=0.000000s czas_calkowity_linii=0.004234s
+linia=199 rank=07 czas_obliczen=0.004549s sleep=0.000000s czas_calkowity_linii=0.004550s
+linia=207 rank=07 czas_obliczen=0.004535s sleep=0.000000s czas_calkowity_linii=0.004536s
+linia=200 rank=02 czas_obliczen=0.004350s sleep=0.000000s czas_calkowity_linii=0.004350s
+linia=202 rank=03 czas_obliczen=0.004279s sleep=0.000000s czas_calkowity_linii=0.004279s
+linia=203 rank=08 czas_obliczen=0.004412s sleep=0.000000s czas_calkowity_linii=0.004412s
+linia=204 rank=06 czas_obliczen=0.004593s sleep=0.000000s czas_calkowity_linii=0.004593s
+linia=201 rank=01 czas_obliczen=0.004855s sleep=0.000000s czas_calkowity_linii=0.004855s
+linia=205 rank=05 czas_obliczen=0.004661s sleep=0.000000s czas_calkowity_linii=0.004662s
+linia=206 rank=04 czas_obliczen=0.004671s sleep=0.000000s czas_calkowity_linii=0.004672s
+linia=212 rank=06 czas_obliczen=0.004516s sleep=0.000000s czas_calkowity_linii=0.004516s
+linia=213 rank=01 czas_obliczen=0.004598s sleep=0.000000s czas_calkowity_linii=0.004599s
+linia=214 rank=05 czas_obliczen=0.004644s sleep=0.000000s czas_calkowity_linii=0.004644s
+linia=215 rank=04 czas_obliczen=0.004932s sleep=0.000000s czas_calkowity_linii=0.004933s
+linia=210 rank=03 czas_obliczen=0.004426s sleep=0.000000s czas_calkowity_linii=0.004426s
+linia=208 rank=07 czas_obliczen=0.004741s sleep=0.000000s czas_calkowity_linii=0.004742s
+linia=209 rank=02 czas_obliczen=0.004864s sleep=0.000000s czas_calkowity_linii=0.004864s
+linia=211 rank=08 czas_obliczen=0.004757s sleep=0.000000s czas_calkowity_linii=0.004758s
+linia=217 rank=01 czas_obliczen=0.004478s sleep=0.000000s czas_calkowity_linii=0.004479s
+linia=220 rank=03 czas_obliczen=0.004966s sleep=0.000000s czas_calkowity_linii=0.004967s
+linia=219 rank=04 czas_obliczen=0.004998s sleep=0.000000s czas_calkowity_linii=0.004999s
+linia=216 rank=06 czas_obliczen=0.005002s sleep=0.000000s czas_calkowity_linii=0.005002s
+linia=218 rank=05 czas_obliczen=0.004960s sleep=0.000000s czas_calkowity_linii=0.004960s
+linia=221 rank=07 czas_obliczen=0.005124s sleep=0.000000s czas_calkowity_linii=0.005124s
+linia=223 rank=08 czas_obliczen=0.005252s sleep=0.000000s czas_calkowity_linii=0.005252s
+linia=222 rank=02 czas_obliczen=0.005487s sleep=0.000000s czas_calkowity_linii=0.005487s
+linia=231 rank=02 czas_obliczen=0.005088s sleep=0.000000s czas_calkowity_linii=0.005088s
+linia=225 rank=03 czas_obliczen=0.004964s sleep=0.000000s czas_calkowity_linii=0.004964s
+linia=226 rank=04 czas_obliczen=0.005035s sleep=0.000000s czas_calkowity_linii=0.005036s
+linia=227 rank=06 czas_obliczen=0.004976s sleep=0.000000s czas_calkowity_linii=0.004977s
+linia=224 rank=01 czas_obliczen=0.005374s sleep=0.000000s czas_calkowity_linii=0.005374s
+linia=228 rank=05 czas_obliczen=0.004964s sleep=0.000000s czas_calkowity_linii=0.004965s
+linia=230 rank=08 czas_obliczen=0.005105s sleep=0.000000s czas_calkowity_linii=0.005106s
+linia=229 rank=07 czas_obliczen=0.005150s sleep=0.000000s czas_calkowity_linii=0.005151s
+linia=232 rank=02 czas_obliczen=0.005334s sleep=0.000000s czas_calkowity_linii=0.005335s
+linia=233 rank=03 czas_obliczen=0.005702s sleep=0.000000s czas_calkowity_linii=0.005703s
+linia=239 rank=07 czas_obliczen=0.005422s sleep=0.000000s czas_calkowity_linii=0.005423s
+linia=235 rank=06 czas_obliczen=0.005835s sleep=0.000000s czas_calkowity_linii=0.005836s
+linia=237 rank=01 czas_obliczen=0.005861s sleep=0.000000s czas_calkowity_linii=0.005862s
+linia=236 rank=05 czas_obliczen=0.005898s sleep=0.000000s czas_calkowity_linii=0.005898s
+linia=234 rank=04 czas_obliczen=0.006009s sleep=0.000000s czas_calkowity_linii=0.006009s
+linia=238 rank=08 czas_obliczen=0.006101s sleep=0.000000s czas_calkowity_linii=0.006101s
+linia=242 rank=07 czas_obliczen=0.005187s sleep=0.000000s czas_calkowity_linii=0.005188s
+linia=243 rank=06 czas_obliczen=0.005270s sleep=0.000000s czas_calkowity_linii=0.005270s
+linia=240 rank=02 czas_obliczen=0.005550s sleep=0.000000s czas_calkowity_linii=0.005550s
+linia=245 rank=05 czas_obliczen=0.005342s sleep=0.000000s czas_calkowity_linii=0.005342s
+linia=244 rank=01 czas_obliczen=0.005571s sleep=0.000000s czas_calkowity_linii=0.005572s
+linia=247 rank=08 czas_obliczen=0.005788s sleep=0.000000s czas_calkowity_linii=0.005788s
+linia=241 rank=03 czas_obliczen=0.005599s sleep=0.000000s czas_calkowity_linii=0.005599s
+linia=246 rank=04 czas_obliczen=0.005895s sleep=0.000000s czas_calkowity_linii=0.005895s
+linia=251 rank=05 czas_obliczen=0.006479s sleep=0.000000s czas_calkowity_linii=0.006479slinia=250 rank=02 czas_obliczen=0.006491s sleep=0.000000s czas_calkowity_linii=0.006492s
+
+linia=248 rank=07 czas_obliczen=0.005828s sleep=0.000000s czas_calkowity_linii=0.005828s
+linia=253 rank=08 czas_obliczen=0.006352s sleep=0.000000s czas_calkowity_linii=0.006353s
+linia=249 rank=06 czas_obliczen=0.005941s sleep=0.000000s czas_calkowity_linii=0.005941s
+linia=255 rank=04 czas_obliczen=0.006774s sleep=0.000000s czas_calkowity_linii=0.006774s
+linia=252 rank=01 czas_obliczen=0.006732s sleep=0.000000s czas_calkowity_linii=0.006732s
+linia=254 rank=03 czas_obliczen=0.007087s sleep=0.000000s czas_calkowity_linii=0.007087s
+linia=257 rank=05 czas_obliczen=0.006787s sleep=0.000000s czas_calkowity_linii=0.006788slinia=256 rank=02 czas_obliczen=0.006839s sleep=0.000000s czas_calkowity_linii=0.006840s
+
+linia=258 rank=07 czas_obliczen=0.006925s sleep=0.000000s czas_calkowity_linii=0.006926s
+linia=263 rank=03 czas_obliczen=0.007138s sleep=0.000000s czas_calkowity_linii=0.007138s
+linia=260 rank=06 czas_obliczen=0.007248s sleep=0.000000s czas_calkowity_linii=0.007248s
+linia=259 rank=08 czas_obliczen=0.007413s sleep=0.000000s czas_calkowity_linii=0.007413s
+linia=261 rank=04 czas_obliczen=0.007547s sleep=0.000000s czas_calkowity_linii=0.007547s
+linia=262 rank=01 czas_obliczen=0.007651s sleep=0.000000s czas_calkowity_linii=0.007652s
+linia=269 rank=08 czas_obliczen=0.007331s sleep=0.000000s czas_calkowity_linii=0.007332s
+linia=264 rank=02 czas_obliczen=0.007097s sleep=0.000000s czas_calkowity_linii=0.007098s
+linia=270 rank=04 czas_obliczen=0.007273s sleep=0.000000s czas_calkowity_linii=0.007274s
+linia=265 rank=05 czas_obliczen=0.007362s sleep=0.000000s czas_calkowity_linii=0.007363s
+linia=266 rank=07 czas_obliczen=0.007708s sleep=0.000000s czas_calkowity_linii=0.007708s
+linia=267 rank=03 czas_obliczen=0.007625s sleep=0.000000s czas_calkowity_linii=0.007626s
+linia=268 rank=06 czas_obliczen=0.007381s sleep=0.000000s czas_calkowity_linii=0.007381s
+linia=271 rank=01 czas_obliczen=0.007955s sleep=0.000000s czas_calkowity_linii=0.007956s
+linia=273 rank=02 czas_obliczen=0.007395s sleep=0.000000s czas_calkowity_linii=0.007395s
+linia=274 rank=04 czas_obliczen=0.007607s sleep=0.000000s czas_calkowity_linii=0.007608s
+linia=275 rank=05 czas_obliczen=0.007525s sleep=0.000000s czas_calkowity_linii=0.007525s
+linia=276 rank=07 czas_obliczen=0.007764s sleep=0.000000s czas_calkowity_linii=0.007764s
+linia=278 rank=06 czas_obliczen=0.008246s sleep=0.000000s czas_calkowity_linii=0.008247s
+linia=277 rank=03 czas_obliczen=0.008346s sleep=0.000000s czas_calkowity_linii=0.008347s
+linia=272 rank=08 czas_obliczen=0.007595s sleep=0.000000s czas_calkowity_linii=0.007596s
+linia=279 rank=01 czas_obliczen=0.008777s sleep=0.000000s czas_calkowity_linii=0.008777s
+linia=287 rank=01 czas_obliczen=0.007939s sleep=0.000000s czas_calkowity_linii=0.007939s
+linia=284 rank=06 czas_obliczen=0.008062s sleep=0.000000s czas_calkowity_linii=0.008062s
+linia=283 rank=07 czas_obliczen=0.007801s sleep=0.000000s czas_calkowity_linii=0.007802s
+linia=282 rank=05 czas_obliczen=0.008109s sleep=0.000000s czas_calkowity_linii=0.008109s
+linia=285 rank=03 czas_obliczen=0.008354s sleep=0.000000s czas_calkowity_linii=0.008355s
+linia=286 rank=08 czas_obliczen=0.008385s sleep=0.000000s czas_calkowity_linii=0.008385s
+linia=281 rank=04 czas_obliczen=0.008462s sleep=0.000000s czas_calkowity_linii=0.008462s
+linia=280 rank=02 czas_obliczen=0.008180s sleep=0.000000s czas_calkowity_linii=0.008180s
+linia=291 rank=05 czas_obliczen=0.007619s sleep=0.000000s czas_calkowity_linii=0.007620s
+linia=288 rank=06 czas_obliczen=0.007889s sleep=0.000000s czas_calkowity_linii=0.007889s
+linia=289 rank=07 czas_obliczen=0.007914s sleep=0.000000s czas_calkowity_linii=0.007914s
+linia=290 rank=01 czas_obliczen=0.008233s sleep=0.000000s czas_calkowity_linii=0.008233s
+linia=295 rank=02 czas_obliczen=0.008556s sleep=0.000000s czas_calkowity_linii=0.008556s
+linia=293 rank=08 czas_obliczen=0.008388s sleep=0.000000s czas_calkowity_linii=0.008388s
+linia=292 rank=03 czas_obliczen=0.008704s sleep=0.000000s czas_calkowity_linii=0.008704s
+linia=294 rank=04 czas_obliczen=0.008821s sleep=0.000000s czas_calkowity_linii=0.008821s
+linia=303 rank=04 czas_obliczen=0.007902s sleep=0.000000s czas_calkowity_linii=0.007903slinia=300 rank=02 czas_obliczen=0.007706s sleep=0.000000s czas_calkowity_linii=0.007707s
+
+linia=302 rank=03 czas_obliczen=0.008064s sleep=0.000000s czas_calkowity_linii=0.008064s
+linia=299 rank=01 czas_obliczen=0.008021s sleep=0.000000s czas_calkowity_linii=0.008022s
+linia=301 rank=08 czas_obliczen=0.008083s sleep=0.000000s czas_calkowity_linii=0.008083s
+linia=298 rank=07 czas_obliczen=0.008033s sleep=0.000000s czas_calkowity_linii=0.008033s
+linia=297 rank=06 czas_obliczen=0.008218s sleep=0.000000s czas_calkowity_linii=0.008218s
+linia=296 rank=05 czas_obliczen=0.008751s sleep=0.000000s czas_calkowity_linii=0.008751s
+linia=304 rank=02 czas_obliczen=0.007807s sleep=0.000000s czas_calkowity_linii=0.007808s
+linia=306 rank=03 czas_obliczen=0.008413s sleep=0.000000s czas_calkowity_linii=0.008413s
+linia=305 rank=04 czas_obliczen=0.008453s sleep=0.000000s czas_calkowity_linii=0.008453s
+linia=311 rank=05 czas_obliczen=0.008882s sleep=0.000000s czas_calkowity_linii=0.008882s
+linia=309 rank=07 czas_obliczen=0.008973s sleep=0.000000s czas_calkowity_linii=0.008973s
+linia=310 rank=06 czas_obliczen=0.008973s sleep=0.000000s czas_calkowity_linii=0.008974s
+linia=308 rank=08 czas_obliczen=0.008832s sleep=0.000000s czas_calkowity_linii=0.008832s
+linia=307 rank=01 czas_obliczen=0.009064s sleep=0.000000s czas_calkowity_linii=0.009065s
+linia=313 rank=03 czas_obliczen=0.008846s sleep=0.000000s czas_calkowity_linii=0.008847s
+linia=317 rank=06 czas_obliczen=0.009088s sleep=0.000000s czas_calkowity_linii=0.009089s
+linia=318 rank=08 czas_obliczen=0.009204s sleep=0.000000s czas_calkowity_linii=0.009205s
+linia=312 rank=02 czas_obliczen=0.008687s sleep=0.000000s czas_calkowity_linii=0.008687s
+linia=319 rank=01 czas_obliczen=0.009381s sleep=0.000000s czas_calkowity_linii=0.009381s
+linia=316 rank=07 czas_obliczen=0.009293s sleep=0.000000s czas_calkowity_linii=0.009293s
+linia=314 rank=04 czas_obliczen=0.009388s sleep=0.000000s czas_calkowity_linii=0.009388s
+linia=315 rank=05 czas_obliczen=0.009522s sleep=0.000000s czas_calkowity_linii=0.009522s
+linia=326 rank=04 czas_obliczen=0.008848s sleep=0.000000s czas_calkowity_linii=0.008849s
+linia=327 rank=05 czas_obliczen=0.008929s sleep=0.000000s czas_calkowity_linii=0.008930s
+linia=325 rank=07 czas_obliczen=0.009114s sleep=0.000000s czas_calkowity_linii=0.009114s
+linia=323 rank=02 czas_obliczen=0.008574s sleep=0.000000s czas_calkowity_linii=0.008575s
+linia=320 rank=03 czas_obliczen=0.009047s sleep=0.000000s czas_calkowity_linii=0.009048s
+linia=322 rank=08 czas_obliczen=0.008971s sleep=0.000000s czas_calkowity_linii=0.008971s
+linia=321 rank=06 czas_obliczen=0.009255s sleep=0.000000s czas_calkowity_linii=0.009255s
+linia=324 rank=01 czas_obliczen=0.009360s sleep=0.000000s czas_calkowity_linii=0.009360s
+linia=333 rank=08 czas_obliczen=0.008636s sleep=0.000000s czas_calkowity_linii=0.008637slinia=334 rank=06 czas_obliczen=0.008499s sleep=0.000000s czas_calkowity_linii=0.008500s
+
+linia=332 rank=03 czas_obliczen=0.008974s sleep=0.000000s czas_calkowity_linii=0.008974s
+linia=329 rank=05 czas_obliczen=0.008710s sleep=0.000000s czas_calkowity_linii=0.008710s
+linia=335 rank=01 czas_obliczen=0.008838s sleep=0.000000s czas_calkowity_linii=0.008839s
+linia=328 rank=04 czas_obliczen=0.009059s sleep=0.000000s czas_calkowity_linii=0.009060s
+linia=330 rank=07 czas_obliczen=0.008984s sleep=0.000000s czas_calkowity_linii=0.008985s
+linia=331 rank=02 czas_obliczen=0.008965s sleep=0.000000s czas_calkowity_linii=0.008965s
+linia=339 rank=05 czas_obliczen=0.008016s sleep=0.000000s czas_calkowity_linii=0.008017s
+linia=341 rank=04 czas_obliczen=0.008193s sleep=0.000000s czas_calkowity_linii=0.008193s
+linia=338 rank=03 czas_obliczen=0.007843s sleep=0.000000s czas_calkowity_linii=0.007843s
+linia=343 rank=02 czas_obliczen=0.008231s sleep=0.000000s czas_calkowity_linii=0.008232s
+linia=337 rank=08 czas_obliczen=0.008166s sleep=0.000000s czas_calkowity_linii=0.008166s
+linia=336 rank=06 czas_obliczen=0.008384s sleep=0.000000s czas_calkowity_linii=0.008384s
+linia=342 rank=07 czas_obliczen=0.008261s sleep=0.000000s czas_calkowity_linii=0.008261s
+linia=340 rank=01 czas_obliczen=0.008584s sleep=0.000000s czas_calkowity_linii=0.008584s
+linia=349 rank=06 czas_obliczen=0.007785s sleep=0.000000s czas_calkowity_linii=0.007786slinia=348 rank=08 czas_obliczen=0.007889s sleep=0.000000s czas_calkowity_linii=0.007889s
+linia=346 rank=03 czas_obliczen=0.008028s sleep=0.000000s czas_calkowity_linii=0.008028s
+
+linia=351 rank=01 czas_obliczen=0.008553s sleep=0.000000s czas_calkowity_linii=0.008553s
+linia=345 rank=04 czas_obliczen=0.008173s sleep=0.000000s czas_calkowity_linii=0.008173s
+linia=347 rank=02 czas_obliczen=0.008090s sleep=0.000000s czas_calkowity_linii=0.008091s
+linia=350 rank=07 czas_obliczen=0.008179s sleep=0.000000s czas_calkowity_linii=0.008179s
+linia=344 rank=05 czas_obliczen=0.008622s sleep=0.000000s czas_calkowity_linii=0.008622s
+linia=357 rank=02 czas_obliczen=0.007478s sleep=0.000000s czas_calkowity_linii=0.007478s
+linia=356 rank=04 czas_obliczen=0.007540s sleep=0.000000s czas_calkowity_linii=0.007540s
+linia=358 rank=07 czas_obliczen=0.007391s sleep=0.000000s czas_calkowity_linii=0.007391s
+linia=359 rank=05 czas_obliczen=0.007565s sleep=0.000000s czas_calkowity_linii=0.007565s
+linia=355 rank=01 czas_obliczen=0.008020s sleep=0.000000s czas_calkowity_linii=0.008021s
+linia=354 rank=06 czas_obliczen=0.008074s sleep=0.000000s czas_calkowity_linii=0.008074s
+linia=352 rank=08 czas_obliczen=0.008209s sleep=0.000000s czas_calkowity_linii=0.008210s
+linia=353 rank=03 czas_obliczen=0.008248s sleep=0.000000s czas_calkowity_linii=0.008249s
+linia=361 rank=02 czas_obliczen=0.007884s sleep=0.000000s czas_calkowity_linii=0.007885s
+linia=360 rank=04 czas_obliczen=0.007987s sleep=0.000000s czas_calkowity_linii=0.007988slinia=363 rank=05 czas_obliczen=0.008173s sleep=0.000000s czas_calkowity_linii=0.008174s
+
+linia=365 rank=06 czas_obliczen=0.008192s sleep=0.000000s czas_calkowity_linii=0.008192s
+linia=362 rank=07 czas_obliczen=0.007923s sleep=0.000000s czas_calkowity_linii=0.007923s
+linia=366 rank=08 czas_obliczen=0.008154s sleep=0.000000s czas_calkowity_linii=0.008155s
+linia=367 rank=03 czas_obliczen=0.008598s sleep=0.000000s czas_calkowity_linii=0.008599s
+linia=364 rank=01 czas_obliczen=0.008837s sleep=0.000000s czas_calkowity_linii=0.008837s
+linia=368 rank=02 czas_obliczen=0.008049s sleep=0.000000s czas_calkowity_linii=0.008049s
+linia=374 rank=03 czas_obliczen=0.008569s sleep=0.000000s czas_calkowity_linii=0.008569s
+linia=369 rank=05 czas_obliczen=0.008157s sleep=0.000000s czas_calkowity_linii=0.008158s
+linia=372 rank=07 czas_obliczen=0.008058s sleep=0.000000s czas_calkowity_linii=0.008058s
+linia=371 rank=06 czas_obliczen=0.008127s sleep=0.000000s czas_calkowity_linii=0.008128s
+linia=375 rank=01 czas_obliczen=0.008589s sleep=0.000000s czas_calkowity_linii=0.008589s
+linia=373 rank=08 czas_obliczen=0.008203s sleep=0.000000s czas_calkowity_linii=0.008203s
+linia=370 rank=04 czas_obliczen=0.008458s sleep=0.000000s czas_calkowity_linii=0.008458s
+linia=378 rank=05 czas_obliczen=0.007732s sleep=0.000000s czas_calkowity_linii=0.007733slinia=382 rank=08 czas_obliczen=0.007573s sleep=0.000000s czas_calkowity_linii=0.007573s
+
+linia=383 rank=04 czas_obliczen=0.007412s sleep=0.000000s czas_calkowity_linii=0.007412s
+linia=380 rank=06 czas_obliczen=0.007702s sleep=0.000000s czas_calkowity_linii=0.007703slinia=379 rank=07 czas_obliczen=0.007786s sleep=0.000000s czas_calkowity_linii=0.007786s
+
+linia=377 rank=03 czas_obliczen=0.008125s sleep=0.000000s czas_calkowity_linii=0.008125s
+linia=381 rank=01 czas_obliczen=0.008190s sleep=0.000000s czas_calkowity_linii=0.008190s
+linia=376 rank=02 czas_obliczen=0.008315s sleep=0.000000s czas_calkowity_linii=0.008316s
+linia=391 rank=02 czas_obliczen=0.006604s sleep=0.000000s czas_calkowity_linii=0.006605s
+linia=390 rank=01 czas_obliczen=0.007182s sleep=0.000000s czas_calkowity_linii=0.007182s
+linia=388 rank=06 czas_obliczen=0.006960s sleep=0.000000s czas_calkowity_linii=0.006960s
+linia=387 rank=07 czas_obliczen=0.007284s sleep=0.000000s czas_calkowity_linii=0.007284s
+linia=389 rank=03 czas_obliczen=0.007516s sleep=0.000000s czas_calkowity_linii=0.007516s
+linia=384 rank=08 czas_obliczen=0.007391s sleep=0.000000s czas_calkowity_linii=0.007391s
+linia=386 rank=05 czas_obliczen=0.007367s sleep=0.000000s czas_calkowity_linii=0.007367s
+linia=385 rank=04 czas_obliczen=0.007480s sleep=0.000000s czas_calkowity_linii=0.007481s
+linia=395 rank=07 czas_obliczen=0.006633s sleep=0.000000s czas_calkowity_linii=0.006633slinia=396 rank=03 czas_obliczen=0.006650s sleep=0.000000s czas_calkowity_linii=0.006651s
+
+linia=397 rank=08 czas_obliczen=0.006723s sleep=0.000000s czas_calkowity_linii=0.006724s
+linia=398 rank=05 czas_obliczen=0.006916s sleep=0.000000s czas_calkowity_linii=0.006917s
+linia=399 rank=04 czas_obliczen=0.006884s sleep=0.000000s czas_calkowity_linii=0.006885s
+linia=392 rank=02 czas_obliczen=0.006748s sleep=0.000000s czas_calkowity_linii=0.006748s
+linia=394 rank=06 czas_obliczen=0.006738s sleep=0.000000s czas_calkowity_linii=0.006738s
+linia=393 rank=01 czas_obliczen=0.007174s sleep=0.000000s czas_calkowity_linii=0.007174s
+linia=406 rank=06 czas_obliczen=0.006744s sleep=0.000000s czas_calkowity_linii=0.006744s
+linia=405 rank=02 czas_obliczen=0.006850s sleep=0.000000s czas_calkowity_linii=0.006851s
+linia=407 rank=01 czas_obliczen=0.006838s sleep=0.000000s czas_calkowity_linii=0.006838slinia=403 rank=05 czas_obliczen=0.007059s sleep=0.000000s czas_calkowity_linii=0.007059s
+
+linia=404 rank=04 czas_obliczen=0.007157s sleep=0.000000s czas_calkowity_linii=0.007157s
+linia=400 rank=03 czas_obliczen=0.006965s sleep=0.000000s czas_calkowity_linii=0.006966s
+linia=401 rank=07 czas_obliczen=0.007002s sleep=0.000000s czas_calkowity_linii=0.007002s
+linia=402 rank=08 czas_obliczen=0.007306s sleep=0.000000s czas_calkowity_linii=0.007306s
+linia=415 rank=08 czas_obliczen=0.005839s sleep=0.000000s czas_calkowity_linii=0.005840s
+linia=414 rank=07 czas_obliczen=0.006138s sleep=0.000000s czas_calkowity_linii=0.006138s
+linia=412 rank=04 czas_obliczen=0.006323s sleep=0.000000s czas_calkowity_linii=0.006324s
+linia=409 rank=02 czas_obliczen=0.006145s sleep=0.000000s czas_calkowity_linii=0.006145s
+linia=408 rank=06 czas_obliczen=0.006191s sleep=0.000000s czas_calkowity_linii=0.006191s
+linia=410 rank=05 czas_obliczen=0.006054s sleep=0.000000s czas_calkowity_linii=0.006055s
+linia=413 rank=03 czas_obliczen=0.006599s sleep=0.000000s czas_calkowity_linii=0.006599s
+linia=411 rank=01 czas_obliczen=0.006338s sleep=0.000000s czas_calkowity_linii=0.006339s
+linia=421 rank=05 czas_obliczen=0.006361s sleep=0.000000s czas_calkowity_linii=0.006362slinia=420 rank=06 czas_obliczen=0.006350s sleep=0.000000s czas_calkowity_linii=0.006350s
+linia=419 rank=02 czas_obliczen=0.006475s sleep=0.000000s czas_calkowity_linii=0.006475s
+
+linia=416 rank=08 czas_obliczen=0.006058s sleep=0.000000s czas_calkowity_linii=0.006059s
+linia=422 rank=03 czas_obliczen=0.006719s sleep=0.000000s czas_calkowity_linii=0.006720s
+linia=417 rank=07 czas_obliczen=0.006270s sleep=0.000000s czas_calkowity_linii=0.006270s
+linia=423 rank=01 czas_obliczen=0.006837s sleep=0.000000s czas_calkowity_linii=0.006838s
+linia=418 rank=04 czas_obliczen=0.006387s sleep=0.000000s czas_calkowity_linii=0.006388s
+linia=431 rank=04 czas_obliczen=0.005693s sleep=0.000000s czas_calkowity_linii=0.005694s
+linia=429 rank=07 czas_obliczen=0.006106s sleep=0.000000s czas_calkowity_linii=0.006106s
+linia=425 rank=02 czas_obliczen=0.006366s sleep=0.000000s czas_calkowity_linii=0.006367s
+linia=426 rank=05 czas_obliczen=0.006327s sleep=0.000000s czas_calkowity_linii=0.006328s
+linia=427 rank=08 czas_obliczen=0.006181s sleep=0.000000s czas_calkowity_linii=0.006181s
+linia=430 rank=01 czas_obliczen=0.006314s sleep=0.000000s czas_calkowity_linii=0.006315s
+linia=424 rank=06 czas_obliczen=0.006577s sleep=0.000000s czas_calkowity_linii=0.006577s
+linia=428 rank=03 czas_obliczen=0.006694s sleep=0.000000s czas_calkowity_linii=0.006694s
+linia=439 rank=03 czas_obliczen=0.004766s sleep=0.000000s czas_calkowity_linii=0.004767s
+linia=438 rank=06 czas_obliczen=0.004459s sleep=0.000000s czas_calkowity_linii=0.004459s
+linia=436 rank=08 czas_obliczen=0.004736s sleep=0.000000s czas_calkowity_linii=0.004736s
+linia=437 rank=01 czas_obliczen=0.004876s sleep=0.000000s czas_calkowity_linii=0.004877s
+linia=432 rank=04 czas_obliczen=0.005475s sleep=0.000000s czas_calkowity_linii=0.005476s
+linia=434 rank=02 czas_obliczen=0.005282s sleep=0.000000s czas_calkowity_linii=0.005282s
+linia=435 rank=05 czas_obliczen=0.005178s sleep=0.000000s czas_calkowity_linii=0.005179s
+linia=433 rank=07 czas_obliczen=0.005486s sleep=0.000000s czas_calkowity_linii=0.005487s
+linia=445 rank=05 czas_obliczen=0.004268s sleep=0.000000s czas_calkowity_linii=0.004269s
+linia=441 rank=06 czas_obliczen=0.004660s sleep=0.000000s czas_calkowity_linii=0.004660s
+linia=442 rank=08 czas_obliczen=0.004461s sleep=0.000000s czas_calkowity_linii=0.004461s
+linia=446 rank=02 czas_obliczen=0.004636s sleep=0.000000s czas_calkowity_linii=0.004636s
+linia=440 rank=03 czas_obliczen=0.004855s sleep=0.000000s czas_calkowity_linii=0.004856s
+linia=444 rank=04 czas_obliczen=0.004786s sleep=0.000000s czas_calkowity_linii=0.004786s
+linia=447 rank=07 czas_obliczen=0.004702s sleep=0.000000s czas_calkowity_linii=0.004702s
+linia=443 rank=01 czas_obliczen=0.004805s sleep=0.000000s czas_calkowity_linii=0.004805s
+linia=455 rank=01 czas_obliczen=0.003940s sleep=0.000000s czas_calkowity_linii=0.003941s
+linia=454 rank=07 czas_obliczen=0.004080s sleep=0.000000s czas_calkowity_linii=0.004080s
+linia=453 rank=03 czas_obliczen=0.004112s sleep=0.000000s czas_calkowity_linii=0.004113s
+linia=448 rank=05 czas_obliczen=0.004615s sleep=0.000000s czas_calkowity_linii=0.004616s
+linia=451 rank=02 czas_obliczen=0.004443s sleep=0.000000s czas_calkowity_linii=0.004443s
+linia=452 rank=04 czas_obliczen=0.004319s sleep=0.000000s czas_calkowity_linii=0.004319s
+linia=449 rank=06 czas_obliczen=0.004824s sleep=0.000000s czas_calkowity_linii=0.004824s
+linia=450 rank=08 czas_obliczen=0.004789s sleep=0.000000s czas_calkowity_linii=0.004790s
+linia=462 rank=06 czas_obliczen=0.003009s sleep=0.000000s czas_calkowity_linii=0.003009slinia=463 rank=08 czas_obliczen=0.003014s sleep=0.000000s czas_calkowity_linii=0.003014s
+
+linia=459 rank=05 czas_obliczen=0.003099s sleep=0.000000s czas_calkowity_linii=0.003099s
+linia=461 rank=04 czas_obliczen=0.003123s sleep=0.000000s czas_calkowity_linii=0.003124s
+linia=457 rank=07 czas_obliczen=0.003309s sleep=0.000000s czas_calkowity_linii=0.003310s
+linia=460 rank=02 czas_obliczen=0.003278s sleep=0.000000s czas_calkowity_linii=0.003278s
+linia=458 rank=03 czas_obliczen=0.003495s sleep=0.000000s czas_calkowity_linii=0.003495s
+linia=456 rank=01 czas_obliczen=0.003680s sleep=0.000000s czas_calkowity_linii=0.003680s
+linia=466 rank=05 czas_obliczen=0.003111s sleep=0.000000s czas_calkowity_linii=0.003112s
+linia=467 rank=07 czas_obliczen=0.003050s sleep=0.000000s czas_calkowity_linii=0.003051s
+linia=468 rank=04 czas_obliczen=0.003178s sleep=0.000000s czas_calkowity_linii=0.003179s
+linia=471 rank=01 czas_obliczen=0.003247s sleep=0.000000s czas_calkowity_linii=0.003247s
+linia=470 rank=03 czas_obliczen=0.002993s sleep=0.000000s czas_calkowity_linii=0.002994s
+linia=469 rank=02 czas_obliczen=0.003205s sleep=0.000000s czas_calkowity_linii=0.003206s
+linia=464 rank=08 czas_obliczen=0.002886s sleep=0.000000s czas_calkowity_linii=0.002887s
+linia=465 rank=06 czas_obliczen=0.003062s sleep=0.000000s czas_calkowity_linii=0.003063s
+linia=477 rank=02 czas_obliczen=0.002793s sleep=0.000000s czas_calkowity_linii=0.002794slinia=474 rank=04 czas_obliczen=0.002883s sleep=0.000000s czas_calkowity_linii=0.002883s
+
+linia=476 rank=03 czas_obliczen=0.002914s sleep=0.000000s czas_calkowity_linii=0.002915s
+linia=479 rank=06 czas_obliczen=0.002985s sleep=0.000000s czas_calkowity_linii=0.002985s
+linia=475 rank=01 czas_obliczen=0.003198s sleep=0.000000s czas_calkowity_linii=0.003199s
+linia=478 rank=08 czas_obliczen=0.003196s sleep=0.000000s czas_calkowity_linii=0.003197s
+linia=473 rank=07 czas_obliczen=0.002741s sleep=0.000000s czas_calkowity_linii=0.002742s
+linia=472 rank=05 czas_obliczen=0.003064s sleep=0.000000s czas_calkowity_linii=0.003065s
+linia=487 rank=05 czas_obliczen=0.002730s sleep=0.000000s czas_calkowity_linii=0.002731s
+linia=486 rank=07 czas_obliczen=0.002832s sleep=0.000000s czas_calkowity_linii=0.002832s
+linia=485 rank=08 czas_obliczen=0.003045s sleep=0.000000s czas_calkowity_linii=0.003046s
+linia=480 rank=04 czas_obliczen=0.002984s sleep=0.000000s czas_calkowity_linii=0.002985s
+linia=483 rank=06 czas_obliczen=0.002773s sleep=0.000000s czas_calkowity_linii=0.002773s
+linia=481 rank=02 czas_obliczen=0.003038s sleep=0.000000s czas_calkowity_linii=0.003039s
+linia=482 rank=03 czas_obliczen=0.003315s sleep=0.000000s czas_calkowity_linii=0.003315s
+linia=484 rank=01 czas_obliczen=0.003079s sleep=0.000000s czas_calkowity_linii=0.003080s
+linia=490 rank=08 czas_obliczen=0.003013s sleep=0.000000s czas_calkowity_linii=0.003013s
+linia=495 rank=01 czas_obliczen=0.003209s sleep=0.000000s czas_calkowity_linii=0.003209s
+linia=492 rank=06 czas_obliczen=0.003093s sleep=0.000000s czas_calkowity_linii=0.003093s
+linia=494 rank=03 czas_obliczen=0.003262s sleep=0.000000s czas_calkowity_linii=0.003263s
+linia=493 rank=02 czas_obliczen=0.003063s sleep=0.000000s czas_calkowity_linii=0.003063s
+linia=491 rank=04 czas_obliczen=0.003230s sleep=0.000000s czas_calkowity_linii=0.003230s
+linia=488 rank=05 czas_obliczen=0.003061s sleep=0.000000s czas_calkowity_linii=0.003061s
+linia=489 rank=07 czas_obliczen=0.003147s sleep=0.000000s czas_calkowity_linii=0.003147s
+linia=497 rank=06 czas_obliczen=0.002979s sleep=0.000000s czas_calkowity_linii=0.002980s
+linia=498 rank=01 czas_obliczen=0.003162s sleep=0.000000s czas_calkowity_linii=0.003163s
+linia=499 rank=03 czas_obliczen=0.003206s sleep=0.000000s czas_calkowity_linii=0.003207s
+linia=501 rank=04 czas_obliczen=0.003154s sleep=0.000000s czas_calkowity_linii=0.003154s
+linia=503 rank=07 czas_obliczen=0.003306s sleep=0.000000s czas_calkowity_linii=0.003306s
+linia=500 rank=02 czas_obliczen=0.003266s sleep=0.000000s czas_calkowity_linii=0.003267s
+linia=502 rank=05 czas_obliczen=0.003286s sleep=0.000000s czas_calkowity_linii=0.003286s
+linia=496 rank=08 czas_obliczen=0.002918s sleep=0.000000s czas_calkowity_linii=0.002919s
+linia=507 rank=04 czas_obliczen=0.004187s sleep=0.000000s czas_calkowity_linii=0.004187s
+linia=504 rank=06 czas_obliczen=0.003523s sleep=0.000000s czas_calkowity_linii=0.003523s
+linia=508 rank=07 czas_obliczen=0.004255s sleep=0.000000s czas_calkowity_linii=0.004256s
+linia=509 rank=02 czas_obliczen=0.004455s sleep=0.000000s czas_calkowity_linii=0.004455s
+linia=505 rank=01 czas_obliczen=0.003898s sleep=0.000000s czas_calkowity_linii=0.003898s
+linia=510 rank=05 czas_obliczen=0.004750s sleep=0.000000s czas_calkowity_linii=0.004750s
+linia=506 rank=03 czas_obliczen=0.004284s sleep=0.000000s czas_calkowity_linii=0.004285s
+linia=511 rank=08 czas_obliczen=0.004875s sleep=0.000000s czas_calkowity_linii=0.004876s
+linia=515 rank=02 czas_obliczen=0.004308s sleep=0.000000s czas_calkowity_linii=0.004309s
+linia=517 rank=05 czas_obliczen=0.004549s sleep=0.000000s czas_calkowity_linii=0.004550s
+linia=518 rank=03 czas_obliczen=0.004665s sleep=0.000000s czas_calkowity_linii=0.004665s
+linia=519 rank=08 czas_obliczen=0.004717s sleep=0.000000s czas_calkowity_linii=0.004718s
+linia=516 rank=01 czas_obliczen=0.004725s sleep=0.000000s czas_calkowity_linii=0.004725s
+linia=512 rank=04 czas_obliczen=0.004699s sleep=0.000000s czas_calkowity_linii=0.004699s
+linia=514 rank=07 czas_obliczen=0.004617s sleep=0.000000s czas_calkowity_linii=0.004617s
+linia=513 rank=06 czas_obliczen=0.004729s sleep=0.000000s czas_calkowity_linii=0.004730s
+linia=523 rank=08 czas_obliczen=0.004641s sleep=0.000000s czas_calkowity_linii=0.004642s
+linia=524 rank=01 czas_obliczen=0.004724s sleep=0.000000s czas_calkowity_linii=0.004724s
+linia=520 rank=02 czas_obliczen=0.004838s sleep=0.000000s czas_calkowity_linii=0.004838s
+linia=521 rank=05 czas_obliczen=0.004767s sleep=0.000000s czas_calkowity_linii=0.004768s
+linia=522 rank=03 czas_obliczen=0.004734s sleep=0.000000s czas_calkowity_linii=0.004735s
+linia=525 rank=04 czas_obliczen=0.005277s sleep=0.000000s czas_calkowity_linii=0.005278s
+linia=526 rank=07 czas_obliczen=0.005267s sleep=0.000000s czas_calkowity_linii=0.005267s
+linia=527 rank=06 czas_obliczen=0.005494s sleep=0.000000s czas_calkowity_linii=0.005494s
+linia=528 rank=08 czas_obliczen=0.005380s sleep=0.000000s czas_calkowity_linii=0.005381s
+linia=529 rank=01 czas_obliczen=0.005929s sleep=0.000000s czas_calkowity_linii=0.005930s
+linia=530 rank=02 czas_obliczen=0.005991s sleep=0.000000s czas_calkowity_linii=0.005992s
+linia=533 rank=07 czas_obliczen=0.006104s sleep=0.000000s czas_calkowity_linii=0.006104s
+linia=535 rank=06 czas_obliczen=0.006303s sleep=0.000000s czas_calkowity_linii=0.006303s
+linia=531 rank=05 czas_obliczen=0.006084s sleep=0.000000s czas_calkowity_linii=0.006084s
+linia=532 rank=03 czas_obliczen=0.006442s sleep=0.000000s czas_calkowity_linii=0.006443s
+linia=534 rank=04 czas_obliczen=0.006435s sleep=0.000000s czas_calkowity_linii=0.006436s
+linia=542 rank=03 czas_obliczen=0.006313s sleep=0.000000s czas_calkowity_linii=0.006313slinia=540 rank=06 czas_obliczen=0.006353s sleep=0.000000s czas_calkowity_linii=0.006354s
+linia=539 rank=07 czas_obliczen=0.006361s sleep=0.000000s czas_calkowity_linii=0.006362s
+
+linia=538 rank=02 czas_obliczen=0.006416s sleep=0.000000s czas_calkowity_linii=0.006416s
+linia=541 rank=05 czas_obliczen=0.006416s sleep=0.000000s czas_calkowity_linii=0.006416s
+linia=543 rank=04 czas_obliczen=0.006361s sleep=0.000000s czas_calkowity_linii=0.006362s
+linia=537 rank=01 czas_obliczen=0.006869s sleep=0.000000s czas_calkowity_linii=0.006869s
+linia=536 rank=08 czas_obliczen=0.006648s sleep=0.000000s czas_calkowity_linii=0.006649s
+linia=549 rank=04 czas_obliczen=0.006095s sleep=0.000000s czas_calkowity_linii=0.006096slinia=547 rank=02 czas_obliczen=0.006219s sleep=0.000000s czas_calkowity_linii=0.006220s
+
+linia=548 rank=05 czas_obliczen=0.006205s sleep=0.000000s czas_calkowity_linii=0.006205s
+linia=546 rank=03 czas_obliczen=0.006472s sleep=0.000000s czas_calkowity_linii=0.006472s
+linia=551 rank=08 czas_obliczen=0.006134s sleep=0.000000s czas_calkowity_linii=0.006134s
+linia=545 rank=07 czas_obliczen=0.005767s sleep=0.000000s czas_calkowity_linii=0.005767s
+linia=550 rank=01 czas_obliczen=0.006388s sleep=0.000000s czas_calkowity_linii=0.006388s
+linia=544 rank=06 czas_obliczen=0.005947s sleep=0.000000s czas_calkowity_linii=0.005948s
+linia=555 rank=03 czas_obliczen=0.006755s sleep=0.000000s czas_calkowity_linii=0.006755s
+linia=552 rank=02 czas_obliczen=0.006201s sleep=0.000000s czas_calkowity_linii=0.006202s
+linia=556 rank=08 czas_obliczen=0.007054s sleep=0.000000s czas_calkowity_linii=0.007054s
+linia=553 rank=05 czas_obliczen=0.006389s sleep=0.000000s czas_calkowity_linii=0.006389s
+linia=557 rank=07 czas_obliczen=0.007005s sleep=0.000000s czas_calkowity_linii=0.007005s
+linia=559 rank=06 czas_obliczen=0.006890s sleep=0.000000s czas_calkowity_linii=0.006890s
+linia=558 rank=01 czas_obliczen=0.007195s sleep=0.000000s czas_calkowity_linii=0.007196s
+linia=554 rank=04 czas_obliczen=0.006857s sleep=0.000000s czas_calkowity_linii=0.006858s
+linia=564 rank=07 czas_obliczen=0.006609s sleep=0.000000s czas_calkowity_linii=0.006610slinia=563 rank=05 czas_obliczen=0.006635s sleep=0.000000s czas_calkowity_linii=0.006636s
+
+linia=565 rank=06 czas_obliczen=0.006569s sleep=0.000000s czas_calkowity_linii=0.006569s
+linia=561 rank=02 czas_obliczen=0.006795s sleep=0.000000s czas_calkowity_linii=0.006796s
+linia=566 rank=01 czas_obliczen=0.006717s sleep=0.000000s czas_calkowity_linii=0.006718s
+linia=562 rank=08 czas_obliczen=0.006937s sleep=0.000000s czas_calkowity_linii=0.006938s
+linia=567 rank=04 czas_obliczen=0.006834s sleep=0.000000s czas_calkowity_linii=0.006835s
+linia=560 rank=03 czas_obliczen=0.007303s sleep=0.000000s czas_calkowity_linii=0.007303s
+linia=568 rank=05 czas_obliczen=0.006631s sleep=0.000000s czas_calkowity_linii=0.006632slinia=569 rank=07 czas_obliczen=0.006533s sleep=0.000000s czas_calkowity_linii=0.006534s
+
+linia=570 rank=06 czas_obliczen=0.006731s sleep=0.000000s czas_calkowity_linii=0.006731s
+linia=572 rank=01 czas_obliczen=0.006920s sleep=0.000000s czas_calkowity_linii=0.006921s
+linia=571 rank=02 czas_obliczen=0.007098s sleep=0.000000s czas_calkowity_linii=0.007098s
+linia=574 rank=04 czas_obliczen=0.007456s sleep=0.000000s czas_calkowity_linii=0.007456s
+linia=573 rank=08 czas_obliczen=0.007291s sleep=0.000000s czas_calkowity_linii=0.007292s
+linia=575 rank=03 czas_obliczen=0.007744s sleep=0.000000s czas_calkowity_linii=0.007744s
+linia=577 rank=05 czas_obliczen=0.007245s sleep=0.000000s czas_calkowity_linii=0.007246s
+linia=576 rank=07 czas_obliczen=0.007310s sleep=0.000000s czas_calkowity_linii=0.007310s
+linia=582 rank=08 czas_obliczen=0.007742s sleep=0.000000s czas_calkowity_linii=0.007743s
+linia=578 rank=06 czas_obliczen=0.007454s sleep=0.000000s czas_calkowity_linii=0.007454s
+linia=583 rank=03 czas_obliczen=0.008068s sleep=0.000000s czas_calkowity_linii=0.008068s
+linia=580 rank=02 czas_obliczen=0.007734s sleep=0.000000s czas_calkowity_linii=0.007734s
+linia=579 rank=01 czas_obliczen=0.007825s sleep=0.000000s czas_calkowity_linii=0.007825s
+linia=581 rank=04 czas_obliczen=0.007854s sleep=0.000000s czas_calkowity_linii=0.007854s
+linia=585 rank=07 czas_obliczen=0.008062s sleep=0.000000s czas_calkowity_linii=0.008063slinia=584 rank=05 czas_obliczen=0.008135s sleep=0.000000s czas_calkowity_linii=0.008136s
+
+linia=589 rank=02 czas_obliczen=0.008181s sleep=0.000000s czas_calkowity_linii=0.008182s
+linia=591 rank=04 czas_obliczen=0.008262s sleep=0.000000s czas_calkowity_linii=0.008263s
+linia=587 rank=06 czas_obliczen=0.008064s sleep=0.000000s czas_calkowity_linii=0.008064s
+linia=586 rank=08 czas_obliczen=0.008123s sleep=0.000000s czas_calkowity_linii=0.008123s
+linia=588 rank=03 czas_obliczen=0.008477s sleep=0.000000s czas_calkowity_linii=0.008477s
+linia=590 rank=01 czas_obliczen=0.008796s sleep=0.000000s czas_calkowity_linii=0.008796s
+linia=598 rank=03 czas_obliczen=0.008302s sleep=0.000000s czas_calkowity_linii=0.008303s
+linia=599 rank=01 czas_obliczen=0.008224s sleep=0.000000s czas_calkowity_linii=0.008225s
+linia=592 rank=05 czas_obliczen=0.007940s sleep=0.000000s czas_calkowity_linii=0.007941s
+linia=594 rank=02 czas_obliczen=0.008081s sleep=0.000000s czas_calkowity_linii=0.008081s
+linia=593 rank=07 czas_obliczen=0.008116s sleep=0.000000s czas_calkowity_linii=0.008116s
+linia=596 rank=06 czas_obliczen=0.008238s sleep=0.000000s czas_calkowity_linii=0.008238s
+linia=597 rank=08 czas_obliczen=0.008192s sleep=0.000000s czas_calkowity_linii=0.008192s
+linia=595 rank=04 czas_obliczen=0.008292s sleep=0.000000s czas_calkowity_linii=0.008293s
+linia=602 rank=05 czas_obliczen=0.007326s sleep=0.000000s czas_calkowity_linii=0.007326s
+linia=604 rank=07 czas_obliczen=0.007382s sleep=0.000000s czas_calkowity_linii=0.007382s
+linia=603 rank=02 czas_obliczen=0.007441s sleep=0.000000s czas_calkowity_linii=0.007441s
+linia=605 rank=06 czas_obliczen=0.007488s sleep=0.000000s czas_calkowity_linii=0.007488s
+linia=600 rank=03 czas_obliczen=0.008344s sleep=0.000000s czas_calkowity_linii=0.008344s
+linia=606 rank=08 czas_obliczen=0.008081s sleep=0.000000s czas_calkowity_linii=0.008082s
+linia=607 rank=04 czas_obliczen=0.008300s sleep=0.000000s czas_calkowity_linii=0.008301s
+linia=601 rank=01 czas_obliczen=0.007983s sleep=0.000000s czas_calkowity_linii=0.007983s
+linia=611 rank=06 czas_obliczen=0.007745s sleep=0.000000s czas_calkowity_linii=0.007746s
+linia=609 rank=07 czas_obliczen=0.008032s sleep=0.000000s czas_calkowity_linii=0.008033s
+linia=614 rank=04 czas_obliczen=0.008050s sleep=0.000000s czas_calkowity_linii=0.008050s
+linia=608 rank=05 czas_obliczen=0.008123s sleep=0.000000s czas_calkowity_linii=0.008123s
+linia=613 rank=08 czas_obliczen=0.008051s sleep=0.000000s czas_calkowity_linii=0.008051s
+linia=610 rank=02 czas_obliczen=0.008184s sleep=0.000000s czas_calkowity_linii=0.008184s
+linia=612 rank=03 czas_obliczen=0.008172s sleep=0.000000s czas_calkowity_linii=0.008172s
+linia=615 rank=01 czas_obliczen=0.008498s sleep=0.000000s czas_calkowity_linii=0.008498s
+linia=619 rank=08 czas_obliczen=0.008052s sleep=0.000000s czas_calkowity_linii=0.008053slinia=621 rank=02 czas_obliczen=0.007997s sleep=0.000000s czas_calkowity_linii=0.007998s
+linia=620 rank=05 czas_obliczen=0.008055s sleep=0.000000s czas_calkowity_linii=0.008056s
+
+linia=617 rank=06 czas_obliczen=0.008119s sleep=0.000000s czas_calkowity_linii=0.008120s
+linia=618 rank=04 czas_obliczen=0.008297s sleep=0.000000s czas_calkowity_linii=0.008297s
+linia=616 rank=07 czas_obliczen=0.008535s sleep=0.000000s czas_calkowity_linii=0.008535s
+linia=622 rank=03 czas_obliczen=0.008167s sleep=0.000000s czas_calkowity_linii=0.008167s
+linia=623 rank=01 czas_obliczen=0.008500s sleep=0.000000s czas_calkowity_linii=0.008500s
+linia=625 rank=05 czas_obliczen=0.008253s sleep=0.000000s czas_calkowity_linii=0.008253s
+linia=624 rank=02 czas_obliczen=0.008395s sleep=0.000000s czas_calkowity_linii=0.008395s
+linia=627 rank=06 czas_obliczen=0.008497s sleep=0.000000s czas_calkowity_linii=0.008498s
+linia=626 rank=08 czas_obliczen=0.008534s sleep=0.000000s czas_calkowity_linii=0.008535s
+linia=629 rank=07 czas_obliczen=0.008831s sleep=0.000000s czas_calkowity_linii=0.008832s
+linia=628 rank=04 czas_obliczen=0.009055s sleep=0.000000s czas_calkowity_linii=0.009056s
+linia=631 rank=01 czas_obliczen=0.009155s sleep=0.000000s czas_calkowity_linii=0.009156s
+linia=630 rank=03 czas_obliczen=0.009485s sleep=0.000000s czas_calkowity_linii=0.009485s
+linia=634 rank=06 czas_obliczen=0.008594s sleep=0.000000s czas_calkowity_linii=0.008595s
+linia=637 rank=04 czas_obliczen=0.008569s sleep=0.000000s czas_calkowity_linii=0.008571s
+linia=636 rank=07 czas_obliczen=0.008726s sleep=0.000000s czas_calkowity_linii=0.008727s
+linia=635 rank=08 czas_obliczen=0.009083s sleep=0.000000s czas_calkowity_linii=0.009084s
+linia=639 rank=03 czas_obliczen=0.009258s sleep=0.000000s czas_calkowity_linii=0.009258s
+linia=638 rank=01 czas_obliczen=0.009384s sleep=0.000000s czas_calkowity_linii=0.009384s
+linia=632 rank=05 czas_obliczen=0.008811s sleep=0.000000s czas_calkowity_linii=0.008811s
+linia=633 rank=02 czas_obliczen=0.008913s sleep=0.000000s czas_calkowity_linii=0.008913s
+linia=640 rank=06 czas_obliczen=0.008844s sleep=0.000000s czas_calkowity_linii=0.008845slinia=647 rank=02 czas_obliczen=0.008766s sleep=0.000000s czas_calkowity_linii=0.008766s
+linia=641 rank=04 czas_obliczen=0.008891s sleep=0.000000s czas_calkowity_linii=0.008891s
+
+linia=643 rank=08 czas_obliczen=0.009087s sleep=0.000000s czas_calkowity_linii=0.009088s
+linia=642 rank=07 czas_obliczen=0.009039s sleep=0.000000s czas_calkowity_linii=0.009040s
+linia=646 rank=05 czas_obliczen=0.009119s sleep=0.000000s czas_calkowity_linii=0.009119s
+linia=644 rank=03 czas_obliczen=0.009237s sleep=0.000000s czas_calkowity_linii=0.009237s
+linia=645 rank=01 czas_obliczen=0.010022s sleep=0.000000s czas_calkowity_linii=0.010023s
+linia=654 rank=03 czas_obliczen=0.008305s sleep=0.000000s czas_calkowity_linii=0.008305s
+linia=655 rank=01 czas_obliczen=0.008735s sleep=0.000000s czas_calkowity_linii=0.008736s
+linia=648 rank=02 czas_obliczen=0.008559s sleep=0.000000s czas_calkowity_linii=0.008560s
+linia=653 rank=05 czas_obliczen=0.008485s sleep=0.000000s czas_calkowity_linii=0.008485s
+linia=652 rank=07 czas_obliczen=0.008714s sleep=0.000000s czas_calkowity_linii=0.008715s
+linia=649 rank=04 czas_obliczen=0.008943s sleep=0.000000s czas_calkowity_linii=0.008943s
+linia=650 rank=06 czas_obliczen=0.008952s sleep=0.000000s czas_calkowity_linii=0.008952s
+linia=651 rank=08 czas_obliczen=0.008982s sleep=0.000000s czas_calkowity_linii=0.008983s
+linia=661 rank=04 czas_obliczen=0.007636s sleep=0.000000s czas_calkowity_linii=0.007637s
+linia=658 rank=02 czas_obliczen=0.007588s sleep=0.000000s czas_calkowity_linii=0.007589s
+linia=656 rank=03 czas_obliczen=0.008076s sleep=0.000000s czas_calkowity_linii=0.008077s
+linia=662 rank=06 czas_obliczen=0.007928s sleep=0.000000s czas_calkowity_linii=0.007929s
+linia=660 rank=07 czas_obliczen=0.007595s sleep=0.000000s czas_calkowity_linii=0.007595s
+linia=659 rank=05 czas_obliczen=0.007940s sleep=0.000000s czas_calkowity_linii=0.007940s
+linia=657 rank=01 czas_obliczen=0.008197s sleep=0.000000s czas_calkowity_linii=0.008197s
+linia=663 rank=08 czas_obliczen=0.008230s sleep=0.000000s czas_calkowity_linii=0.008231s
+linia=669 rank=05 czas_obliczen=0.007530s sleep=0.000000s czas_calkowity_linii=0.007531s
+linia=671 rank=08 czas_obliczen=0.007904s sleep=0.000000s czas_calkowity_linii=0.007905s
+linia=668 rank=07 czas_obliczen=0.008126s sleep=0.000000s czas_calkowity_linii=0.008127s
+linia=670 rank=01 czas_obliczen=0.008164s sleep=0.000000s czas_calkowity_linii=0.008164s
+linia=667 rank=06 czas_obliczen=0.008206s sleep=0.000000s czas_calkowity_linii=0.008207s
+linia=665 rank=02 czas_obliczen=0.008466s sleep=0.000000s czas_calkowity_linii=0.008467s
+linia=664 rank=04 czas_obliczen=0.008833s sleep=0.000000s czas_calkowity_linii=0.008833s
+linia=666 rank=03 czas_obliczen=0.009150s sleep=0.000000s czas_calkowity_linii=0.009151s
+linia=673 rank=08 czas_obliczen=0.007603s sleep=0.000000s czas_calkowity_linii=0.007604s
+linia=677 rank=02 czas_obliczen=0.007798s sleep=0.000000s czas_calkowity_linii=0.007798s
+linia=676 rank=06 czas_obliczen=0.007997s sleep=0.000000s czas_calkowity_linii=0.007998s
+linia=678 rank=04 czas_obliczen=0.008163s sleep=0.000000s czas_calkowity_linii=0.008164s
+linia=672 rank=05 czas_obliczen=0.007896s sleep=0.000000s czas_calkowity_linii=0.007897s
+linia=675 rank=01 czas_obliczen=0.008237s sleep=0.000000s czas_calkowity_linii=0.008238s
+linia=674 rank=07 czas_obliczen=0.008253s sleep=0.000000s czas_calkowity_linii=0.008253s
+linia=679 rank=03 czas_obliczen=0.008801s sleep=0.000000s czas_calkowity_linii=0.008801s
+linia=686 rank=07 czas_obliczen=0.007407s sleep=0.000000s czas_calkowity_linii=0.007408s
+linia=684 rank=05 czas_obliczen=0.007648s sleep=0.000000s czas_calkowity_linii=0.007649s
+linia=685 rank=01 czas_obliczen=0.007883s sleep=0.000000s czas_calkowity_linii=0.007883s
+linia=683 rank=04 czas_obliczen=0.007925s sleep=0.000000s czas_calkowity_linii=0.007926s
+linia=680 rank=08 czas_obliczen=0.008167s sleep=0.000000s czas_calkowity_linii=0.008167s
+linia=681 rank=02 czas_obliczen=0.008203s sleep=0.000000s czas_calkowity_linii=0.008204s
+linia=682 rank=06 czas_obliczen=0.008156s sleep=0.000000s czas_calkowity_linii=0.008157s
+linia=687 rank=03 czas_obliczen=0.007244s sleep=0.000000s czas_calkowity_linii=0.007245s
+linia=691 rank=04 czas_obliczen=0.007316s sleep=0.000000s czas_calkowity_linii=0.007317s
+linia=695 rank=03 czas_obliczen=0.007307s sleep=0.000000s czas_calkowity_linii=0.007308s
+linia=690 rank=01 czas_obliczen=0.007511s sleep=0.000000s czas_calkowity_linii=0.007511s
+linia=692 rank=08 czas_obliczen=0.007408s sleep=0.000000s czas_calkowity_linii=0.007409s
+linia=693 rank=02 czas_obliczen=0.007635s sleep=0.000000s czas_calkowity_linii=0.007636s
+linia=688 rank=07 czas_obliczen=0.007480s sleep=0.000000s czas_calkowity_linii=0.007480s
+linia=694 rank=06 czas_obliczen=0.007625s sleep=0.000000s czas_calkowity_linii=0.007625s
+linia=689 rank=05 czas_obliczen=0.007430s sleep=0.000000s czas_calkowity_linii=0.007430s
+linia=703 rank=05 czas_obliczen=0.006734s sleep=0.000000s czas_calkowity_linii=0.006734s
+linia=702 rank=06 czas_obliczen=0.006852s sleep=0.000000s czas_calkowity_linii=0.006853s
+linia=698 rank=01 czas_obliczen=0.007188s sleep=0.000000s czas_calkowity_linii=0.007189s
+linia=701 rank=07 czas_obliczen=0.007295s sleep=0.000000s czas_calkowity_linii=0.007296s
+linia=699 rank=08 czas_obliczen=0.007431s sleep=0.000000s czas_calkowity_linii=0.007431s
+linia=700 rank=02 czas_obliczen=0.007246s sleep=0.000000s czas_calkowity_linii=0.007247s
+linia=696 rank=04 czas_obliczen=0.007103s sleep=0.000000s czas_calkowity_linii=0.007104s
+linia=697 rank=03 czas_obliczen=0.007233s sleep=0.000000s czas_calkowity_linii=0.007233s
+linia=711 rank=03 czas_obliczen=0.006244s sleep=0.000000s czas_calkowity_linii=0.006245s
+linia=708 rank=08 czas_obliczen=0.006346s sleep=0.000000s czas_calkowity_linii=0.006347s
+linia=709 rank=02 czas_obliczen=0.006470s sleep=0.000000s czas_calkowity_linii=0.006471s
+linia=710 rank=04 czas_obliczen=0.006503s sleep=0.000000s czas_calkowity_linii=0.006503s
+linia=705 rank=06 czas_obliczen=0.006605s sleep=0.000000s czas_calkowity_linii=0.006605s
+linia=707 rank=07 czas_obliczen=0.006271s sleep=0.000000s czas_calkowity_linii=0.006272s
+linia=704 rank=05 czas_obliczen=0.006738s sleep=0.000000s czas_calkowity_linii=0.006738s
+linia=706 rank=01 czas_obliczen=0.006660s sleep=0.000000s czas_calkowity_linii=0.006660s
+linia=718 rank=05 czas_obliczen=0.005132s sleep=0.000000s czas_calkowity_linii=0.005132s
+linia=717 rank=06 czas_obliczen=0.005220s sleep=0.000000s czas_calkowity_linii=0.005221s
+linia=716 rank=07 czas_obliczen=0.005221s sleep=0.000000s czas_calkowity_linii=0.005222s
+linia=719 rank=01 czas_obliczen=0.005260s sleep=0.000000s czas_calkowity_linii=0.005261s
+linia=713 rank=08 czas_obliczen=0.005780s sleep=0.000000s czas_calkowity_linii=0.005781s
+linia=715 rank=04 czas_obliczen=0.005402s sleep=0.000000s czas_calkowity_linii=0.005402s
+linia=714 rank=02 czas_obliczen=0.005790s sleep=0.000000s czas_calkowity_linii=0.005790s
+linia=712 rank=03 czas_obliczen=0.006081s sleep=0.000000s czas_calkowity_linii=0.006082s
+linia=727 rank=03 czas_obliczen=0.005885s sleep=0.000000s czas_calkowity_linii=0.005885s
+linia=721 rank=06 czas_obliczen=0.005352s sleep=0.000000s czas_calkowity_linii=0.005352s
+linia=724 rank=08 czas_obliczen=0.005882s sleep=0.000000s czas_calkowity_linii=0.005883s
+linia=725 rank=04 czas_obliczen=0.005900s sleep=0.000000s czas_calkowity_linii=0.005900s
+linia=720 rank=05 czas_obliczen=0.005463s sleep=0.000000s czas_calkowity_linii=0.005464s
+linia=726 rank=02 czas_obliczen=0.005917s sleep=0.000000s czas_calkowity_linii=0.005918s
+linia=722 rank=07 czas_obliczen=0.006019s sleep=0.000000s czas_calkowity_linii=0.006020s
+linia=723 rank=01 czas_obliczen=0.005986s sleep=0.000000s czas_calkowity_linii=0.005986s
+linia=734 rank=07 czas_obliczen=0.004927s sleep=0.000000s czas_calkowity_linii=0.004928s
+linia=735 rank=01 czas_obliczen=0.005238s sleep=0.000000s czas_calkowity_linii=0.005239s
+linia=729 rank=06 czas_obliczen=0.005016s sleep=0.000000s czas_calkowity_linii=0.005016s
+linia=732 rank=05 czas_obliczen=0.004926s sleep=0.000000s czas_calkowity_linii=0.004926s
+linia=730 rank=08 czas_obliczen=0.005057s sleep=0.000000s czas_calkowity_linii=0.005058s
+linia=733 rank=02 czas_obliczen=0.004971s sleep=0.000000s czas_calkowity_linii=0.004971s
+linia=731 rank=04 czas_obliczen=0.005187s sleep=0.000000s czas_calkowity_linii=0.005187s
+linia=728 rank=03 czas_obliczen=0.005591s sleep=0.000000s czas_calkowity_linii=0.005591s
+linia=743 rank=03 czas_obliczen=0.004458s sleep=0.000000s czas_calkowity_linii=0.004459s
+linia=736 rank=07 czas_obliczen=0.005045s sleep=0.000000s czas_calkowity_linii=0.005046s
+linia=739 rank=05 czas_obliczen=0.005095s sleep=0.000000s czas_calkowity_linii=0.005096s
+linia=741 rank=02 czas_obliczen=0.004940s sleep=0.000000s czas_calkowity_linii=0.004940s
+linia=740 rank=08 czas_obliczen=0.004985s sleep=0.000000s czas_calkowity_linii=0.004986s
+linia=742 rank=04 czas_obliczen=0.005020s sleep=0.000000s czas_calkowity_linii=0.005021s
+linia=738 rank=06 czas_obliczen=0.005429s sleep=0.000000s czas_calkowity_linii=0.005429s
+linia=737 rank=01 czas_obliczen=0.005487s sleep=0.000000s czas_calkowity_linii=0.005488s
+linia=750 rank=06 czas_obliczen=0.004405s sleep=0.000000s czas_calkowity_linii=0.004406s
+linia=746 rank=05 czas_obliczen=0.004629s sleep=0.000000s czas_calkowity_linii=0.004630s
+linia=748 rank=08 czas_obliczen=0.004527s sleep=0.000000s czas_calkowity_linii=0.004527s
+linia=747 rank=02 czas_obliczen=0.004582s sleep=0.000000s czas_calkowity_linii=0.004583s
+linia=749 rank=04 czas_obliczen=0.004778s sleep=0.000000s czas_calkowity_linii=0.004778s
+linia=745 rank=07 czas_obliczen=0.004861s sleep=0.000000s czas_calkowity_linii=0.004862s
+linia=751 rank=01 czas_obliczen=0.005075s sleep=0.000000s czas_calkowity_linii=0.005075s
+linia=744 rank=03 czas_obliczen=0.005131s sleep=0.000000s czas_calkowity_linii=0.005132s
+linia=757 rank=07 czas_obliczen=0.004387s sleep=0.000000s czas_calkowity_linii=0.004388s
+linia=758 rank=01 czas_obliczen=0.004471s sleep=0.000000s czas_calkowity_linii=0.004472s
+linia=753 rank=05 czas_obliczen=0.004518s sleep=0.000000s czas_calkowity_linii=0.004519s
+linia=754 rank=08 czas_obliczen=0.004638s sleep=0.000000s czas_calkowity_linii=0.004638s
+linia=752 rank=06 czas_obliczen=0.004752s sleep=0.000000s czas_calkowity_linii=0.004753s
+linia=755 rank=02 czas_obliczen=0.004670s sleep=0.000000s czas_calkowity_linii=0.004671s
+linia=756 rank=04 czas_obliczen=0.004666s sleep=0.000000s czas_calkowity_linii=0.004666s
+linia=759 rank=03 czas_obliczen=0.005031s sleep=0.000000s czas_calkowity_linii=0.005032s
+linia=766 rank=04 czas_obliczen=0.003831s sleep=0.000000s czas_calkowity_linii=0.003831s
+linia=764 rank=06 czas_obliczen=0.003911s sleep=0.000000s czas_calkowity_linii=0.003912s
+linia=765 rank=02 czas_obliczen=0.003968s sleep=0.000000s czas_calkowity_linii=0.003968s
+linia=767 rank=03 czas_obliczen=0.004041s sleep=0.000000s czas_calkowity_linii=0.004042s
+linia=762 rank=05 czas_obliczen=0.004078s sleep=0.000000s czas_calkowity_linii=0.004078s
+linia=760 rank=07 czas_obliczen=0.004353s sleep=0.000000s czas_calkowity_linii=0.004353s
+linia=763 rank=08 czas_obliczen=0.004170s sleep=0.000000s czas_calkowity_linii=0.004170s
+linia=761 rank=01 czas_obliczen=0.004783s sleep=0.000000s czas_calkowity_linii=0.004783s
+linia=773 rank=07 czas_obliczen=0.003348s sleep=0.000000s czas_calkowity_linii=0.003349s
+linia=775 rank=01 czas_obliczen=0.003352s sleep=0.000000s czas_calkowity_linii=0.003352s
+linia=772 rank=05 czas_obliczen=0.003549s sleep=0.000000s czas_calkowity_linii=0.003549s
+linia=774 rank=08 czas_obliczen=0.003622s sleep=0.000000s czas_calkowity_linii=0.003623s
+linia=770 rank=02 czas_obliczen=0.003723s sleep=0.000000s czas_calkowity_linii=0.003723s
+linia=769 rank=06 czas_obliczen=0.003828s sleep=0.000000s czas_calkowity_linii=0.003828s
+linia=768 rank=04 czas_obliczen=0.003972s sleep=0.000000s czas_calkowity_linii=0.003973s
+linia=771 rank=03 czas_obliczen=0.003861s sleep=0.000000s czas_calkowity_linii=0.003861s
+linia=783 rank=03 czas_obliczen=0.002467s sleep=0.000000s czas_calkowity_linii=0.002468s
+linia=782 rank=04 czas_obliczen=0.002678s sleep=0.000000s czas_calkowity_linii=0.002678s
+linia=781 rank=06 czas_obliczen=0.002746s sleep=0.000000s czas_calkowity_linii=0.002746s
+linia=780 rank=02 czas_obliczen=0.002887s sleep=0.000000s czas_calkowity_linii=0.002887s
+linia=778 rank=05 czas_obliczen=0.002948s sleep=0.000000s czas_calkowity_linii=0.002948s
+linia=777 rank=01 czas_obliczen=0.002961s sleep=0.000000s czas_calkowity_linii=0.002961s
+linia=776 rank=07 czas_obliczen=0.003102s sleep=0.000000s czas_calkowity_linii=0.003103s
+linia=779 rank=08 czas_obliczen=0.002918s sleep=0.000000s czas_calkowity_linii=0.002919s
+linia=786 rank=06 czas_obliczen=0.002439s sleep=0.000000s czas_calkowity_linii=0.002440s
+linia=787 rank=02 czas_obliczen=0.002470s sleep=0.000000s czas_calkowity_linii=0.002470s
+linia=785 rank=04 czas_obliczen=0.002664s sleep=0.000000s czas_calkowity_linii=0.002664s
+linia=784 rank=03 czas_obliczen=0.002685s sleep=0.000000s czas_calkowity_linii=0.002685s
+linia=788 rank=05 czas_obliczen=0.002408s sleep=0.000000s czas_calkowity_linii=0.002409s
+linia=789 rank=01 czas_obliczen=0.002477s sleep=0.000000s czas_calkowity_linii=0.002478s
+linia=790 rank=07 czas_obliczen=0.002539s sleep=0.000000s czas_calkowity_linii=0.002540s
+linia=791 rank=08 czas_obliczen=0.002659s sleep=0.000000s czas_calkowity_linii=0.002659s
+linia=797 rank=01 czas_obliczen=0.001747s sleep=0.000000s czas_calkowity_linii=0.001747slinia=796 rank=05 czas_obliczen=0.001819s sleep=0.000000s czas_calkowity_linii=0.001820s
+
+linia=798 rank=07 czas_obliczen=0.001705s sleep=0.000000s czas_calkowity_linii=0.001706s
+linia=799 rank=08 czas_obliczen=0.001689s sleep=0.000000s czas_calkowity_linii=0.001689s
+linia=795 rank=03 czas_obliczen=0.001791s sleep=0.000000s czas_calkowity_linii=0.001792s
+linia=794 rank=02 czas_obliczen=0.001969s sleep=0.000000s czas_calkowity_linii=0.001970s
+linia=793 rank=04 czas_obliczen=0.002073s sleep=0.000000s czas_calkowity_linii=0.002073s
+linia=792 rank=06 czas_obliczen=0.002339s sleep=0.000000s czas_calkowity_linii=0.002340s
+linia=805 rank=02 czas_obliczen=0.001786s sleep=0.000000s czas_calkowity_linii=0.001787slinia=807 rank=06 czas_obliczen=0.001757s sleep=0.000000s czas_calkowity_linii=0.001757s
+linia=806 rank=04 czas_obliczen=0.001752s sleep=0.000000s czas_calkowity_linii=0.001752s
+
+linia=804 rank=03 czas_obliczen=0.001744s sleep=0.000000s czas_calkowity_linii=0.001744s
+linia=801 rank=01 czas_obliczen=0.001734s sleep=0.000000s czas_calkowity_linii=0.001735s
+linia=800 rank=05 czas_obliczen=0.001791s sleep=0.000000s czas_calkowity_linii=0.001791s
+linia=802 rank=07 czas_obliczen=0.001752s sleep=0.000000s czas_calkowity_linii=0.001753s
+linia=803 rank=08 czas_obliczen=0.001645s sleep=0.000000s czas_calkowity_linii=0.001646s
+linia=813 rank=05 czas_obliczen=0.001879s sleep=0.000000s czas_calkowity_linii=0.001880s
+linia=812 rank=01 czas_obliczen=0.002019s sleep=0.000000s czas_calkowity_linii=0.002019s
+linia=814 rank=07 czas_obliczen=0.002026s sleep=0.000000s czas_calkowity_linii=0.002027s
+linia=815 rank=08 czas_obliczen=0.002038s sleep=0.000000s czas_calkowity_linii=0.002038s
+linia=809 rank=04 czas_obliczen=0.001876s sleep=0.000000s czas_calkowity_linii=0.001876s
+linia=810 rank=02 czas_obliczen=0.001796s sleep=0.000000s czas_calkowity_linii=0.001796s
+linia=808 rank=06 czas_obliczen=0.001951s sleep=0.000000s czas_calkowity_linii=0.001951s
+linia=811 rank=03 czas_obliczen=0.001947s sleep=0.000000s czas_calkowity_linii=0.001947s
+linia=820 rank=04 czas_obliczen=0.001641s sleep=0.000000s czas_calkowity_linii=0.001642slinia=821 rank=02 czas_obliczen=0.001547s sleep=0.000000s czas_calkowity_linii=0.001547s
+
+linia=822 rank=06 czas_obliczen=0.001587s sleep=0.000000s czas_calkowity_linii=0.001587s
+linia=823 rank=03 czas_obliczen=0.001602s sleep=0.000000s czas_calkowity_linii=0.001602s
+linia=818 rank=07 czas_obliczen=0.001676s sleep=0.000000s czas_calkowity_linii=0.001677s
+linia=819 rank=08 czas_obliczen=0.001666s sleep=0.000000s czas_calkowity_linii=0.001666s
+linia=816 rank=05 czas_obliczen=0.001791s sleep=0.000000s czas_calkowity_linii=0.001792s
+linia=817 rank=01 czas_obliczen=0.001795s sleep=0.000000s czas_calkowity_linii=0.001796s
+linia=829 rank=08 czas_obliczen=0.001415s sleep=0.000000s czas_calkowity_linii=0.001415slinia=830 rank=05 czas_obliczen=0.001467s sleep=0.000000s czas_calkowity_linii=0.001468s
+
+linia=831 rank=01 czas_obliczen=0.001469s sleep=0.000000s czas_calkowity_linii=0.001469s
+linia=828 rank=07 czas_obliczen=0.001587s sleep=0.000000s czas_calkowity_linii=0.001587s
+linia=826 rank=06 czas_obliczen=0.001495s sleep=0.000000s czas_calkowity_linii=0.001496s
+linia=824 rank=02 czas_obliczen=0.001620s sleep=0.000000s czas_calkowity_linii=0.001620s
+linia=825 rank=04 czas_obliczen=0.001536s sleep=0.000000s czas_calkowity_linii=0.001536s
+linia=827 rank=03 czas_obliczen=0.001610s sleep=0.000000s czas_calkowity_linii=0.001611s
+linia=837 rank=02 czas_obliczen=0.001235s sleep=0.000000s czas_calkowity_linii=0.001236s
+linia=839 rank=03 czas_obliczen=0.001212s sleep=0.000000s czas_calkowity_linii=0.001212s
+linia=833 rank=05 czas_obliczen=0.001241s sleep=0.000000s czas_calkowity_linii=0.001241s
+linia=834 rank=07 czas_obliczen=0.001236s sleep=0.000000s czas_calkowity_linii=0.001237s
+linia=832 rank=08 czas_obliczen=0.001305s sleep=0.000000s czas_calkowity_linii=0.001306s
+linia=835 rank=01 czas_obliczen=0.001311s sleep=0.000000s czas_calkowity_linii=0.001311s
+linia=836 rank=06 czas_obliczen=0.001225s sleep=0.000000s czas_calkowity_linii=0.001226s
+linia=838 rank=04 czas_obliczen=0.001237s sleep=0.000000s czas_calkowity_linii=0.001238s
+linia=840 rank=02 czas_obliczen=0.001225s sleep=0.000000s czas_calkowity_linii=0.001226s
+linia=841 rank=03 czas_obliczen=0.001233s sleep=0.000000s czas_calkowity_linii=0.001233s
+linia=842 rank=05 czas_obliczen=0.001201s sleep=0.000000s czas_calkowity_linii=0.001201s
+linia=843 rank=07 czas_obliczen=0.001196s sleep=0.000000s czas_calkowity_linii=0.001197s
+linia=844 rank=08 czas_obliczen=0.001213s sleep=0.000000s czas_calkowity_linii=0.001213s
+linia=846 rank=06 czas_obliczen=0.001186s sleep=0.000000s czas_calkowity_linii=0.001187s
+linia=845 rank=01 czas_obliczen=0.001264s sleep=0.000000s czas_calkowity_linii=0.001264s
+linia=847 rank=04 czas_obliczen=0.001194s sleep=0.000000s czas_calkowity_linii=0.001194s
+linia=848 rank=02 czas_obliczen=0.001197s sleep=0.000000s czas_calkowity_linii=0.001198slinia=849 rank=03 czas_obliczen=0.001181s sleep=0.000000s czas_calkowity_linii=0.001182s
+linia=850 rank=05 czas_obliczen=0.001175s sleep=0.000000s czas_calkowity_linii=0.001176s
+
+linia=851 rank=07 czas_obliczen=0.001179s sleep=0.000000s czas_calkowity_linii=0.001179s
+linia=852 rank=08 czas_obliczen=0.001176s sleep=0.000000s czas_calkowity_linii=0.001176s
+linia=855 rank=04 czas_obliczen=0.001173s sleep=0.000000s czas_calkowity_linii=0.001173s
+linia=853 rank=06 czas_obliczen=0.001173s sleep=0.000000s czas_calkowity_linii=0.001173s
+linia=854 rank=01 czas_obliczen=0.001237s sleep=0.000000s czas_calkowity_linii=0.001238s
+linia=856 rank=03 czas_obliczen=0.001161s sleep=0.000000s czas_calkowity_linii=0.001161s
+linia=857 rank=05 czas_obliczen=0.001154s sleep=0.000000s czas_calkowity_linii=0.001154slinia=858 rank=02 czas_obliczen=0.001158s sleep=0.000000s czas_calkowity_linii=0.001159s
+
+linia=859 rank=07 czas_obliczen=0.001141s sleep=0.000000s czas_calkowity_linii=0.001141s
+linia=860 rank=08 czas_obliczen=0.001162s sleep=0.000000s czas_calkowity_linii=0.001163s
+linia=861 rank=06 czas_obliczen=0.001144s sleep=0.000000s czas_calkowity_linii=0.001144s
+linia=862 rank=04 czas_obliczen=0.001178s sleep=0.000000s czas_calkowity_linii=0.001179s
+linia=863 rank=01 czas_obliczen=0.001173s sleep=0.000000s czas_calkowity_linii=0.001174s
+linia=864 rank=03 czas_obliczen=0.001162s sleep=0.000000s czas_calkowity_linii=0.001163slinia=867 rank=07 czas_obliczen=0.001130s sleep=0.000000s czas_calkowity_linii=0.001131s
+
+linia=865 rank=02 czas_obliczen=0.001150s sleep=0.000000s czas_calkowity_linii=0.001151s
+linia=866 rank=05 czas_obliczen=0.001153s sleep=0.000000s czas_calkowity_linii=0.001154s
+linia=868 rank=08 czas_obliczen=0.001148s sleep=0.000000s czas_calkowity_linii=0.001148s
+linia=869 rank=06 czas_obliczen=0.001140s sleep=0.000000s czas_calkowity_linii=0.001140s
+linia=870 rank=04 czas_obliczen=0.001180s sleep=0.000000s czas_calkowity_linii=0.001181s
+linia=871 rank=01 czas_obliczen=0.001152s sleep=0.000000s czas_calkowity_linii=0.001152s
+linia=873 rank=02 czas_obliczen=0.001132s sleep=0.000000s czas_calkowity_linii=0.001132s
+linia=874 rank=05 czas_obliczen=0.001131s sleep=0.000000s czas_calkowity_linii=0.001131s
+linia=872 rank=07 czas_obliczen=0.001124s sleep=0.000000s czas_calkowity_linii=0.001124s
+linia=876 rank=08 czas_obliczen=0.001131s sleep=0.000000s czas_calkowity_linii=0.001131s
+linia=875 rank=03 czas_obliczen=0.001116s sleep=0.000000s czas_calkowity_linii=0.001116s
+linia=877 rank=06 czas_obliczen=0.001121s sleep=0.000000s czas_calkowity_linii=0.001121s
+linia=878 rank=04 czas_obliczen=0.001161s sleep=0.000000s czas_calkowity_linii=0.001161s
+linia=879 rank=01 czas_obliczen=0.001163s sleep=0.000000s czas_calkowity_linii=0.001163s
+linia=886 rank=04 czas_obliczen=0.001131s sleep=0.000000s czas_calkowity_linii=0.001131slinia=887 rank=01 czas_obliczen=0.001170s sleep=0.000000s czas_calkowity_linii=0.001170s
+
+linia=881 rank=02 czas_obliczen=0.001118s sleep=0.000000s czas_calkowity_linii=0.001119s
+linia=880 rank=05 czas_obliczen=0.001107s sleep=0.000000s czas_calkowity_linii=0.001108s
+linia=883 rank=03 czas_obliczen=0.001102s sleep=0.000000s czas_calkowity_linii=0.001102s
+linia=882 rank=08 czas_obliczen=0.001128s sleep=0.000000s czas_calkowity_linii=0.001128s
+linia=884 rank=07 czas_obliczen=0.001105s sleep=0.000000s czas_calkowity_linii=0.001106s
+linia=885 rank=06 czas_obliczen=0.001112s sleep=0.000000s czas_calkowity_linii=0.001113s
+linia=892 rank=03 czas_obliczen=0.001084s sleep=0.000000s czas_calkowity_linii=0.001084slinia=893 rank=08 czas_obliczen=0.001085s sleep=0.000000s czas_calkowity_linii=0.001086s
+
+linia=888 rank=01 czas_obliczen=0.001140s sleep=0.000000s czas_calkowity_linii=0.001141s
+linia=894 rank=07 czas_obliczen=0.001078s sleep=0.000000s czas_calkowity_linii=0.001079s
+linia=895 rank=06 czas_obliczen=0.001084s sleep=0.000000s czas_calkowity_linii=0.001084s
+linia=889 rank=04 czas_obliczen=0.001132s sleep=0.000000s czas_calkowity_linii=0.001133s
+linia=891 rank=02 czas_obliczen=0.001093s sleep=0.000000s czas_calkowity_linii=0.001093s
+linia=890 rank=05 czas_obliczen=0.001122s sleep=0.000000s czas_calkowity_linii=0.001122s
+linia=897 rank=03 czas_obliczen=0.001076s sleep=0.000000s czas_calkowity_linii=0.001077slinia=900 rank=06 czas_obliczen=0.001069s sleep=0.000000s czas_calkowity_linii=0.001070s
+linia=898 rank=01 czas_obliczen=0.001139s sleep=0.000000s czas_calkowity_linii=0.001140s
+linia=899 rank=07 czas_obliczen=0.001067s sleep=0.000000s czas_calkowity_linii=0.001067s
+linia=901 rank=04 czas_obliczen=0.001095s sleep=0.000000s czas_calkowity_linii=0.001096s
+linia=902 rank=02 czas_obliczen=0.001067s sleep=0.000000s czas_calkowity_linii=0.001067s
+
+linia=903 rank=05 czas_obliczen=0.001048s sleep=0.000000s czas_calkowity_linii=0.001048s
+linia=896 rank=08 czas_obliczen=0.001077s sleep=0.000000s czas_calkowity_linii=0.001077s
+linia=910 rank=05 czas_obliczen=0.001021s sleep=0.000000s czas_calkowity_linii=0.001021s
+linia=911 rank=08 czas_obliczen=0.001038s sleep=0.000000s czas_calkowity_linii=0.001038s
+linia=908 rank=02 czas_obliczen=0.001033s sleep=0.000000s czas_calkowity_linii=0.001033s
+linia=904 rank=06 czas_obliczen=0.001049s sleep=0.000000s czas_calkowity_linii=0.001049s
+linia=905 rank=07 czas_obliczen=0.001036s sleep=0.000000s czas_calkowity_linii=0.001037s
+linia=906 rank=01 czas_obliczen=0.001046s sleep=0.000000s czas_calkowity_linii=0.001047s
+linia=907 rank=04 czas_obliczen=0.001061s sleep=0.000000s czas_calkowity_linii=0.001062s
+linia=909 rank=03 czas_obliczen=0.001022s sleep=0.000000s czas_calkowity_linii=0.001022s
+linia=912 rank=05 czas_obliczen=0.001055s sleep=0.000000s czas_calkowity_linii=0.001056s
+linia=914 rank=02 czas_obliczen=0.001033s sleep=0.000000s czas_calkowity_linii=0.001034s
+linia=913 rank=08 czas_obliczen=0.001040s sleep=0.000000s czas_calkowity_linii=0.001041s
+linia=916 rank=07 czas_obliczen=0.001017s sleep=0.000000s czas_calkowity_linii=0.001017s
+linia=915 rank=06 czas_obliczen=0.001024s sleep=0.000000s czas_calkowity_linii=0.001024s
+linia=919 rank=03 czas_obliczen=0.001018s sleep=0.000000s czas_calkowity_linii=0.001018s
+linia=917 rank=01 czas_obliczen=0.001053s sleep=0.000000s czas_calkowity_linii=0.001053s
+linia=918 rank=04 czas_obliczen=0.001033s sleep=0.000000s czas_calkowity_linii=0.001034s
+linia=920 rank=05 czas_obliczen=0.001037s sleep=0.000000s czas_calkowity_linii=0.001038s
+linia=923 rank=07 czas_obliczen=0.001013s sleep=0.000000s czas_calkowity_linii=0.001013slinia=921 rank=02 czas_obliczen=0.001029s sleep=0.000000s czas_calkowity_linii=0.001029s
+
+linia=922 rank=08 czas_obliczen=0.001034s sleep=0.000000s czas_calkowity_linii=0.001035s
+linia=924 rank=06 czas_obliczen=0.001015s sleep=0.000000s czas_calkowity_linii=0.001016s
+linia=925 rank=03 czas_obliczen=0.001012s sleep=0.000000s czas_calkowity_linii=0.001012s
+linia=927 rank=04 czas_obliczen=0.001024s sleep=0.000000s czas_calkowity_linii=0.001024s
+linia=926 rank=01 czas_obliczen=0.001046s sleep=0.000000s czas_calkowity_linii=0.001046s
+linia=929 rank=02 czas_obliczen=0.001023s sleep=0.000000s czas_calkowity_linii=0.001023slinia=928 rank=05 czas_obliczen=0.001029s sleep=0.000000s czas_calkowity_linii=0.001030s
+
+linia=931 rank=08 czas_obliczen=0.001028s sleep=0.000000s czas_calkowity_linii=0.001028s
+linia=932 rank=06 czas_obliczen=0.001009s sleep=0.000000s czas_calkowity_linii=0.001009s
+linia=930 rank=07 czas_obliczen=0.001009s sleep=0.000000s czas_calkowity_linii=0.001009s
+linia=933 rank=03 czas_obliczen=0.001030s sleep=0.000000s czas_calkowity_linii=0.001030s
+linia=934 rank=04 czas_obliczen=0.001019s sleep=0.000000s czas_calkowity_linii=0.001019s
+linia=935 rank=01 czas_obliczen=0.001032s sleep=0.000000s czas_calkowity_linii=0.001032s
+linia=936 rank=05 czas_obliczen=0.001038s sleep=0.000000s czas_calkowity_linii=0.001038slinia=939 rank=06 czas_obliczen=0.001002s sleep=0.000000s czas_calkowity_linii=0.001002s
+linia=940 rank=07 czas_obliczen=0.000999s sleep=0.000000s czas_calkowity_linii=0.000999s
+linia=938 rank=02 czas_obliczen=0.001016s sleep=0.000000s czas_calkowity_linii=0.001017s
+linia=937 rank=08 czas_obliczen=0.001025s sleep=0.000000s czas_calkowity_linii=0.001025s
+
+linia=941 rank=03 czas_obliczen=0.001024s sleep=0.000000s czas_calkowity_linii=0.001024s
+linia=942 rank=04 czas_obliczen=0.001013s sleep=0.000000s czas_calkowity_linii=0.001013s
+linia=943 rank=01 czas_obliczen=0.001028s sleep=0.000000s czas_calkowity_linii=0.001028s
+linia=944 rank=06 czas_obliczen=0.001004s sleep=0.000000s czas_calkowity_linii=0.001004s
+linia=945 rank=07 czas_obliczen=0.000999s sleep=0.000000s czas_calkowity_linii=0.000999slinia=947 rank=02 czas_obliczen=0.001007s sleep=0.000000s czas_calkowity_linii=0.001007s
+linia=946 rank=08 czas_obliczen=0.001015s sleep=0.000000s czas_calkowity_linii=0.001015s
+linia=948 rank=05 czas_obliczen=0.000994s sleep=0.000000s czas_calkowity_linii=0.000995s
+
+linia=949 rank=03 czas_obliczen=0.001021s sleep=0.000000s czas_calkowity_linii=0.001021s
+linia=950 rank=04 czas_obliczen=0.001010s sleep=0.000000s czas_calkowity_linii=0.001010s
+linia=951 rank=01 czas_obliczen=0.001027s sleep=0.000000s czas_calkowity_linii=0.001028s
+linia=952 rank=06 czas_obliczen=0.000999s sleep=0.000000s czas_calkowity_linii=0.001000s
+linia=953 rank=08 czas_obliczen=0.001000s sleep=0.000000s czas_calkowity_linii=0.001001slinia=954 rank=02 czas_obliczen=0.001005s sleep=0.000000s czas_calkowity_linii=0.001005s
+linia=955 rank=05 czas_obliczen=0.000992s sleep=0.000000s czas_calkowity_linii=0.000992s
+linia=956 rank=07 czas_obliczen=0.000993s sleep=0.000000s czas_calkowity_linii=0.000993s
+
+linia=957 rank=03 czas_obliczen=0.001016s sleep=0.000000s czas_calkowity_linii=0.001016s
+linia=958 rank=04 czas_obliczen=0.001011s sleep=0.000000s czas_calkowity_linii=0.001012s
+linia=959 rank=01 czas_obliczen=0.001014s sleep=0.000000s czas_calkowity_linii=0.001014s
+KONIEC: baseline: 0.772351 s, workerow=8
+Zapisano: baseline.pgm, baseline.csv, baseline.json
+Wybrany sleep: 1.000 s
+=== PRZEBIEG 2: z sleep ===
+START tryb=sleep; rozdzielczosc=1280x960; sleep_line=1; sleep_seconds=1.0
+linia=000 rank=01 czas_obliczen=0.001071s sleep=0.000000s czas_calkowity_linii=0.001072s
+linia=002 rank=03 czas_obliczen=0.001071s sleep=0.000000s czas_calkowity_linii=0.001071s
+linia=003 rank=04 czas_obliczen=0.001086s sleep=0.000000s czas_calkowity_linii=0.001087s
+linia=004 rank=05 czas_obliczen=0.001082s sleep=0.000000s czas_calkowity_linii=0.001082s
+linia=007 rank=08 czas_obliczen=0.001059s sleep=0.000000s czas_calkowity_linii=0.001060s
+linia=006 rank=07 czas_obliczen=0.001069s sleep=0.000000s czas_calkowity_linii=0.001069s
+linia=005 rank=06 czas_obliczen=0.001103s sleep=0.000000s czas_calkowity_linii=0.001103s
+linia=008 rank=03 czas_obliczen=0.001025s sleep=0.000000s czas_calkowity_linii=0.001025s
+linia=009 rank=01 czas_obliczen=0.001016s sleep=0.000000s czas_calkowity_linii=0.001017s
+linia=011 rank=04 czas_obliczen=0.000996s sleep=0.000000s czas_calkowity_linii=0.000997s
+linia=010 rank=05 czas_obliczen=0.001014s sleep=0.000000s czas_calkowity_linii=0.001014s
+linia=013 rank=07 czas_obliczen=0.001002s sleep=0.000000s czas_calkowity_linii=0.001002s
+linia=012 rank=08 czas_obliczen=0.000997s sleep=0.000000s czas_calkowity_linii=0.000998s
+linia=014 rank=06 czas_obliczen=0.001013s sleep=0.000000s czas_calkowity_linii=0.001013s
+linia=017 rank=04 czas_obliczen=0.000998s sleep=0.000000s czas_calkowity_linii=0.000998s
+linia=018 rank=05 czas_obliczen=0.001014s sleep=0.000000s czas_calkowity_linii=0.001014s
+linia=016 rank=01 czas_obliczen=0.001008s sleep=0.000000s czas_calkowity_linii=0.001009s
+linia=019 rank=08 czas_obliczen=0.001001s sleep=0.000000s czas_calkowity_linii=0.001001s
+linia=020 rank=07 czas_obliczen=0.001027s sleep=0.000000s czas_calkowity_linii=0.001027s
+linia=021 rank=06 czas_obliczen=0.001031s sleep=0.000000s czas_calkowity_linii=0.001031s
+linia=015 rank=03 czas_obliczen=0.001012s sleep=0.000000s czas_calkowity_linii=0.001012s
+linia=028 rank=03 czas_obliczen=0.001043s sleep=0.000000s czas_calkowity_linii=0.001044s
+linia=022 rank=04 czas_obliczen=0.001017s sleep=0.000000s czas_calkowity_linii=0.001017s
+linia=024 rank=08 czas_obliczen=0.001002s sleep=0.000000s czas_calkowity_linii=0.001002s
+linia=025 rank=01 czas_obliczen=0.001011s sleep=0.000000s czas_calkowity_linii=0.001012s
+linia=023 rank=05 czas_obliczen=0.001018s sleep=0.000000s czas_calkowity_linii=0.001018s
+linia=026 rank=07 czas_obliczen=0.001019s sleep=0.000000s czas_calkowity_linii=0.001019s
+linia=027 rank=06 czas_obliczen=0.001036s sleep=0.000000s czas_calkowity_linii=0.001036s
+linia=030 rank=04 czas_obliczen=0.001005s sleep=0.000000s czas_calkowity_linii=0.001005s
+linia=032 rank=01 czas_obliczen=0.001017s sleep=0.000000s czas_calkowity_linii=0.001017s
+linia=033 rank=07 czas_obliczen=0.001008s sleep=0.000000s czas_calkowity_linii=0.001009s
+linia=031 rank=08 czas_obliczen=0.001013s sleep=0.000000s czas_calkowity_linii=0.001013s
+linia=034 rank=05 czas_obliczen=0.001045s sleep=0.000000s czas_calkowity_linii=0.001045s
+linia=035 rank=06 czas_obliczen=0.001041s sleep=0.000000s czas_calkowity_linii=0.001041s
+linia=029 rank=03 czas_obliczen=0.001021s sleep=0.000000s czas_calkowity_linii=0.001021s
+linia=042 rank=03 czas_obliczen=0.001041s sleep=0.000000s czas_calkowity_linii=0.001041s
+linia=036 rank=04 czas_obliczen=0.001009s sleep=0.000000s czas_calkowity_linii=0.001009s
+linia=037 rank=07 czas_obliczen=0.001013s sleep=0.000000s czas_calkowity_linii=0.001013s
+linia=038 rank=08 czas_obliczen=0.001009s sleep=0.000000s czas_calkowity_linii=0.001009s
+linia=039 rank=01 czas_obliczen=0.001019s sleep=0.000000s czas_calkowity_linii=0.001019s
+linia=040 rank=05 czas_obliczen=0.001045s sleep=0.000000s czas_calkowity_linii=0.001045s
+linia=041 rank=06 czas_obliczen=0.001026s sleep=0.000000s czas_calkowity_linii=0.001026s
+linia=043 rank=03 czas_obliczen=0.001037s sleep=0.000000s czas_calkowity_linii=0.001038s
+linia=049 rank=06 czas_obliczen=0.001032s sleep=0.000000s czas_calkowity_linii=0.001032s
+linia=047 rank=05 czas_obliczen=0.001053s sleep=0.000000s czas_calkowity_linii=0.001053s
+linia=044 rank=04 czas_obliczen=0.001013s sleep=0.000000s czas_calkowity_linii=0.001013s
+linia=045 rank=07 czas_obliczen=0.001018s sleep=0.000000s czas_calkowity_linii=0.001019s
+linia=046 rank=08 czas_obliczen=0.001014s sleep=0.000000s czas_calkowity_linii=0.001015s
+linia=048 rank=01 czas_obliczen=0.001027s sleep=0.000000s czas_calkowity_linii=0.001027s
+linia=051 rank=06 czas_obliczen=0.001037s sleep=0.000000s czas_calkowity_linii=0.001037s
+linia=054 rank=08 czas_obliczen=0.001031s sleep=0.000000s czas_calkowity_linii=0.001031s
+linia=053 rank=04 czas_obliczen=0.001023s sleep=0.000000s czas_calkowity_linii=0.001023s
+linia=055 rank=07 czas_obliczen=0.001039s sleep=0.000000s czas_calkowity_linii=0.001039s
+linia=056 rank=01 czas_obliczen=0.001052s sleep=0.000000s czas_calkowity_linii=0.001052s
+linia=050 rank=03 czas_obliczen=0.001040s sleep=0.000000s czas_calkowity_linii=0.001041s
+linia=052 rank=05 czas_obliczen=0.001035s sleep=0.000000s czas_calkowity_linii=0.001035s
+linia=059 rank=04 czas_obliczen=0.001054s sleep=0.000000s czas_calkowity_linii=0.001054s
+linia=058 rank=08 czas_obliczen=0.001052s sleep=0.000000s czas_calkowity_linii=0.001053s
+linia=060 rank=07 czas_obliczen=0.001061s sleep=0.000000s czas_calkowity_linii=0.001061s
+linia=063 rank=05 czas_obliczen=0.001081s sleep=0.000000s czas_calkowity_linii=0.001081s
+linia=062 rank=03 czas_obliczen=0.001095s sleep=0.000000s czas_calkowity_linii=0.001095s
+linia=061 rank=01 czas_obliczen=0.001071s sleep=0.000000s czas_calkowity_linii=0.001071s
+linia=057 rank=06 czas_obliczen=0.001058s sleep=0.000000s czas_calkowity_linii=0.001059s
+linia=064 rank=04 czas_obliczen=0.001068s sleep=0.000000s czas_calkowity_linii=0.001068s
+linia=067 rank=05 czas_obliczen=0.001090s sleep=0.000000s czas_calkowity_linii=0.001090s
+linia=068 rank=03 czas_obliczen=0.001100s sleep=0.000000s czas_calkowity_linii=0.001100s
+linia=069 rank=01 czas_obliczen=0.001088s sleep=0.000000s czas_calkowity_linii=0.001088s
+linia=070 rank=06 czas_obliczen=0.001096s sleep=0.000000s czas_calkowity_linii=0.001097s
+linia=065 rank=08 czas_obliczen=0.001076s sleep=0.000000s czas_calkowity_linii=0.001076s
+linia=066 rank=07 czas_obliczen=0.001083s sleep=0.000000s czas_calkowity_linii=0.001083s
+linia=073 rank=03 czas_obliczen=0.001110s sleep=0.000000s czas_calkowity_linii=0.001110s
+linia=072 rank=05 czas_obliczen=0.001103s sleep=0.000000s czas_calkowity_linii=0.001103s
+linia=074 rank=01 czas_obliczen=0.001103s sleep=0.000000s czas_calkowity_linii=0.001103s
+linia=075 rank=06 czas_obliczen=0.001121s sleep=0.000000s czas_calkowity_linii=0.001122s
+linia=076 rank=08 czas_obliczen=0.001095s sleep=0.000000s czas_calkowity_linii=0.001096s
+linia=077 rank=07 czas_obliczen=0.001101s sleep=0.000000s czas_calkowity_linii=0.001101s
+linia=071 rank=04 czas_obliczen=0.001087s sleep=0.000000s czas_calkowity_linii=0.001087s
+linia=080 rank=01 czas_obliczen=0.001118s sleep=0.000000s czas_calkowity_linii=0.001118s
+linia=081 rank=06 czas_obliczen=0.001125s sleep=0.000000s czas_calkowity_linii=0.001125s
+linia=083 rank=07 czas_obliczen=0.001114s sleep=0.000000s czas_calkowity_linii=0.001115s
+linia=082 rank=08 czas_obliczen=0.001109s sleep=0.000000s czas_calkowity_linii=0.001109s
+linia=084 rank=04 czas_obliczen=0.001113s sleep=0.000000s czas_calkowity_linii=0.001113s
+linia=078 rank=05 czas_obliczen=0.001123s sleep=0.000000s czas_calkowity_linii=0.001124s
+linia=079 rank=03 czas_obliczen=0.001130s sleep=0.000000s czas_calkowity_linii=0.001130s
+linia=085 rank=01 czas_obliczen=0.001130s sleep=0.000000s czas_calkowity_linii=0.001130s
+linia=089 rank=04 czas_obliczen=0.001132s sleep=0.000000s czas_calkowity_linii=0.001132s
+linia=086 rank=06 czas_obliczen=0.001134s sleep=0.000000s czas_calkowity_linii=0.001134s
+linia=087 rank=07 czas_obliczen=0.001127s sleep=0.000000s czas_calkowity_linii=0.001127s
+linia=088 rank=08 czas_obliczen=0.001133s sleep=0.000000s czas_calkowity_linii=0.001133s
+linia=090 rank=05 czas_obliczen=0.001148s sleep=0.000000s czas_calkowity_linii=0.001148s
+linia=091 rank=03 czas_obliczen=0.001170s sleep=0.000000s czas_calkowity_linii=0.001170s
+linia=092 rank=01 czas_obliczen=0.001138s sleep=0.000000s czas_calkowity_linii=0.001139s
+linia=093 rank=07 czas_obliczen=0.001134s sleep=0.000000s czas_calkowity_linii=0.001134s
+linia=094 rank=06 czas_obliczen=0.001148s sleep=0.000000s czas_calkowity_linii=0.001149s
+linia=097 rank=05 czas_obliczen=0.001148s sleep=0.000000s czas_calkowity_linii=0.001148s
+linia=098 rank=03 czas_obliczen=0.001161s sleep=0.000000s czas_calkowity_linii=0.001161s
+linia=096 rank=04 czas_obliczen=0.001138s sleep=0.000000s czas_calkowity_linii=0.001138s
+linia=095 rank=08 czas_obliczen=0.001137s sleep=0.000000s czas_calkowity_linii=0.001137s
+linia=099 rank=07 czas_obliczen=0.001141s sleep=0.000000s czas_calkowity_linii=0.001142s
+linia=101 rank=06 czas_obliczen=0.001162s sleep=0.000000s czas_calkowity_linii=0.001163s
+linia=102 rank=05 czas_obliczen=0.001163s sleep=0.000000s czas_calkowity_linii=0.001163s
+linia=103 rank=03 czas_obliczen=0.001172s sleep=0.000000s czas_calkowity_linii=0.001172s
+linia=105 rank=04 czas_obliczen=0.001158s sleep=0.000000s czas_calkowity_linii=0.001158s
+linia=104 rank=08 czas_obliczen=0.001156s sleep=0.000000s czas_calkowity_linii=0.001157s
+linia=100 rank=01 czas_obliczen=0.001149s sleep=0.000000s czas_calkowity_linii=0.001149s
+linia=106 rank=07 czas_obliczen=0.001170s sleep=0.000000s czas_calkowity_linii=0.001171s
+linia=107 rank=06 czas_obliczen=0.001186s sleep=0.000000s czas_calkowity_linii=0.001187s
+linia=108 rank=05 czas_obliczen=0.001187s sleep=0.000000s czas_calkowity_linii=0.001187s
+linia=111 rank=08 czas_obliczen=0.001179s sleep=0.000000s czas_calkowity_linii=0.001179s
+linia=109 rank=03 czas_obliczen=0.001196s sleep=0.000000s czas_calkowity_linii=0.001196s
+linia=112 rank=01 czas_obliczen=0.001192s sleep=0.000000s czas_calkowity_linii=0.001192s
+linia=110 rank=04 czas_obliczen=0.001174s sleep=0.000000s czas_calkowity_linii=0.001175s
+linia=113 rank=07 czas_obliczen=0.001190s sleep=0.000000s czas_calkowity_linii=0.001190s
+linia=114 rank=06 czas_obliczen=0.001207s sleep=0.000000s czas_calkowity_linii=0.001207s
+linia=115 rank=05 czas_obliczen=0.001207s sleep=0.000000s czas_calkowity_linii=0.001208s
+linia=118 rank=01 czas_obliczen=0.001216s sleep=0.000000s czas_calkowity_linii=0.001217s
+linia=117 rank=03 czas_obliczen=0.001220s sleep=0.000000s czas_calkowity_linii=0.001221s
+linia=116 rank=08 czas_obliczen=0.001192s sleep=0.000000s czas_calkowity_linii=0.001192s
+linia=119 rank=04 czas_obliczen=0.001205s sleep=0.000000s czas_calkowity_linii=0.001205s
+linia=120 rank=07 czas_obliczen=0.001210s sleep=0.000000s czas_calkowity_linii=0.001211s
+linia=121 rank=06 czas_obliczen=0.001229s sleep=0.000000s czas_calkowity_linii=0.001229s
+linia=122 rank=05 czas_obliczen=0.001227s sleep=0.000000s czas_calkowity_linii=0.001227s
+linia=123 rank=01 czas_obliczen=0.001227s sleep=0.000000s czas_calkowity_linii=0.001227s
+linia=125 rank=08 czas_obliczen=0.001225s sleep=0.000000s czas_calkowity_linii=0.001226s
+linia=126 rank=04 czas_obliczen=0.001236s sleep=0.000000s czas_calkowity_linii=0.001237s
+linia=124 rank=03 czas_obliczen=0.001270s sleep=0.000000s czas_calkowity_linii=0.001270s
+linia=127 rank=07 czas_obliczen=0.001249s sleep=0.000000s czas_calkowity_linii=0.001250s
+linia=128 rank=06 czas_obliczen=0.001282s sleep=0.000000s czas_calkowity_linii=0.001283s
+linia=129 rank=05 czas_obliczen=0.001401s sleep=0.000000s czas_calkowity_linii=0.001401s
+linia=131 rank=08 czas_obliczen=0.001388s sleep=0.000000s czas_calkowity_linii=0.001388s
+linia=130 rank=01 czas_obliczen=0.001472s sleep=0.000000s czas_calkowity_linii=0.001472s
+linia=132 rank=04 czas_obliczen=0.001579s sleep=0.000000s czas_calkowity_linii=0.001579s
+linia=133 rank=03 czas_obliczen=0.001598s sleep=0.000000s czas_calkowity_linii=0.001598s
+linia=136 rank=05 czas_obliczen=0.001622s sleep=0.000000s czas_calkowity_linii=0.001622s
+linia=137 rank=08 czas_obliczen=0.001551s sleep=0.000000s czas_calkowity_linii=0.001551s
+linia=139 rank=04 czas_obliczen=0.001534s sleep=0.000000s czas_calkowity_linii=0.001534s
+linia=140 rank=03 czas_obliczen=0.001675s sleep=0.000000s czas_calkowity_linii=0.001675s
+linia=138 rank=01 czas_obliczen=0.001598s sleep=0.000000s czas_calkowity_linii=0.001599s
+linia=134 rank=07 czas_obliczen=0.001491s sleep=0.000000s czas_calkowity_linii=0.001491s
+linia=135 rank=06 czas_obliczen=0.001528s sleep=0.000000s czas_calkowity_linii=0.001528s
+linia=141 rank=05 czas_obliczen=0.001667s sleep=0.000000s czas_calkowity_linii=0.001667s
+linia=142 rank=08 czas_obliczen=0.001680s sleep=0.000000s czas_calkowity_linii=0.001681s
+linia=143 rank=04 czas_obliczen=0.001701s sleep=0.000000s czas_calkowity_linii=0.001701s
+linia=144 rank=03 czas_obliczen=0.001844s sleep=0.000000s czas_calkowity_linii=0.001844s
+linia=145 rank=01 czas_obliczen=0.002037s sleep=0.000000s czas_calkowity_linii=0.002037s
+linia=147 rank=06 czas_obliczen=0.001902s sleep=0.000000s czas_calkowity_linii=0.001902s
+linia=146 rank=07 czas_obliczen=0.002032s sleep=0.000000s czas_calkowity_linii=0.002032s
+linia=151 rank=03 czas_obliczen=0.001901s sleep=0.000000s czas_calkowity_linii=0.001902s
+linia=154 rank=07 czas_obliczen=0.001721s sleep=0.000000s czas_calkowity_linii=0.001722s
+linia=153 rank=06 czas_obliczen=0.001769s sleep=0.000000s czas_calkowity_linii=0.001770s
+linia=152 rank=01 czas_obliczen=0.001954s sleep=0.000000s czas_calkowity_linii=0.001955s
+linia=150 rank=04 czas_obliczen=0.001776s sleep=0.000000s czas_calkowity_linii=0.001776s
+linia=149 rank=08 czas_obliczen=0.001860s sleep=0.000000s czas_calkowity_linii=0.001861s
+linia=148 rank=05 czas_obliczen=0.001913s sleep=0.000000s czas_calkowity_linii=0.001914s
+linia=156 rank=07 czas_obliczen=0.001681s sleep=0.000000s czas_calkowity_linii=0.001681s
+linia=161 rank=05 czas_obliczen=0.001689s sleep=0.000000s czas_calkowity_linii=0.001689s
+linia=160 rank=08 czas_obliczen=0.001778s sleep=0.000000s czas_calkowity_linii=0.001779s
+linia=158 rank=01 czas_obliczen=0.001760s sleep=0.000000s czas_calkowity_linii=0.001761s
+linia=159 rank=04 czas_obliczen=0.001686s sleep=0.000000s czas_calkowity_linii=0.001686s
+linia=157 rank=06 czas_obliczen=0.001649s sleep=0.000000s czas_calkowity_linii=0.001650s
+linia=155 rank=03 czas_obliczen=0.001801s sleep=0.000000s czas_calkowity_linii=0.001801s
+linia=166 rank=04 czas_obliczen=0.001941s sleep=0.000000s czas_calkowity_linii=0.001941s
+linia=162 rank=07 czas_obliczen=0.001710s sleep=0.000000s czas_calkowity_linii=0.001710s
+linia=163 rank=05 czas_obliczen=0.001655s sleep=0.000000s czas_calkowity_linii=0.001655s
+linia=168 rank=03 czas_obliczen=0.002362s sleep=0.000000s czas_calkowity_linii=0.002363s
+linia=164 rank=08 czas_obliczen=0.001820s sleep=0.000000s czas_calkowity_linii=0.001820s
+linia=165 rank=01 czas_obliczen=0.001737s sleep=0.000000s czas_calkowity_linii=0.001738s
+linia=167 rank=06 czas_obliczen=0.002063s sleep=0.000000s czas_calkowity_linii=0.002063s
+linia=170 rank=07 czas_obliczen=0.002542s sleep=0.000000s czas_calkowity_linii=0.002542s
+linia=171 rank=05 czas_obliczen=0.002434s sleep=0.000000s czas_calkowity_linii=0.002435s
+linia=172 rank=03 czas_obliczen=0.002451s sleep=0.000000s czas_calkowity_linii=0.002451s
+linia=174 rank=01 czas_obliczen=0.002450s sleep=0.000000s czas_calkowity_linii=0.002450s
+linia=173 rank=08 czas_obliczen=0.002444s sleep=0.000000s czas_calkowity_linii=0.002445s
+linia=175 rank=06 czas_obliczen=0.002619s sleep=0.000000s czas_calkowity_linii=0.002619s
+linia=169 rank=04 czas_obliczen=0.002630s sleep=0.000000s czas_calkowity_linii=0.002630s
+linia=179 rank=01 czas_obliczen=0.002768s sleep=0.000000s czas_calkowity_linii=0.002768s
+linia=177 rank=05 czas_obliczen=0.002483s sleep=0.000000s czas_calkowity_linii=0.002484s
+linia=180 rank=08 czas_obliczen=0.002875s sleep=0.000000s czas_calkowity_linii=0.002876s
+linia=176 rank=07 czas_obliczen=0.002538s sleep=0.000000s czas_calkowity_linii=0.002538s
+linia=182 rank=04 czas_obliczen=0.002946s sleep=0.000000s czas_calkowity_linii=0.002946s
+linia=178 rank=03 czas_obliczen=0.002677s sleep=0.000000s czas_calkowity_linii=0.002677s
+linia=181 rank=06 czas_obliczen=0.002920s sleep=0.000000s czas_calkowity_linii=0.002920s
+linia=183 rank=01 czas_obliczen=0.002938s sleep=0.000000s czas_calkowity_linii=0.002938s
+linia=184 rank=05 czas_obliczen=0.003129s sleep=0.000000s czas_calkowity_linii=0.003130s
+linia=185 rank=08 czas_obliczen=0.003180s sleep=0.000000s czas_calkowity_linii=0.003180s
+linia=187 rank=04 czas_obliczen=0.003351s sleep=0.000000s czas_calkowity_linii=0.003352s
+linia=186 rank=07 czas_obliczen=0.003598s sleep=0.000000s czas_calkowity_linii=0.003598s
+linia=188 rank=06 czas_obliczen=0.003589s sleep=0.000000s czas_calkowity_linii=0.003590s
+linia=189 rank=03 czas_obliczen=0.003748s sleep=0.000000s czas_calkowity_linii=0.003748s
+linia=191 rank=05 czas_obliczen=0.003879s sleep=0.000000s czas_calkowity_linii=0.003879s
+linia=193 rank=04 czas_obliczen=0.003841s sleep=0.000000s czas_calkowity_linii=0.003842s
+linia=194 rank=07 czas_obliczen=0.003774s sleep=0.000000s czas_calkowity_linii=0.003774s
+linia=192 rank=08 czas_obliczen=0.003878s sleep=0.000000s czas_calkowity_linii=0.003878s
+linia=190 rank=01 czas_obliczen=0.003715s sleep=0.000000s czas_calkowity_linii=0.003716s
+linia=195 rank=06 czas_obliczen=0.004000s sleep=0.000000s czas_calkowity_linii=0.004000s
+linia=196 rank=03 czas_obliczen=0.003996s sleep=0.000000s czas_calkowity_linii=0.003997s
+linia=198 rank=04 czas_obliczen=0.004088s sleep=0.000000s czas_calkowity_linii=0.004089s
+linia=197 rank=05 czas_obliczen=0.004162s sleep=0.000000s czas_calkowity_linii=0.004163s
+linia=200 rank=07 czas_obliczen=0.004331s sleep=0.000000s czas_calkowity_linii=0.004331s
+linia=202 rank=06 czas_obliczen=0.004272s sleep=0.000000s czas_calkowity_linii=0.004272s
+linia=199 rank=08 czas_obliczen=0.004527s sleep=0.000000s czas_calkowity_linii=0.004528s
+linia=203 rank=03 czas_obliczen=0.004451s sleep=0.000000s czas_calkowity_linii=0.004451s
+linia=201 rank=01 czas_obliczen=0.004776s sleep=0.000000s czas_calkowity_linii=0.004777s
+linia=210 rank=01 czas_obliczen=0.004413s sleep=0.000000s czas_calkowity_linii=0.004414s
+linia=204 rank=04 czas_obliczen=0.004581s sleep=0.000000s czas_calkowity_linii=0.004581s
+linia=205 rank=05 czas_obliczen=0.004644s sleep=0.000000s czas_calkowity_linii=0.004645s
+linia=206 rank=07 czas_obliczen=0.004580s sleep=0.000000s czas_calkowity_linii=0.004580s
+linia=207 rank=06 czas_obliczen=0.004543s sleep=0.000000s czas_calkowity_linii=0.004544s
+linia=208 rank=08 czas_obliczen=0.004717s sleep=0.000000s czas_calkowity_linii=0.004718s
+linia=209 rank=03 czas_obliczen=0.004852s sleep=0.000000s czas_calkowity_linii=0.004853s
+linia=217 rank=03 czas_obliczen=0.004520s sleep=0.000000s czas_calkowity_linii=0.004520s
+linia=213 rank=05 czas_obliczen=0.004585s sleep=0.000000s czas_calkowity_linii=0.004585s
+linia=212 rank=04 czas_obliczen=0.004491s sleep=0.000000s czas_calkowity_linii=0.004492s
+linia=214 rank=07 czas_obliczen=0.004640s sleep=0.000000s czas_calkowity_linii=0.004641s
+linia=215 rank=06 czas_obliczen=0.004856s sleep=0.000000s czas_calkowity_linii=0.004856s
+linia=211 rank=01 czas_obliczen=0.004712s sleep=0.000000s czas_calkowity_linii=0.004712s
+linia=216 rank=08 czas_obliczen=0.004982s sleep=0.000000s czas_calkowity_linii=0.004982s
+linia=224 rank=08 czas_obliczen=0.005017s sleep=0.000000s czas_calkowity_linii=0.005018s
+linia=219 rank=05 czas_obliczen=0.004923s sleep=0.000000s czas_calkowity_linii=0.004923s
+linia=223 rank=01 czas_obliczen=0.005186s sleep=0.000000s czas_calkowity_linii=0.005186s
+linia=220 rank=04 czas_obliczen=0.004926s sleep=0.000000s czas_calkowity_linii=0.004927s
+linia=218 rank=03 czas_obliczen=0.005018s sleep=0.000000s czas_calkowity_linii=0.005018s
+linia=221 rank=07 czas_obliczen=0.005090s sleep=0.000000s czas_calkowity_linii=0.005090s
+linia=222 rank=06 czas_obliczen=0.005472s sleep=0.000000s czas_calkowity_linii=0.005473s
+linia=230 rank=07 czas_obliczen=0.005011s sleep=0.000000s czas_calkowity_linii=0.005011s
+linia=231 rank=06 czas_obliczen=0.005075s sleep=0.000000s czas_calkowity_linii=0.005076s
+linia=225 rank=08 czas_obliczen=0.004939s sleep=0.000000s czas_calkowity_linii=0.004940s
+linia=226 rank=05 czas_obliczen=0.004946s sleep=0.000000s czas_calkowity_linii=0.004946s
+linia=227 rank=01 czas_obliczen=0.004964s sleep=0.000000s czas_calkowity_linii=0.004965s
+linia=228 rank=04 czas_obliczen=0.004923s sleep=0.000000s czas_calkowity_linii=0.004923s
+linia=229 rank=03 czas_obliczen=0.005186s sleep=0.000000s czas_calkowity_linii=0.005186s
+linia=237 rank=04 czas_obliczen=0.005698s sleep=0.000000s czas_calkowity_linii=0.005699s
+linia=236 rank=01 czas_obliczen=0.005871s sleep=0.000000s czas_calkowity_linii=0.005871s
+linia=232 rank=07 czas_obliczen=0.005257s sleep=0.000000s czas_calkowity_linii=0.005258s
+linia=238 rank=03 czas_obliczen=0.006097s sleep=0.000000s czas_calkowity_linii=0.006097s
+linia=235 rank=05 czas_obliczen=0.005855s sleep=0.000000s czas_calkowity_linii=0.005855s
+linia=234 rank=08 czas_obliczen=0.005891s sleep=0.000000s czas_calkowity_linii=0.005891s
+linia=233 rank=06 czas_obliczen=0.005619s sleep=0.000000s czas_calkowity_linii=0.005619s
+linia=245 rank=06 czas_obliczen=0.005328s sleep=0.000000s czas_calkowity_linii=0.005328s
+linia=239 rank=04 czas_obliczen=0.005366s sleep=0.000000s czas_calkowity_linii=0.005366s
+linia=241 rank=07 czas_obliczen=0.005246s sleep=0.000000s czas_calkowity_linii=0.005246s
+linia=240 rank=01 czas_obliczen=0.005481s sleep=0.000000s czas_calkowity_linii=0.005481s
+linia=242 rank=05 czas_obliczen=0.005165s sleep=0.000000s czas_calkowity_linii=0.005165s
+linia=244 rank=08 czas_obliczen=0.005232s sleep=0.000000s czas_calkowity_linii=0.005233s
+linia=243 rank=03 czas_obliczen=0.005326s sleep=0.000000s czas_calkowity_linii=0.005326s
+linia=248 rank=07 czas_obliczen=0.005763s sleep=0.000000s czas_calkowity_linii=0.005763s
+linia=246 rank=06 czas_obliczen=0.005805s sleep=0.000000s czas_calkowity_linii=0.005805s
+linia=249 rank=01 czas_obliczen=0.005915s sleep=0.000000s czas_calkowity_linii=0.005915s
+linia=247 rank=04 czas_obliczen=0.005685s sleep=0.000000s czas_calkowity_linii=0.005685s
+linia=251 rank=08 czas_obliczen=0.006413s sleep=0.000000s czas_calkowity_linii=0.006414s
+linia=252 rank=03 czas_obliczen=0.006372s sleep=0.000000s czas_calkowity_linii=0.006372s
+linia=250 rank=05 czas_obliczen=0.006417s sleep=0.000000s czas_calkowity_linii=0.006418s
+linia=253 rank=07 czas_obliczen=0.006255s sleep=0.000000s czas_calkowity_linii=0.006256s
+linia=257 rank=08 czas_obliczen=0.006755s sleep=0.000000s czas_calkowity_linii=0.006755s
+linia=258 rank=03 czas_obliczen=0.006961s sleep=0.000000s czas_calkowity_linii=0.006961s
+linia=255 rank=01 czas_obliczen=0.006629s sleep=0.000000s czas_calkowity_linii=0.006629s
+linia=254 rank=06 czas_obliczen=0.006700s sleep=0.000000s czas_calkowity_linii=0.006700s
+linia=256 rank=04 czas_obliczen=0.006702s sleep=0.000000s czas_calkowity_linii=0.006702s
+linia=259 rank=05 czas_obliczen=0.007333s sleep=0.000000s czas_calkowity_linii=0.007333s
+linia=264 rank=06 czas_obliczen=0.007002s sleep=0.000000s czas_calkowity_linii=0.007003s
+linia=263 rank=01 czas_obliczen=0.007031s sleep=0.000000s czas_calkowity_linii=0.007031s
+linia=262 rank=03 czas_obliczen=0.007289s sleep=0.000000s czas_calkowity_linii=0.007290s
+linia=265 rank=04 czas_obliczen=0.007291s sleep=0.000000s czas_calkowity_linii=0.007291s
+linia=260 rank=07 czas_obliczen=0.007201s sleep=0.000000s czas_calkowity_linii=0.007201s
+linia=261 rank=08 czas_obliczen=0.007376s sleep=0.000000s czas_calkowity_linii=0.007376s
+linia=266 rank=05 czas_obliczen=0.007691s sleep=0.000000s czas_calkowity_linii=0.007691s
+linia=271 rank=07 czas_obliczen=0.007432s sleep=0.000000s czas_calkowity_linii=0.007433s
+linia=273 rank=05 czas_obliczen=0.007284s sleep=0.000000s czas_calkowity_linii=0.007285s
+linia=272 rank=08 czas_obliczen=0.007447s sleep=0.000000s czas_calkowity_linii=0.007447s
+linia=270 rank=04 czas_obliczen=0.007077s sleep=0.000000s czas_calkowity_linii=0.007077s
+linia=269 rank=03 czas_obliczen=0.007314s sleep=0.000000s czas_calkowity_linii=0.007314s
+linia=268 rank=01 czas_obliczen=0.007336s sleep=0.000000s czas_calkowity_linii=0.007336s
+linia=267 rank=06 czas_obliczen=0.007598s sleep=0.000000s czas_calkowity_linii=0.007598s
+linia=274 rank=07 czas_obliczen=0.007395s sleep=0.000000s czas_calkowity_linii=0.007395s
+linia=275 rank=05 czas_obliczen=0.007454s sleep=0.000000s czas_calkowity_linii=0.007454s
+linia=276 rank=08 czas_obliczen=0.007676s sleep=0.000000s czas_calkowity_linii=0.007677s
+linia=280 rank=06 czas_obliczen=0.008084s sleep=0.000000s czas_calkowity_linii=0.008085s
+linia=277 rank=04 czas_obliczen=0.007807s sleep=0.000000s czas_calkowity_linii=0.007808s
+linia=279 rank=01 czas_obliczen=0.008186s sleep=0.000000s czas_calkowity_linii=0.008186s
+linia=278 rank=03 czas_obliczen=0.008312s sleep=0.000000s czas_calkowity_linii=0.008312s
+linia=287 rank=03 czas_obliczen=0.007654s sleep=0.000000s czas_calkowity_linii=0.007655s
+linia=285 rank=04 czas_obliczen=0.007776s sleep=0.000000s czas_calkowity_linii=0.007777s
+linia=282 rank=05 czas_obliczen=0.008084s sleep=0.000000s czas_calkowity_linii=0.008085s
+linia=283 rank=08 czas_obliczen=0.007779s sleep=0.000000s czas_calkowity_linii=0.007779s
+linia=281 rank=07 czas_obliczen=0.008275s sleep=0.000000s czas_calkowity_linii=0.008275s
+linia=284 rank=06 czas_obliczen=0.008093s sleep=0.000000s czas_calkowity_linii=0.008093s
+linia=286 rank=01 czas_obliczen=0.008272s sleep=0.000000s czas_calkowity_linii=0.008272s
+linia=291 rank=08 czas_obliczen=0.007574s sleep=0.000000s czas_calkowity_linii=0.007575s
+linia=290 rank=05 czas_obliczen=0.007725s sleep=0.000000s czas_calkowity_linii=0.007726s
+linia=289 rank=04 czas_obliczen=0.007847s sleep=0.000000s czas_calkowity_linii=0.007847s
+linia=288 rank=03 czas_obliczen=0.007991s sleep=0.000000s czas_calkowity_linii=0.007992s
+linia=292 rank=07 czas_obliczen=0.008132s sleep=0.000000s czas_calkowity_linii=0.008132s
+linia=293 rank=06 czas_obliczen=0.008312s sleep=0.000000s czas_calkowity_linii=0.008312s
+linia=294 rank=01 czas_obliczen=0.008657s sleep=0.000000s czas_calkowity_linii=0.008657s
+linia=300 rank=06 czas_obliczen=0.007599s sleep=0.000000s czas_calkowity_linii=0.007599s
+linia=299 rank=07 czas_obliczen=0.007490s sleep=0.000000s czas_calkowity_linii=0.007491s
+linia=301 rank=01 czas_obliczen=0.007961s sleep=0.000000s czas_calkowity_linii=0.007961s
+linia=298 rank=03 czas_obliczen=0.008070s sleep=0.000000s czas_calkowity_linii=0.008070s
+linia=297 rank=04 czas_obliczen=0.008130s sleep=0.000000s czas_calkowity_linii=0.008131s
+linia=295 rank=08 czas_obliczen=0.008430s sleep=0.000000s czas_calkowity_linii=0.008430s
+linia=296 rank=05 czas_obliczen=0.008675s sleep=0.000000s czas_calkowity_linii=0.008675s
+linia=304 rank=01 czas_obliczen=0.007704s sleep=0.000000s czas_calkowity_linii=0.007704s
+linia=302 rank=06 czas_obliczen=0.007573s sleep=0.000000s czas_calkowity_linii=0.007574s
+linia=303 rank=07 czas_obliczen=0.007707s sleep=0.000000s czas_calkowity_linii=0.007707s
+linia=306 rank=04 czas_obliczen=0.008277s sleep=0.000000s czas_calkowity_linii=0.008278s
+linia=307 rank=08 czas_obliczen=0.008492s sleep=0.000000s czas_calkowity_linii=0.008492s
+linia=305 rank=03 czas_obliczen=0.008333s sleep=0.000000s czas_calkowity_linii=0.008333s
+linia=308 rank=05 czas_obliczen=0.008723s sleep=0.000000s czas_calkowity_linii=0.008723s
+linia=312 rank=04 czas_obliczen=0.008511s sleep=0.000000s czas_calkowity_linii=0.008512s
+linia=313 rank=08 czas_obliczen=0.008753s sleep=0.000000s czas_calkowity_linii=0.008754s
+linia=310 rank=01 czas_obliczen=0.008972s sleep=0.000000s czas_calkowity_linii=0.008972s
+linia=309 rank=06 czas_obliczen=0.008969s sleep=0.000000s czas_calkowity_linii=0.008969s
+linia=311 rank=07 czas_obliczen=0.008808s sleep=0.000000s czas_calkowity_linii=0.008808s
+linia=314 rank=03 czas_obliczen=0.009300s sleep=0.000000s czas_calkowity_linii=0.009301s
+linia=315 rank=05 czas_obliczen=0.009509s sleep=0.000000s czas_calkowity_linii=0.009509s
+linia=319 rank=01 czas_obliczen=0.008785s sleep=0.000000s czas_calkowity_linii=0.008785s
+linia=322 rank=05 czas_obliczen=0.008885s sleep=0.000000s czas_calkowity_linii=0.008886s
+linia=320 rank=07 czas_obliczen=0.008877s sleep=0.000000s czas_calkowity_linii=0.008878s
+linia=317 rank=04 czas_obliczen=0.009014s sleep=0.000000s czas_calkowity_linii=0.009014s
+linia=318 rank=06 czas_obliczen=0.009103s sleep=0.000000s czas_calkowity_linii=0.009103s
+linia=316 rank=08 czas_obliczen=0.009214s sleep=0.000000s czas_calkowity_linii=0.009214s
+linia=321 rank=03 czas_obliczen=0.009355s sleep=0.000000s czas_calkowity_linii=0.009355s
+linia=323 rank=01 czas_obliczen=0.008481s sleep=0.000000s czas_calkowity_linii=0.008482s
+linia=326 rank=04 czas_obliczen=0.008628s sleep=0.000000s czas_calkowity_linii=0.008629s
+linia=324 rank=05 czas_obliczen=0.008791s sleep=0.000000s czas_calkowity_linii=0.008791s
+linia=325 rank=07 czas_obliczen=0.009039s sleep=0.000000s czas_calkowity_linii=0.009040s
+linia=327 rank=06 czas_obliczen=0.008915s sleep=0.000000s czas_calkowity_linii=0.008915s
+linia=328 rank=08 czas_obliczen=0.008828s sleep=0.000000s czas_calkowity_linii=0.008828s
+linia=329 rank=03 czas_obliczen=0.008788s sleep=0.000000s czas_calkowity_linii=0.008788s
+linia=335 rank=08 czas_obliczen=0.008283s sleep=0.000000s czas_calkowity_linii=0.008283s
+linia=336 rank=03 czas_obliczen=0.008474s sleep=0.000000s czas_calkowity_linii=0.008474s
+linia=334 rank=06 czas_obliczen=0.008512s sleep=0.000000s czas_calkowity_linii=0.008513s
+linia=333 rank=07 czas_obliczen=0.008504s sleep=0.000000s czas_calkowity_linii=0.008504s
+linia=331 rank=04 czas_obliczen=0.008803s sleep=0.000000s czas_calkowity_linii=0.008804s
+linia=332 rank=05 czas_obliczen=0.008967s sleep=0.000000s czas_calkowity_linii=0.008967s
+linia=330 rank=01 czas_obliczen=0.008924s sleep=0.000000s czas_calkowity_linii=0.008924s
+linia=338 rank=03 czas_obliczen=0.007856s sleep=0.000000s czas_calkowity_linii=0.007857s
+linia=339 rank=06 czas_obliczen=0.008002s sleep=0.000000s czas_calkowity_linii=0.008003s
+linia=340 rank=07 czas_obliczen=0.008079s sleep=0.000000s czas_calkowity_linii=0.008079s
+linia=343 rank=01 czas_obliczen=0.008117s sleep=0.000000s czas_calkowity_linii=0.008117s
+linia=342 rank=05 czas_obliczen=0.008256s sleep=0.000000s czas_calkowity_linii=0.008257s
+linia=341 rank=04 czas_obliczen=0.007981s sleep=0.000000s czas_calkowity_linii=0.007981s
+linia=337 rank=08 czas_obliczen=0.008036s sleep=0.000000s czas_calkowity_linii=0.008037s
+linia=349 rank=04 czas_obliczen=0.007753s sleep=0.000000s czas_calkowity_linii=0.007754s
+linia=346 rank=07 czas_obliczen=0.007921s sleep=0.000000s czas_calkowity_linii=0.007921s
+linia=345 rank=06 czas_obliczen=0.008064s sleep=0.000000s czas_calkowity_linii=0.008064s
+linia=348 rank=05 czas_obliczen=0.007834s sleep=0.000000s czas_calkowity_linii=0.007834s
+linia=350 rank=08 czas_obliczen=0.008141s sleep=0.000000s czas_calkowity_linii=0.008141s
+linia=347 rank=01 czas_obliczen=0.008004s sleep=0.000000s czas_calkowity_linii=0.008004s
+linia=344 rank=03 czas_obliczen=0.008696s sleep=0.000000s czas_calkowity_linii=0.008697s
+linia=356 rank=01 czas_obliczen=0.007397s sleep=0.000000s czas_calkowity_linii=0.007398s
+linia=355 rank=08 czas_obliczen=0.007535s sleep=0.000000s czas_calkowity_linii=0.007535s
+linia=357 rank=03 czas_obliczen=0.007500s sleep=0.000000s czas_calkowity_linii=0.007501s
+linia=354 rank=05 czas_obliczen=0.008071s sleep=0.000000s czas_calkowity_linii=0.008072s
+linia=352 rank=07 czas_obliczen=0.008090s sleep=0.000000s czas_calkowity_linii=0.008091s
+linia=353 rank=06 czas_obliczen=0.008232s sleep=0.000000s czas_calkowity_linii=0.008233s
+linia=351 rank=04 czas_obliczen=0.008005s sleep=0.000000s czas_calkowity_linii=0.008006s
+linia=358 rank=01 czas_obliczen=0.007338s sleep=0.000000s czas_calkowity_linii=0.007339s
+linia=359 rank=08 czas_obliczen=0.007510s sleep=0.000000s czas_calkowity_linii=0.007511s
+linia=360 rank=03 czas_obliczen=0.007910s sleep=0.000000s czas_calkowity_linii=0.007911s
+linia=363 rank=06 czas_obliczen=0.008161s sleep=0.000000s czas_calkowity_linii=0.008162s
+linia=361 rank=05 czas_obliczen=0.007806s sleep=0.000000s czas_calkowity_linii=0.007806s
+linia=362 rank=07 czas_obliczen=0.007856s sleep=0.000000s czas_calkowity_linii=0.007856s
+linia=364 rank=04 czas_obliczen=0.008241s sleep=0.000000s czas_calkowity_linii=0.008241s
+linia=366 rank=08 czas_obliczen=0.008029s sleep=0.000000s czas_calkowity_linii=0.008029s
+linia=368 rank=06 czas_obliczen=0.008003s sleep=0.000000s czas_calkowity_linii=0.008003s
+linia=371 rank=04 czas_obliczen=0.008084s sleep=0.000000s czas_calkowity_linii=0.008084s
+linia=369 rank=05 czas_obliczen=0.008175s sleep=0.000000s czas_calkowity_linii=0.008175s
+linia=370 rank=07 czas_obliczen=0.008257s sleep=0.000000s czas_calkowity_linii=0.008258s
+linia=367 rank=03 czas_obliczen=0.008197s sleep=0.000000s czas_calkowity_linii=0.008197s
+linia=365 rank=01 czas_obliczen=0.008169s sleep=0.000000s czas_calkowity_linii=0.008170s
+linia=377 rank=03 czas_obliczen=0.007721s sleep=0.000000s czas_calkowity_linii=0.007722s
+linia=376 rank=07 czas_obliczen=0.008134s sleep=0.000000s czas_calkowity_linii=0.008134s
+linia=378 rank=01 czas_obliczen=0.007695s sleep=0.000000s czas_calkowity_linii=0.007695s
+linia=372 rank=08 czas_obliczen=0.008025s sleep=0.000000s czas_calkowity_linii=0.008025s
+linia=374 rank=04 czas_obliczen=0.008022s sleep=0.000000s czas_calkowity_linii=0.008022s
+linia=373 rank=06 czas_obliczen=0.008141s sleep=0.000000s czas_calkowity_linii=0.008142s
+linia=375 rank=05 czas_obliczen=0.008105s sleep=0.000000s czas_calkowity_linii=0.008105s
+linia=383 rank=04 czas_obliczen=0.007233s sleep=0.000000s czas_calkowity_linii=0.007233s
+linia=384 rank=06 czas_obliczen=0.007306s sleep=0.000000s czas_calkowity_linii=0.007307s
+linia=385 rank=05 czas_obliczen=0.007360s sleep=0.000000s czas_calkowity_linii=0.007360s
+linia=382 rank=08 czas_obliczen=0.007479s sleep=0.000000s czas_calkowity_linii=0.007480s
+linia=380 rank=07 czas_obliczen=0.007664s sleep=0.000000s czas_calkowity_linii=0.007664s
+linia=381 rank=01 czas_obliczen=0.007698s sleep=0.000000s czas_calkowity_linii=0.007699s
+linia=379 rank=03 czas_obliczen=0.007851s sleep=0.000000s czas_calkowity_linii=0.007851s
+linia=391 rank=01 czas_obliczen=0.006541s sleep=0.000000s czas_calkowity_linii=0.006542s
+linia=392 rank=03 czas_obliczen=0.006747s sleep=0.000000s czas_calkowity_linii=0.006748s
+linia=389 rank=08 czas_obliczen=0.007059s sleep=0.000000s czas_calkowity_linii=0.007059s
+linia=390 rank=07 czas_obliczen=0.006753s sleep=0.000000s czas_calkowity_linii=0.006754s
+linia=388 rank=05 czas_obliczen=0.006972s sleep=0.000000s czas_calkowity_linii=0.006972s
+linia=387 rank=06 czas_obliczen=0.007265s sleep=0.000000s czas_calkowity_linii=0.007265s
+linia=386 rank=04 czas_obliczen=0.007320s sleep=0.000000s czas_calkowity_linii=0.007320s
+linia=399 rank=04 czas_obliczen=0.006743s sleep=0.000000s czas_calkowity_linii=0.006743s
+linia=398 rank=06 czas_obliczen=0.006931s sleep=0.000000s czas_calkowity_linii=0.006931s
+linia=397 rank=05 czas_obliczen=0.006707s sleep=0.000000s czas_calkowity_linii=0.006707s
+linia=394 rank=01 czas_obliczen=0.006746s sleep=0.000000s czas_calkowity_linii=0.006746s
+linia=395 rank=08 czas_obliczen=0.006612s sleep=0.000000s czas_calkowity_linii=0.006612s
+linia=396 rank=07 czas_obliczen=0.006616s sleep=0.000000s czas_calkowity_linii=0.006617s
+linia=393 rank=03 czas_obliczen=0.006827s sleep=0.000000s czas_calkowity_linii=0.006828s
+linia=400 rank=04 czas_obliczen=0.006852s sleep=0.000000s czas_calkowity_linii=0.006853s
+linia=405 rank=07 czas_obliczen=0.006749s sleep=0.000000s czas_calkowity_linii=0.006749s
+linia=401 rank=06 czas_obliczen=0.006945s sleep=0.000000s czas_calkowity_linii=0.006946s
+linia=406 rank=03 czas_obliczen=0.006810s sleep=0.000000s czas_calkowity_linii=0.006810s
+linia=403 rank=01 czas_obliczen=0.007011s sleep=0.000000s czas_calkowity_linii=0.007011s
+linia=404 rank=08 czas_obliczen=0.007009s sleep=0.000000s czas_calkowity_linii=0.007009s
+linia=402 rank=05 czas_obliczen=0.007237s sleep=0.000000s czas_calkowity_linii=0.007238s
+linia=409 rank=06 czas_obliczen=0.006149s sleep=0.000000s czas_calkowity_linii=0.006149s
+linia=408 rank=07 czas_obliczen=0.006163s sleep=0.000000s czas_calkowity_linii=0.006163s
+linia=411 rank=01 czas_obliczen=0.006001s sleep=0.000000s czas_calkowity_linii=0.006001s
+linia=410 rank=03 czas_obliczen=0.006133s sleep=0.000000s czas_calkowity_linii=0.006134s
+linia=412 rank=08 czas_obliczen=0.006226s sleep=0.000000s czas_calkowity_linii=0.006226s
+linia=413 rank=05 czas_obliczen=0.006249s sleep=0.000000s czas_calkowity_linii=0.006250s
+linia=407 rank=04 czas_obliczen=0.006395s sleep=0.000000s czas_calkowity_linii=0.006395s
+linia=420 rank=04 czas_obliczen=0.006361s sleep=0.000000s czas_calkowity_linii=0.006361s
+linia=418 rank=08 czas_obliczen=0.006297s sleep=0.000000s czas_calkowity_linii=0.006297s
+linia=415 rank=07 czas_obliczen=0.005772s sleep=0.000000s czas_calkowity_linii=0.005772s
+linia=419 rank=05 czas_obliczen=0.006482s sleep=0.000000s czas_calkowity_linii=0.006483s
+linia=416 rank=01 czas_obliczen=0.005980s sleep=0.000000s czas_calkowity_linii=0.005980s
+linia=414 rank=06 czas_obliczen=0.006185s sleep=0.000000s czas_calkowity_linii=0.006185s
+linia=417 rank=03 czas_obliczen=0.006366s sleep=0.000000s czas_calkowity_linii=0.006366s
+linia=427 rank=03 czas_obliczen=0.006220s sleep=0.000000s czas_calkowity_linii=0.006220s
+linia=425 rank=01 czas_obliczen=0.006359s sleep=0.000000s czas_calkowity_linii=0.006360s
+linia=421 rank=04 czas_obliczen=0.006356s sleep=0.000000s czas_calkowity_linii=0.006356s
+linia=422 rank=08 czas_obliczen=0.006375s sleep=0.000000s czas_calkowity_linii=0.006375s
+linia=426 rank=06 czas_obliczen=0.006402s sleep=0.000000s czas_calkowity_linii=0.006402s
+linia=423 rank=07 czas_obliczen=0.006449s sleep=0.000000s czas_calkowity_linii=0.006449s
+linia=424 rank=05 czas_obliczen=0.006648s sleep=0.000000s czas_calkowity_linii=0.006648s
+linia=432 rank=06 czas_obliczen=0.005398s sleep=0.000000s czas_calkowity_linii=0.005398s
+linia=431 rank=08 czas_obliczen=0.005627s sleep=0.000000s czas_calkowity_linii=0.005628s
+linia=433 rank=07 czas_obliczen=0.005507s sleep=0.000000s czas_calkowity_linii=0.005508s
+linia=434 rank=05 czas_obliczen=0.005315s sleep=0.000000s czas_calkowity_linii=0.005316s
+linia=430 rank=04 czas_obliczen=0.005957s sleep=0.000000s czas_calkowity_linii=0.005957s
+linia=429 rank=01 czas_obliczen=0.006127s sleep=0.000000s czas_calkowity_linii=0.006127s
+linia=428 rank=03 czas_obliczen=0.006580s sleep=0.000000s czas_calkowity_linii=0.006580s
+linia=439 rank=04 czas_obliczen=0.004766s sleep=0.000000s czas_calkowity_linii=0.004767s
+linia=440 rank=01 czas_obliczen=0.004812s sleep=0.000000s czas_calkowity_linii=0.004813s
+linia=438 rank=05 czas_obliczen=0.004510s sleep=0.000000s czas_calkowity_linii=0.004510s
+linia=436 rank=08 czas_obliczen=0.004718s sleep=0.000000s czas_calkowity_linii=0.004718s
+linia=437 rank=07 czas_obliczen=0.004585s sleep=0.000000s czas_calkowity_linii=0.004585s
+linia=435 rank=06 czas_obliczen=0.005239s sleep=0.000000s czas_calkowity_linii=0.005239s
+linia=441 rank=03 czas_obliczen=0.004747s sleep=0.000000s czas_calkowity_linii=0.004748s
+linia=448 rank=03 czas_obliczen=0.004657s sleep=0.000000s czas_calkowity_linii=0.004658s
+linia=447 rank=06 czas_obliczen=0.004705s sleep=0.000000s czas_calkowity_linii=0.004706s
+linia=445 rank=08 czas_obliczen=0.004266s sleep=0.000000s czas_calkowity_linii=0.004266s
+linia=442 rank=04 czas_obliczen=0.004410s sleep=0.000000s czas_calkowity_linii=0.004411s
+linia=443 rank=01 czas_obliczen=0.004535s sleep=0.000000s czas_calkowity_linii=0.004535s
+linia=446 rank=07 czas_obliczen=0.004596s sleep=0.000000s czas_calkowity_linii=0.004596s
+linia=444 rank=05 czas_obliczen=0.004734s sleep=0.000000s czas_calkowity_linii=0.004734s
+linia=455 rank=05 czas_obliczen=0.003751s sleep=0.000000s czas_calkowity_linii=0.003751s
+linia=454 rank=07 czas_obliczen=0.004074s sleep=0.000000s czas_calkowity_linii=0.004075s
+linia=453 rank=01 czas_obliczen=0.004121s sleep=0.000000s czas_calkowity_linii=0.004121s
+linia=452 rank=04 czas_obliczen=0.004237s sleep=0.000000s czas_calkowity_linii=0.004238s
+linia=451 rank=08 czas_obliczen=0.004425s sleep=0.000000s czas_calkowity_linii=0.004425s
+linia=450 rank=06 czas_obliczen=0.004790s sleep=0.000000s czas_calkowity_linii=0.004791s
+linia=449 rank=03 czas_obliczen=0.004904s sleep=0.000000s czas_calkowity_linii=0.004904s
+linia=459 rank=04 czas_obliczen=0.003087s sleep=0.000000s czas_calkowity_linii=0.003087s
+linia=462 rank=03 czas_obliczen=0.003046s sleep=0.000000s czas_calkowity_linii=0.003046s
+linia=460 rank=08 czas_obliczen=0.003240s sleep=0.000000s czas_calkowity_linii=0.003240s
+linia=461 rank=06 czas_obliczen=0.003072s sleep=0.000000s czas_calkowity_linii=0.003072s
+linia=456 rank=05 czas_obliczen=0.003532s sleep=0.000000s czas_calkowity_linii=0.003533s
+linia=457 rank=07 czas_obliczen=0.003300s sleep=0.000000s czas_calkowity_linii=0.003301s
+linia=458 rank=01 czas_obliczen=0.003293s sleep=0.000000s czas_calkowity_linii=0.003293s
+linia=463 rank=04 czas_obliczen=0.002976s sleep=0.000000s czas_calkowity_linii=0.002976s
+linia=467 rank=05 czas_obliczen=0.003076s sleep=0.000000s czas_calkowity_linii=0.003076s
+linia=468 rank=07 czas_obliczen=0.003097s sleep=0.000000s czas_calkowity_linii=0.003097s
+linia=465 rank=08 czas_obliczen=0.003028s sleep=0.000000s czas_calkowity_linii=0.003028s
+linia=469 rank=01 czas_obliczen=0.003188s sleep=0.000000s czas_calkowity_linii=0.003189s
+linia=466 rank=06 czas_obliczen=0.003122s sleep=0.000000s czas_calkowity_linii=0.003123s
+linia=464 rank=03 czas_obliczen=0.002913s sleep=0.000000s czas_calkowity_linii=0.002913s
+linia=473 rank=08 czas_obliczen=0.002737s sleep=0.000000s czas_calkowity_linii=0.002737s
+linia=474 rank=01 czas_obliczen=0.002842s sleep=0.000000s czas_calkowity_linii=0.002842s
+linia=476 rank=03 czas_obliczen=0.002961s sleep=0.000000s czas_calkowity_linii=0.002961s
+linia=475 rank=06 czas_obliczen=0.003072s sleep=0.000000s czas_calkowity_linii=0.003072s
+linia=470 rank=04 czas_obliczen=0.002982s sleep=0.000000s czas_calkowity_linii=0.002982s
+linia=472 rank=07 czas_obliczen=0.003029s sleep=0.000000s czas_calkowity_linii=0.003029s
+linia=471 rank=05 czas_obliczen=0.003180s sleep=0.000000s czas_calkowity_linii=0.003180s
+linia=483 rank=05 czas_obliczen=0.002804s sleep=0.000000s czas_calkowity_linii=0.002804s
+linia=480 rank=06 czas_obliczen=0.002969s sleep=0.000000s czas_calkowity_linii=0.002970s
+linia=482 rank=07 czas_obliczen=0.003165s sleep=0.000000s czas_calkowity_linii=0.003166s
+linia=477 rank=08 czas_obliczen=0.002772s sleep=0.000000s czas_calkowity_linii=0.002772s
+linia=481 rank=04 czas_obliczen=0.002970s sleep=0.000000s czas_calkowity_linii=0.002970s
+linia=478 rank=01 czas_obliczen=0.003187s sleep=0.000000s czas_calkowity_linii=0.003187s
+linia=479 rank=03 czas_obliczen=0.003043s sleep=0.000000s czas_calkowity_linii=0.003043s
+linia=487 rank=08 czas_obliczen=0.002737s sleep=0.000000s czas_calkowity_linii=0.002737s
+linia=486 rank=07 czas_obliczen=0.002830s sleep=0.000000s czas_calkowity_linii=0.002831s
+linia=490 rank=03 czas_obliczen=0.003042s sleep=0.000000s czas_calkowity_linii=0.003042s
+linia=489 rank=01 czas_obliczen=0.003155s sleep=0.000000s czas_calkowity_linii=0.003155s
+linia=488 rank=04 czas_obliczen=0.003021s sleep=0.000000s czas_calkowity_linii=0.003022s
+linia=484 rank=05 czas_obliczen=0.002946s sleep=0.000000s czas_calkowity_linii=0.002947s
+linia=485 rank=06 czas_obliczen=0.003068s sleep=0.000000s czas_calkowity_linii=0.003068s
+linia=495 rank=04 czas_obliczen=0.003022s sleep=0.000000s czas_calkowity_linii=0.003022s
+linia=497 rank=06 czas_obliczen=0.003030s sleep=0.000000s czas_calkowity_linii=0.003030s
+linia=494 rank=01 czas_obliczen=0.003123s sleep=0.000000s czas_calkowity_linii=0.003123s
+linia=496 rank=05 czas_obliczen=0.002893s sleep=0.000000s czas_calkowity_linii=0.002893s
+linia=492 rank=07 czas_obliczen=0.003099s sleep=0.000000s czas_calkowity_linii=0.003099s
+linia=491 rank=08 czas_obliczen=0.003182s sleep=0.000000s czas_calkowity_linii=0.003182s
+linia=493 rank=03 czas_obliczen=0.003098s sleep=0.000000s czas_calkowity_linii=0.003098s
+linia=501 rank=05 czas_obliczen=0.003122s sleep=0.000000s czas_calkowity_linii=0.003122s
+linia=502 rank=07 czas_obliczen=0.003283s sleep=0.000000s czas_calkowity_linii=0.003283s
+linia=503 rank=08 czas_obliczen=0.003302s sleep=0.000000s czas_calkowity_linii=0.003302s
+linia=504 rank=03 czas_obliczen=0.003550s sleep=0.000000s czas_calkowity_linii=0.003550s
+linia=498 rank=04 czas_obliczen=0.003009s sleep=0.000000s czas_calkowity_linii=0.003009s
+linia=499 rank=06 czas_obliczen=0.003097s sleep=0.000000s czas_calkowity_linii=0.003097s
+linia=500 rank=01 czas_obliczen=0.003254s sleep=0.000000s czas_calkowity_linii=0.003254s
+linia=505 rank=05 czas_obliczen=0.003742s sleep=0.000000s czas_calkowity_linii=0.003743s
+linia=506 rank=07 czas_obliczen=0.004063s sleep=0.000000s czas_calkowity_linii=0.004064s
+linia=507 rank=08 czas_obliczen=0.004107s sleep=0.000000s czas_calkowity_linii=0.004107s
+linia=508 rank=03 czas_obliczen=0.004313s sleep=0.000000s czas_calkowity_linii=0.004314s
+linia=509 rank=04 czas_obliczen=0.004399s sleep=0.000000s czas_calkowity_linii=0.004399s
+linia=511 rank=01 czas_obliczen=0.004829s sleep=0.000000s czas_calkowity_linii=0.004830s
+linia=510 rank=06 czas_obliczen=0.004794s sleep=0.000000s czas_calkowity_linii=0.004795s
+linia=515 rank=03 czas_obliczen=0.004336s sleep=0.000000s czas_calkowity_linii=0.004336s
+linia=518 rank=06 czas_obliczen=0.004472s sleep=0.000000s czas_calkowity_linii=0.004472s
+linia=517 rank=01 czas_obliczen=0.004534s sleep=0.000000s czas_calkowity_linii=0.004534s
+linia=516 rank=04 czas_obliczen=0.004682s sleep=0.000000s czas_calkowity_linii=0.004683s
+linia=512 rank=05 czas_obliczen=0.004613s sleep=0.000000s czas_calkowity_linii=0.004613s
+linia=514 rank=08 czas_obliczen=0.004604s sleep=0.000000s czas_calkowity_linii=0.004604s
+linia=513 rank=07 czas_obliczen=0.004681s sleep=0.000000s czas_calkowity_linii=0.004682s
+linia=522 rank=04 czas_obliczen=0.004463s sleep=0.000000s czas_calkowity_linii=0.004463s
+linia=524 rank=08 czas_obliczen=0.004713s sleep=0.000000s czas_calkowity_linii=0.004714s
+linia=519 rank=03 czas_obliczen=0.004743s sleep=0.000000s czas_calkowity_linii=0.004743s
+linia=523 rank=05 czas_obliczen=0.004623s sleep=0.000000s czas_calkowity_linii=0.004623s
+linia=521 rank=01 czas_obliczen=0.004780s sleep=0.000000s czas_calkowity_linii=0.004781s
+linia=520 rank=06 czas_obliczen=0.004845s sleep=0.000000s czas_calkowity_linii=0.004845s
+linia=525 rank=07 czas_obliczen=0.005187s sleep=0.000000s czas_calkowity_linii=0.005188s
+linia=528 rank=03 czas_obliczen=0.005429s sleep=0.000000s czas_calkowity_linii=0.005430s
+linia=526 rank=04 czas_obliczen=0.005251s sleep=0.000000s czas_calkowity_linii=0.005252s
+linia=529 rank=05 czas_obliczen=0.005651s sleep=0.000000s czas_calkowity_linii=0.005651s
+linia=527 rank=08 czas_obliczen=0.005519s sleep=0.000000s czas_calkowity_linii=0.005520s
+linia=530 rank=01 czas_obliczen=0.005985s sleep=0.000000s czas_calkowity_linii=0.005985s
+linia=531 rank=06 czas_obliczen=0.006161s sleep=0.000000s czas_calkowity_linii=0.006161s
+linia=532 rank=07 czas_obliczen=0.006469s sleep=0.000000s czas_calkowity_linii=0.006469s
+linia=533 rank=03 czas_obliczen=0.006226s sleep=0.000000s czas_calkowity_linii=0.006227s
+linia=539 rank=07 czas_obliczen=0.006367s sleep=0.000000s czas_calkowity_linii=0.006368s
+linia=538 rank=06 czas_obliczen=0.006378s sleep=0.000000s czas_calkowity_linii=0.006378s
+linia=537 rank=01 czas_obliczen=0.006465s sleep=0.000000s czas_calkowity_linii=0.006465s
+linia=534 rank=04 czas_obliczen=0.006337s sleep=0.000000s czas_calkowity_linii=0.006337s
+linia=535 rank=05 czas_obliczen=0.006393s sleep=0.000000s czas_calkowity_linii=0.006393s
+linia=536 rank=08 czas_obliczen=0.006613s sleep=0.000000s czas_calkowity_linii=0.006613s
+linia=545 rank=05 czas_obliczen=0.005822s sleep=0.000000s czas_calkowity_linii=0.005822s
+linia=544 rank=04 czas_obliczen=0.005951s sleep=0.000000s czas_calkowity_linii=0.005952s
+linia=542 rank=06 czas_obliczen=0.006313s sleep=0.000000s czas_calkowity_linii=0.006314s
+linia=546 rank=08 czas_obliczen=0.006139s sleep=0.000000s czas_calkowity_linii=0.006139s
+linia=541 rank=07 czas_obliczen=0.006427s sleep=0.000000s czas_calkowity_linii=0.006427s
+linia=543 rank=01 czas_obliczen=0.006278s sleep=0.000000s czas_calkowity_linii=0.006278s
+linia=540 rank=03 czas_obliczen=0.006468s sleep=0.000000s czas_calkowity_linii=0.006468s
+linia=553 rank=03 czas_obliczen=0.006484s sleep=0.000000s czas_calkowity_linii=0.006485s
+linia=548 rank=04 czas_obliczen=0.006189s sleep=0.000000s czas_calkowity_linii=0.006189s
+linia=547 rank=05 czas_obliczen=0.006241s sleep=0.000000s czas_calkowity_linii=0.006242s
+linia=549 rank=06 czas_obliczen=0.006019s sleep=0.000000s czas_calkowity_linii=0.006019s
+linia=550 rank=08 czas_obliczen=0.006029s sleep=0.000000s czas_calkowity_linii=0.006029s
+linia=551 rank=07 czas_obliczen=0.006076s sleep=0.000000s czas_calkowity_linii=0.006076s
+linia=552 rank=01 czas_obliczen=0.006161s sleep=0.000000s czas_calkowity_linii=0.006162s
+linia=554 rank=03 czas_obliczen=0.006831s sleep=0.000000s czas_calkowity_linii=0.006832s
+linia=559 rank=07 czas_obliczen=0.006928s sleep=0.000000s czas_calkowity_linii=0.006928s
+linia=560 rank=01 czas_obliczen=0.006897s sleep=0.000000s czas_calkowity_linii=0.006898s
+linia=558 rank=08 czas_obliczen=0.007220s sleep=0.000000s czas_calkowity_linii=0.007220s
+linia=555 rank=05 czas_obliczen=0.006826s sleep=0.000000s czas_calkowity_linii=0.006826s
+linia=556 rank=04 czas_obliczen=0.006996s sleep=0.000000s czas_calkowity_linii=0.006996s
+linia=557 rank=06 czas_obliczen=0.007068s sleep=0.000000s czas_calkowity_linii=0.007068s
+linia=567 rank=06 czas_obliczen=0.006761s sleep=0.000000s czas_calkowity_linii=0.006761s
+linia=563 rank=01 czas_obliczen=0.006654s sleep=0.000000s czas_calkowity_linii=0.006655s
+linia=564 rank=08 czas_obliczen=0.006615s sleep=0.000000s czas_calkowity_linii=0.006616s
+linia=561 rank=03 czas_obliczen=0.006849s sleep=0.000000s czas_calkowity_linii=0.006850s
+linia=565 rank=05 czas_obliczen=0.006629s sleep=0.000000s czas_calkowity_linii=0.006630s
+linia=562 rank=07 czas_obliczen=0.006869s sleep=0.000000s czas_calkowity_linii=0.006869s
+linia=566 rank=04 czas_obliczen=0.006700s sleep=0.000000s czas_calkowity_linii=0.006701s
+linia=570 rank=08 czas_obliczen=0.006736s sleep=0.000000s czas_calkowity_linii=0.006736s
+linia=572 rank=03 czas_obliczen=0.006993s sleep=0.000000s czas_calkowity_linii=0.006994s
+linia=571 rank=05 czas_obliczen=0.007057s sleep=0.000000s czas_calkowity_linii=0.007058s
+linia=568 rank=06 czas_obliczen=0.006673s sleep=0.000000s czas_calkowity_linii=0.006673s
+linia=573 rank=07 czas_obliczen=0.007200s sleep=0.000000s czas_calkowity_linii=0.007201s
+linia=569 rank=01 czas_obliczen=0.006510s sleep=0.000000s czas_calkowity_linii=0.006510s
+linia=574 rank=04 czas_obliczen=0.007290s sleep=0.000000s czas_calkowity_linii=0.007290s
+linia=577 rank=05 czas_obliczen=0.007292s sleep=0.000000s czas_calkowity_linii=0.007292s
+linia=576 rank=03 czas_obliczen=0.007371s sleep=0.000000s czas_calkowity_linii=0.007372s
+linia=579 rank=07 czas_obliczen=0.007685s sleep=0.000000s czas_calkowity_linii=0.007685s
+linia=575 rank=08 czas_obliczen=0.007332s sleep=0.000000s czas_calkowity_linii=0.007332s
+linia=578 rank=06 czas_obliczen=0.007526s sleep=0.000000s czas_calkowity_linii=0.007526s
+linia=581 rank=04 czas_obliczen=0.007719s sleep=0.000000s czas_calkowity_linii=0.007719s
+linia=580 rank=01 czas_obliczen=0.007693s sleep=0.000000s czas_calkowity_linii=0.007694s
+linia=582 rank=05 czas_obliczen=0.007753s sleep=0.000000s czas_calkowity_linii=0.007753s
+linia=583 rank=03 czas_obliczen=0.007741s sleep=0.000000s czas_calkowity_linii=0.007742s
+linia=585 rank=08 czas_obliczen=0.008089s sleep=0.000000s czas_calkowity_linii=0.008089s
+linia=584 rank=07 czas_obliczen=0.008155s sleep=0.000000s czas_calkowity_linii=0.008155s
+linia=586 rank=06 czas_obliczen=0.008124s sleep=0.000000s czas_calkowity_linii=0.008125s
+linia=588 rank=01 czas_obliczen=0.008045s sleep=0.000000s czas_calkowity_linii=0.008046s
+linia=587 rank=04 czas_obliczen=0.008088s sleep=0.000000s czas_calkowity_linii=0.008088s
+linia=592 rank=07 czas_obliczen=0.007947s sleep=0.000000s czas_calkowity_linii=0.007947s
+linia=594 rank=01 czas_obliczen=0.008040s sleep=0.000000s czas_calkowity_linii=0.008041s
+linia=591 rank=08 czas_obliczen=0.008147s sleep=0.000000s czas_calkowity_linii=0.008147s
+linia=593 rank=06 czas_obliczen=0.008124s sleep=0.000000s czas_calkowity_linii=0.008124s
+linia=595 rank=04 czas_obliczen=0.008134s sleep=0.000000s czas_calkowity_linii=0.008134s
+linia=589 rank=05 czas_obliczen=0.008160s sleep=0.000000s czas_calkowity_linii=0.008160s
+linia=590 rank=03 czas_obliczen=0.008401s sleep=0.000000s czas_calkowity_linii=0.008401s
+linia=602 rank=03 czas_obliczen=0.007438s sleep=0.000000s czas_calkowity_linii=0.007438s
+linia=599 rank=06 czas_obliczen=0.007769s sleep=0.000000s czas_calkowity_linii=0.007769s
+linia=601 rank=05 czas_obliczen=0.007554s sleep=0.000000s czas_calkowity_linii=0.007554s
+linia=598 rank=08 czas_obliczen=0.007875s sleep=0.000000s czas_calkowity_linii=0.007875s
+linia=600 rank=04 czas_obliczen=0.007778s sleep=0.000000s czas_calkowity_linii=0.007779s
+linia=596 rank=07 czas_obliczen=0.008260s sleep=0.000000s czas_calkowity_linii=0.008260s
+linia=597 rank=01 czas_obliczen=0.008129s sleep=0.000000s czas_calkowity_linii=0.008129s
+linia=604 rank=06 czas_obliczen=0.007389s sleep=0.000000s czas_calkowity_linii=0.007389s
+linia=605 rank=05 czas_obliczen=0.007545s sleep=0.000000s czas_calkowity_linii=0.007545s
+linia=603 rank=03 czas_obliczen=0.007480s sleep=0.000000s czas_calkowity_linii=0.007481s
+linia=606 rank=08 czas_obliczen=0.008016s sleep=0.000000s czas_calkowity_linii=0.008016s
+linia=609 rank=01 czas_obliczen=0.008022s sleep=0.000000s czas_calkowity_linii=0.008023s
+linia=608 rank=07 czas_obliczen=0.008069s sleep=0.000000s czas_calkowity_linii=0.008069s
+linia=607 rank=04 czas_obliczen=0.008130s sleep=0.000000s czas_calkowity_linii=0.008130s
+linia=611 rank=05 czas_obliczen=0.007785s sleep=0.000000s czas_calkowity_linii=0.007785s
+linia=614 rank=01 czas_obliczen=0.007909s sleep=0.000000s czas_calkowity_linii=0.007909s
+linia=613 rank=08 czas_obliczen=0.007974s sleep=0.000000s czas_calkowity_linii=0.007974s
+linia=612 rank=03 czas_obliczen=0.007864s sleep=0.000000s czas_calkowity_linii=0.007864s
+linia=615 rank=07 czas_obliczen=0.007972s sleep=0.000000s czas_calkowity_linii=0.007972s
+linia=616 rank=04 czas_obliczen=0.008507s sleep=0.000000s czas_calkowity_linii=0.008507s
+linia=610 rank=06 czas_obliczen=0.008142s sleep=0.000000s czas_calkowity_linii=0.008142s
+linia=622 rank=04 czas_obliczen=0.007718s sleep=0.000000s czas_calkowity_linii=0.007719s
+linia=621 rank=07 czas_obliczen=0.007950s sleep=0.000000s czas_calkowity_linii=0.007950s
+linia=619 rank=08 czas_obliczen=0.008012s sleep=0.000000s czas_calkowity_linii=0.008013s
+linia=620 rank=03 czas_obliczen=0.008205s sleep=0.000000s czas_calkowity_linii=0.008205s
+linia=623 rank=06 czas_obliczen=0.008059s sleep=0.000000s czas_calkowity_linii=0.008059s
+linia=617 rank=05 czas_obliczen=0.008151s sleep=0.000000s czas_calkowity_linii=0.008151s
+linia=618 rank=01 czas_obliczen=0.008209s sleep=0.000000s czas_calkowity_linii=0.008209s
+linia=624 rank=04 czas_obliczen=0.008328s sleep=0.000000s czas_calkowity_linii=0.008328s
+linia=625 rank=07 czas_obliczen=0.008264s sleep=0.000000s czas_calkowity_linii=0.008265s
+linia=627 rank=03 czas_obliczen=0.008646s sleep=0.000000s czas_calkowity_linii=0.008647s
+linia=626 rank=08 czas_obliczen=0.008484s sleep=0.000000s czas_calkowity_linii=0.008484s
+linia=629 rank=05 czas_obliczen=0.008881s sleep=0.000000s czas_calkowity_linii=0.008881s
+linia=628 rank=06 czas_obliczen=0.008978s sleep=0.000000s czas_calkowity_linii=0.008978s
+linia=630 rank=01 czas_obliczen=0.008931s sleep=0.000000s czas_calkowity_linii=0.008932s
+linia=632 rank=07 czas_obliczen=0.008783s sleep=0.000000s czas_calkowity_linii=0.008783s
+linia=634 rank=08 czas_obliczen=0.008648s sleep=0.000000s czas_calkowity_linii=0.008649s
+linia=637 rank=01 czas_obliczen=0.008456s sleep=0.000000s czas_calkowity_linii=0.008457s
+linia=633 rank=03 czas_obliczen=0.008983s sleep=0.000000s czas_calkowity_linii=0.008984s
+linia=636 rank=06 czas_obliczen=0.008762s sleep=0.000000s czas_calkowity_linii=0.008762s
+linia=635 rank=05 czas_obliczen=0.009072s sleep=0.000000s czas_calkowity_linii=0.009073s
+linia=631 rank=04 czas_obliczen=0.008594s sleep=0.000000s czas_calkowity_linii=0.008595s
+linia=641 rank=03 czas_obliczen=0.008919s sleep=0.000000s czas_calkowity_linii=0.008920s
+linia=638 rank=07 czas_obliczen=0.008852s sleep=0.000000s czas_calkowity_linii=0.008852s
+linia=643 rank=05 czas_obliczen=0.009108s sleep=0.000000s czas_calkowity_linii=0.009108s
+linia=642 rank=06 czas_obliczen=0.009124s sleep=0.000000s czas_calkowity_linii=0.009124s
+linia=640 rank=01 czas_obliczen=0.008921s sleep=0.000000s czas_calkowity_linii=0.008921s
+linia=644 rank=04 czas_obliczen=0.009199s sleep=0.000000s czas_calkowity_linii=0.009199s
+linia=639 rank=08 czas_obliczen=0.009272s sleep=0.000000s czas_calkowity_linii=0.009272s
+linia=648 rank=06 czas_obliczen=0.008597s sleep=0.000000s czas_calkowity_linii=0.008598s
+linia=647 rank=05 czas_obliczen=0.008795s sleep=0.000000s czas_calkowity_linii=0.008795s
+linia=651 rank=08 czas_obliczen=0.008973s sleep=0.000000s czas_calkowity_linii=0.008974s
+linia=649 rank=01 czas_obliczen=0.008838s sleep=0.000000s czas_calkowity_linii=0.008839s
+linia=646 rank=07 czas_obliczen=0.009158s sleep=0.000000s czas_calkowity_linii=0.009159s
+linia=650 rank=04 czas_obliczen=0.008951s sleep=0.000000s czas_calkowity_linii=0.008951s
+linia=645 rank=03 czas_obliczen=0.009609s sleep=0.000000s czas_calkowity_linii=0.009609s
+linia=658 rank=03 czas_obliczen=0.007654s sleep=0.000000s czas_calkowity_linii=0.007655s
+linia=656 rank=07 czas_obliczen=0.007695s sleep=0.000000s czas_calkowity_linii=0.007695s
+linia=657 rank=04 czas_obliczen=0.007707s sleep=0.000000s czas_calkowity_linii=0.007707s
+linia=655 rank=01 czas_obliczen=0.008240s sleep=0.000000s czas_calkowity_linii=0.008240s
+linia=654 rank=08 czas_obliczen=0.008368s sleep=0.000000s czas_calkowity_linii=0.008368s
+linia=653 rank=05 czas_obliczen=0.008546s sleep=0.000000s czas_calkowity_linii=0.008546s
+linia=652 rank=06 czas_obliczen=0.008763s sleep=0.000000s czas_calkowity_linii=0.008764s
+linia=661 rank=04 czas_obliczen=0.007508s sleep=0.000000s czas_calkowity_linii=0.007509s
+linia=660 rank=07 czas_obliczen=0.007586s sleep=0.000000s czas_calkowity_linii=0.007586s
+linia=662 rank=01 czas_obliczen=0.007987s sleep=0.000000s czas_calkowity_linii=0.007987s
+linia=663 rank=08 czas_obliczen=0.008236s sleep=0.000000s czas_calkowity_linii=0.008236s
+linia=659 rank=03 czas_obliczen=0.008077s sleep=0.000000s czas_calkowity_linii=0.008078s
+linia=665 rank=06 czas_obliczen=0.008498s sleep=0.000000s czas_calkowity_linii=0.008498s
+linia=664 rank=05 czas_obliczen=0.008711s sleep=0.000000s czas_calkowity_linii=0.008711s
+linia=669 rank=08 czas_obliczen=0.007563s sleep=0.000000s czas_calkowity_linii=0.007563s
+linia=670 rank=03 czas_obliczen=0.007805s sleep=0.000000s czas_calkowity_linii=0.007806s
+linia=671 rank=06 czas_obliczen=0.007892s sleep=0.000000s czas_calkowity_linii=0.007892s
+linia=672 rank=05 czas_obliczen=0.007893s sleep=0.000000s czas_calkowity_linii=0.007894s
+linia=668 rank=01 czas_obliczen=0.008136s sleep=0.000000s czas_calkowity_linii=0.008137s
+linia=667 rank=07 czas_obliczen=0.008244s sleep=0.000000s czas_calkowity_linii=0.008244s
+linia=666 rank=04 czas_obliczen=0.008606s sleep=0.000000s czas_calkowity_linii=0.008606s
+linia=673 rank=08 czas_obliczen=0.007563s sleep=0.000000s czas_calkowity_linii=0.007564s
+linia=675 rank=06 czas_obliczen=0.007841s sleep=0.000000s czas_calkowity_linii=0.007842s
+linia=677 rank=01 czas_obliczen=0.007769s sleep=0.000000s czas_calkowity_linii=0.007769s
+linia=678 rank=07 czas_obliczen=0.008047s sleep=0.000000s czas_calkowity_linii=0.008047s
+linia=676 rank=05 czas_obliczen=0.008091s sleep=0.000000s czas_calkowity_linii=0.008091s
+linia=679 rank=04 czas_obliczen=0.008266s sleep=0.000000s czas_calkowity_linii=0.008266s
+linia=674 rank=03 czas_obliczen=0.008387s sleep=0.000000s czas_calkowity_linii=0.008387s
+linia=686 rank=03 czas_obliczen=0.007529s sleep=0.000000s czas_calkowity_linii=0.007530s
+linia=685 rank=04 czas_obliczen=0.007428s sleep=0.000000s czas_calkowity_linii=0.007429s
+linia=684 rank=05 czas_obliczen=0.007727s sleep=0.000000s czas_calkowity_linii=0.007727s
+linia=680 rank=08 czas_obliczen=0.008077s sleep=0.000000s czas_calkowity_linii=0.008077s
+linia=683 rank=07 czas_obliczen=0.007816s sleep=0.000000s czas_calkowity_linii=0.007816s
+linia=681 rank=06 czas_obliczen=0.008244s sleep=0.000000s czas_calkowity_linii=0.008245s
+linia=682 rank=01 czas_obliczen=0.008220s sleep=0.000000s czas_calkowity_linii=0.008221s
+linia=690 rank=08 czas_obliczen=0.007168s sleep=0.000000s czas_calkowity_linii=0.007168s
+linia=691 rank=07 czas_obliczen=0.007254s sleep=0.000000s czas_calkowity_linii=0.007254s
+linia=692 rank=06 czas_obliczen=0.007438s sleep=0.000000s czas_calkowity_linii=0.007439s
+linia=687 rank=03 czas_obliczen=0.007422s sleep=0.000000s czas_calkowity_linii=0.007422s
+linia=688 rank=04 czas_obliczen=0.007467s sleep=0.000000s czas_calkowity_linii=0.007468s
+linia=689 rank=05 czas_obliczen=0.007538s sleep=0.000000s czas_calkowity_linii=0.007538s
+linia=693 rank=01 czas_obliczen=0.007633s sleep=0.000000s czas_calkowity_linii=0.007633s
+linia=696 rank=06 czas_obliczen=0.007008s sleep=0.000000s czas_calkowity_linii=0.007009s
+linia=697 rank=03 czas_obliczen=0.007156s sleep=0.000000s czas_calkowity_linii=0.007156s
+linia=695 rank=07 czas_obliczen=0.007319s sleep=0.000000s czas_calkowity_linii=0.007320s
+linia=698 rank=05 czas_obliczen=0.007244s sleep=0.000000s czas_calkowity_linii=0.007245s
+linia=700 rank=01 czas_obliczen=0.007238s sleep=0.000000s czas_calkowity_linii=0.007239s
+linia=699 rank=04 czas_obliczen=0.007367s sleep=0.000000s czas_calkowity_linii=0.007368s
+linia=694 rank=08 czas_obliczen=0.007677s sleep=0.000000s czas_calkowity_linii=0.007677s
+linia=707 rank=08 czas_obliczen=0.006247s sleep=0.000000s czas_calkowity_linii=0.006247s
+linia=705 rank=01 czas_obliczen=0.006608s sleep=0.000000s czas_calkowity_linii=0.006608s
+linia=706 rank=04 czas_obliczen=0.006612s sleep=0.000000s czas_calkowity_linii=0.006612s
+linia=704 rank=05 czas_obliczen=0.006739s sleep=0.000000s czas_calkowity_linii=0.006739s
+linia=703 rank=07 czas_obliczen=0.006711s sleep=0.000000s czas_calkowity_linii=0.006711s
+linia=702 rank=03 czas_obliczen=0.006946s sleep=0.000000s czas_calkowity_linii=0.006946s
+linia=701 rank=06 czas_obliczen=0.007315s sleep=0.000000s czas_calkowity_linii=0.007315s
+linia=712 rank=07 czas_obliczen=0.005756s sleep=0.000000s czas_calkowity_linii=0.005756s
+linia=713 rank=03 czas_obliczen=0.005774s sleep=0.000000s czas_calkowity_linii=0.005774s
+linia=714 rank=06 czas_obliczen=0.005796s sleep=0.000000s czas_calkowity_linii=0.005796s
+linia=711 rank=05 czas_obliczen=0.005928s sleep=0.000000s czas_calkowity_linii=0.005928s
+linia=710 rank=04 czas_obliczen=0.006354s sleep=0.000000s czas_calkowity_linii=0.006354s
+linia=709 rank=01 czas_obliczen=0.006400s sleep=0.000000s czas_calkowity_linii=0.006400s
+linia=708 rank=08 czas_obliczen=0.006269s sleep=0.000000s czas_calkowity_linii=0.006269s
+linia=719 rank=04 czas_obliczen=0.005260s sleep=0.000000s czas_calkowity_linii=0.005261s
+linia=718 rank=05 czas_obliczen=0.005201s sleep=0.000000s czas_calkowity_linii=0.005202s
+linia=715 rank=07 czas_obliczen=0.005310s sleep=0.000000s czas_calkowity_linii=0.005310s
+linia=720 rank=01 czas_obliczen=0.005507s sleep=0.000000s czas_calkowity_linii=0.005507s
+linia=716 rank=03 czas_obliczen=0.005321s sleep=0.000000s czas_calkowity_linii=0.005321s
+linia=721 rank=08 czas_obliczen=0.005401s sleep=0.000000s czas_calkowity_linii=0.005402s
+linia=717 rank=06 czas_obliczen=0.005305s sleep=0.000000s czas_calkowity_linii=0.005305s
+linia=728 rank=06 czas_obliczen=0.005324s sleep=0.000000s czas_calkowity_linii=0.005324s
+linia=727 rank=08 czas_obliczen=0.005631s sleep=0.000000s czas_calkowity_linii=0.005631s
+linia=723 rank=05 czas_obliczen=0.005757s sleep=0.000000s czas_calkowity_linii=0.005757s
+linia=722 rank=04 czas_obliczen=0.006001s sleep=0.000000s czas_calkowity_linii=0.006002s
+linia=724 rank=07 czas_obliczen=0.005863s sleep=0.000000s czas_calkowity_linii=0.005863s
+linia=726 rank=01 czas_obliczen=0.005908s sleep=0.000000s czas_calkowity_linii=0.005908s
+linia=725 rank=03 czas_obliczen=0.005934s sleep=0.000000s czas_calkowity_linii=0.005935s
+linia=732 rank=04 czas_obliczen=0.004923s sleep=0.000000s czas_calkowity_linii=0.004924s
+linia=734 rank=01 czas_obliczen=0.004942s sleep=0.000000s czas_calkowity_linii=0.004943s
+linia=733 rank=07 czas_obliczen=0.004953s sleep=0.000000s czas_calkowity_linii=0.004953s
+linia=735 rank=03 czas_obliczen=0.005010s sleep=0.000000s czas_calkowity_linii=0.005010s
+linia=731 rank=05 czas_obliczen=0.005139s sleep=0.000000s czas_calkowity_linii=0.005139s
+linia=729 rank=06 czas_obliczen=0.005063s sleep=0.000000s czas_calkowity_linii=0.005063s
+linia=730 rank=08 czas_obliczen=0.005026s sleep=0.000000s czas_calkowity_linii=0.005026s
+linia=742 rank=08 czas_obliczen=0.004935s sleep=0.000000s czas_calkowity_linii=0.004935s
+linia=736 rank=04 czas_obliczen=0.004995s sleep=0.000000s czas_calkowity_linii=0.004996s
+linia=740 rank=05 czas_obliczen=0.004967s sleep=0.000000s czas_calkowity_linii=0.004967s
+linia=741 rank=06 czas_obliczen=0.004927s sleep=0.000000s czas_calkowity_linii=0.004928s
+linia=737 rank=01 czas_obliczen=0.005182s sleep=0.000000s czas_calkowity_linii=0.005182s
+linia=739 rank=03 czas_obliczen=0.005165s sleep=0.000000s czas_calkowity_linii=0.005166s
+linia=738 rank=07 czas_obliczen=0.005431s sleep=0.000000s czas_calkowity_linii=0.005431s
+linia=748 rank=03 czas_obliczen=0.004581s sleep=0.000000s czas_calkowity_linii=0.004582s
+linia=749 rank=07 czas_obliczen=0.004701s sleep=0.000000s czas_calkowity_linii=0.004701s
+linia=747 rank=01 czas_obliczen=0.004579s sleep=0.000000s czas_calkowity_linii=0.004579s
+linia=746 rank=06 czas_obliczen=0.004682s sleep=0.000000s czas_calkowity_linii=0.004683s
+linia=743 rank=08 czas_obliczen=0.004463s sleep=0.000000s czas_calkowity_linii=0.004463s
+linia=744 rank=04 czas_obliczen=0.004971s sleep=0.000000s czas_calkowity_linii=0.004971s
+linia=745 rank=05 czas_obliczen=0.004864s sleep=0.000000s czas_calkowity_linii=0.004864s
+linia=755 rank=04 czas_obliczen=0.004623s sleep=0.000000s czas_calkowity_linii=0.004623s
+linia=754 rank=08 czas_obliczen=0.004602s sleep=0.000000s czas_calkowity_linii=0.004602s
+linia=756 rank=05 czas_obliczen=0.004626s sleep=0.000000s czas_calkowity_linii=0.004626s
+linia=753 rank=06 czas_obliczen=0.004544s sleep=0.000000s czas_calkowity_linii=0.004544s
+linia=751 rank=07 czas_obliczen=0.004787s sleep=0.000000s czas_calkowity_linii=0.004788s
+linia=750 rank=03 czas_obliczen=0.004488s sleep=0.000000s czas_calkowity_linii=0.004488s
+linia=752 rank=01 czas_obliczen=0.004741s sleep=0.000000s czas_calkowity_linii=0.004741s
+linia=758 rank=08 czas_obliczen=0.004229s sleep=0.000000s czas_calkowity_linii=0.004230s
+linia=762 rank=03 czas_obliczen=0.004159s sleep=0.000000s czas_calkowity_linii=0.004159s
+linia=763 rank=01 czas_obliczen=0.004149s sleep=0.000000s czas_calkowity_linii=0.004149s
+linia=757 rank=04 czas_obliczen=0.004368s sleep=0.000000s czas_calkowity_linii=0.004368s
+linia=760 rank=06 czas_obliczen=0.004332s sleep=0.000000s czas_calkowity_linii=0.004332s
+linia=761 rank=07 czas_obliczen=0.004509s sleep=0.000000s czas_calkowity_linii=0.004509s
+linia=759 rank=05 czas_obliczen=0.004784s sleep=0.000000s czas_calkowity_linii=0.004784s
+linia=770 rank=05 czas_obliczen=0.003735s sleep=0.000000s czas_calkowity_linii=0.003736s
+linia=769 rank=07 czas_obliczen=0.003851s sleep=0.000000s czas_calkowity_linii=0.003851s
+linia=766 rank=04 czas_obliczen=0.003759s sleep=0.000000s czas_calkowity_linii=0.003759s
+linia=764 rank=08 czas_obliczen=0.003933s sleep=0.000000s czas_calkowity_linii=0.003934s
+linia=767 rank=01 czas_obliczen=0.003862s sleep=0.000000s czas_calkowity_linii=0.003862s
+linia=768 rank=06 czas_obliczen=0.003900s sleep=0.000000s czas_calkowity_linii=0.003900s
+linia=765 rank=03 czas_obliczen=0.004021s sleep=0.000000s czas_calkowity_linii=0.004021s
+linia=777 rank=03 czas_obliczen=0.002983s sleep=0.000000s czas_calkowity_linii=0.002983s
+linia=776 rank=06 czas_obliczen=0.003123s sleep=0.000000s czas_calkowity_linii=0.003123s
+linia=775 rank=01 czas_obliczen=0.003194s sleep=0.000000s czas_calkowity_linii=0.003194s
+linia=773 rank=04 czas_obliczen=0.003355s sleep=0.000000s czas_calkowity_linii=0.003356s
+linia=772 rank=07 czas_obliczen=0.003565s sleep=0.000000s czas_calkowity_linii=0.003565s
+linia=771 rank=05 czas_obliczen=0.003721s sleep=0.000000s czas_calkowity_linii=0.003721s
+linia=774 rank=08 czas_obliczen=0.003612s sleep=0.000000s czas_calkowity_linii=0.003612s
+linia=783 rank=05 czas_obliczen=0.002492s sleep=0.000000s czas_calkowity_linii=0.002493s
+linia=782 rank=07 czas_obliczen=0.002641s sleep=0.000000s czas_calkowity_linii=0.002641s
+linia=784 rank=08 czas_obliczen=0.002540s sleep=0.000000s czas_calkowity_linii=0.002540s
+linia=781 rank=04 czas_obliczen=0.002754s sleep=0.000000s czas_calkowity_linii=0.002754s
+linia=779 rank=06 czas_obliczen=0.002908s sleep=0.000000s czas_calkowity_linii=0.002909s
+linia=780 rank=01 czas_obliczen=0.002891s sleep=0.000000s czas_calkowity_linii=0.002891s
+linia=778 rank=03 czas_obliczen=0.003011s sleep=0.000000s czas_calkowity_linii=0.003011s
+linia=788 rank=04 czas_obliczen=0.002422s sleep=0.000000s czas_calkowity_linii=0.002422s
+linia=789 rank=06 czas_obliczen=0.002442s sleep=0.000000s czas_calkowity_linii=0.002443s
+linia=790 rank=01 czas_obliczen=0.002558s sleep=0.000000s czas_calkowity_linii=0.002559s
+linia=785 rank=05 czas_obliczen=0.002632s sleep=0.000000s czas_calkowity_linii=0.002633s
+linia=786 rank=08 czas_obliczen=0.002453s sleep=0.000000s czas_calkowity_linii=0.002453s
+linia=787 rank=07 czas_obliczen=0.002460s sleep=0.000000s czas_calkowity_linii=0.002460s
+linia=791 rank=03 czas_obliczen=0.002712s sleep=0.000000s czas_calkowity_linii=0.002712s
+linia=798 rank=03 czas_obliczen=0.001756s sleep=0.000000s czas_calkowity_linii=0.001756s
+linia=797 rank=07 czas_obliczen=0.001642s sleep=0.000000s czas_calkowity_linii=0.001642s
+linia=795 rank=05 czas_obliczen=0.001748s sleep=0.000000s czas_calkowity_linii=0.001749s
+linia=792 rank=04 czas_obliczen=0.002298s sleep=0.000000s czas_calkowity_linii=0.002299s
+linia=796 rank=08 czas_obliczen=0.001819s sleep=0.000000s czas_calkowity_linii=0.001819s
+linia=793 rank=06 czas_obliczen=0.002059s sleep=0.000000s czas_calkowity_linii=0.002059s
+linia=794 rank=01 czas_obliczen=0.001961s sleep=0.000000s czas_calkowity_linii=0.001961s
+linia=803 rank=08 czas_obliczen=0.001633s sleep=0.000000s czas_calkowity_linii=0.001634s
+linia=801 rank=05 czas_obliczen=0.001714s sleep=0.000000s czas_calkowity_linii=0.001714s
+linia=802 rank=04 czas_obliczen=0.001749s sleep=0.000000s czas_calkowity_linii=0.001750s
+linia=804 rank=06 czas_obliczen=0.001702s sleep=0.000000s czas_calkowity_linii=0.001702s
+linia=805 rank=01 czas_obliczen=0.001775s sleep=0.000000s czas_calkowity_linii=0.001775s
+linia=799 rank=03 czas_obliczen=0.001736s sleep=0.000000s czas_calkowity_linii=0.001736s
+linia=800 rank=07 czas_obliczen=0.001784s sleep=0.000000s czas_calkowity_linii=0.001784s
+linia=812 rank=07 czas_obliczen=0.001902s sleep=0.000000s czas_calkowity_linii=0.001903s
+linia=811 rank=03 czas_obliczen=0.001931s sleep=0.000000s czas_calkowity_linii=0.001932s
+linia=806 rank=08 czas_obliczen=0.001716s sleep=0.000000s czas_calkowity_linii=0.001717s
+linia=807 rank=05 czas_obliczen=0.001780s sleep=0.000000s czas_calkowity_linii=0.001780s
+linia=809 rank=06 czas_obliczen=0.001870s sleep=0.000000s czas_calkowity_linii=0.001870s
+linia=810 rank=01 czas_obliczen=0.001789s sleep=0.000000s czas_calkowity_linii=0.001789s
+linia=808 rank=04 czas_obliczen=0.001941s sleep=0.000000s czas_calkowity_linii=0.001941s
+linia=815 rank=08 czas_obliczen=0.002031s sleep=0.000000s czas_calkowity_linii=0.002032s
+linia=819 rank=04 czas_obliczen=0.001653s sleep=0.000000s czas_calkowity_linii=0.001653s
+linia=816 rank=05 czas_obliczen=0.001822s sleep=0.000000s czas_calkowity_linii=0.001823s
+linia=818 rank=01 czas_obliczen=0.001695s sleep=0.000000s czas_calkowity_linii=0.001696s
+linia=814 rank=03 czas_obliczen=0.002108s sleep=0.000000s czas_calkowity_linii=0.002108s
+linia=817 rank=06 czas_obliczen=0.001729s sleep=0.000000s czas_calkowity_linii=0.001729s
+linia=813 rank=07 czas_obliczen=0.001897s sleep=0.000000s czas_calkowity_linii=0.001897s
+linia=826 rank=07 czas_obliczen=0.001489s sleep=0.000000s czas_calkowity_linii=0.001489s
+linia=825 rank=01 czas_obliczen=0.001519s sleep=0.000000s czas_calkowity_linii=0.001520s
+linia=821 rank=05 czas_obliczen=0.001563s sleep=0.000000s czas_calkowity_linii=0.001564s
+linia=823 rank=06 czas_obliczen=0.001563s sleep=0.000000s czas_calkowity_linii=0.001563s
+linia=822 rank=04 czas_obliczen=0.001588s sleep=0.000000s czas_calkowity_linii=0.001589s
+linia=820 rank=08 czas_obliczen=0.001620s sleep=0.000000s czas_calkowity_linii=0.001621s
+linia=824 rank=03 czas_obliczen=0.001660s sleep=0.000000s czas_calkowity_linii=0.001660s
+linia=832 rank=08 czas_obliczen=0.001270s sleep=0.000000s czas_calkowity_linii=0.001271s
+linia=831 rank=04 czas_obliczen=0.001396s sleep=0.000000s czas_calkowity_linii=0.001397s
+linia=833 rank=03 czas_obliczen=0.001293s sleep=0.000000s czas_calkowity_linii=0.001293s
+linia=829 rank=05 czas_obliczen=0.001428s sleep=0.000000s czas_calkowity_linii=0.001428s
+linia=830 rank=06 czas_obliczen=0.001486s sleep=0.000000s czas_calkowity_linii=0.001486s
+linia=828 rank=01 czas_obliczen=0.001598s sleep=0.000000s czas_calkowity_linii=0.001599s
+linia=827 rank=07 czas_obliczen=0.001557s sleep=0.000000s czas_calkowity_linii=0.001557s
+linia=834 rank=08 czas_obliczen=0.001242s sleep=0.000000s czas_calkowity_linii=0.001243s
+linia=835 rank=04 czas_obliczen=0.001235s sleep=0.000000s czas_calkowity_linii=0.001235s
+linia=837 rank=05 czas_obliczen=0.001251s sleep=0.000000s czas_calkowity_linii=0.001252s
+linia=836 rank=03 czas_obliczen=0.001266s sleep=0.000000s czas_calkowity_linii=0.001266s
+linia=838 rank=06 czas_obliczen=0.001234s sleep=0.000000s czas_calkowity_linii=0.001235s
+linia=839 rank=01 czas_obliczen=0.001226s sleep=0.000000s czas_calkowity_linii=0.001226s
+linia=840 rank=07 czas_obliczen=0.001216s sleep=0.000000s czas_calkowity_linii=0.001216s
+linia=841 rank=08 czas_obliczen=0.001211s sleep=0.000000s czas_calkowity_linii=0.001211s
+linia=842 rank=04 czas_obliczen=0.001205s sleep=0.000000s czas_calkowity_linii=0.001205s
+linia=843 rank=05 czas_obliczen=0.001229s sleep=0.000000s czas_calkowity_linii=0.001229s
+linia=844 rank=03 czas_obliczen=0.001232s sleep=0.000000s czas_calkowity_linii=0.001232s
+linia=845 rank=06 czas_obliczen=0.001208s sleep=0.000000s czas_calkowity_linii=0.001209s
+linia=846 rank=01 czas_obliczen=0.001199s sleep=0.000000s czas_calkowity_linii=0.001199s
+linia=847 rank=07 czas_obliczen=0.001191s sleep=0.000000s czas_calkowity_linii=0.001191s
+linia=848 rank=08 czas_obliczen=0.001189s sleep=0.000000s czas_calkowity_linii=0.001189s
+linia=849 rank=04 czas_obliczen=0.001181s sleep=0.000000s czas_calkowity_linii=0.001182s
+linia=850 rank=05 czas_obliczen=0.001206s sleep=0.000000s czas_calkowity_linii=0.001206s
+linia=851 rank=03 czas_obliczen=0.001213s sleep=0.000000s czas_calkowity_linii=0.001213s
+linia=852 rank=06 czas_obliczen=0.001186s sleep=0.000000s czas_calkowity_linii=0.001186s
+linia=853 rank=01 czas_obliczen=0.001179s sleep=0.000000s czas_calkowity_linii=0.001179s
+linia=854 rank=07 czas_obliczen=0.001169s sleep=0.000000s czas_calkowity_linii=0.001170s
+linia=861 rank=07 czas_obliczen=0.001155s sleep=0.000000s czas_calkowity_linii=0.001155s
+linia=855 rank=08 czas_obliczen=0.001166s sleep=0.000000s czas_calkowity_linii=0.001167s
+linia=856 rank=04 czas_obliczen=0.001175s sleep=0.000000s czas_calkowity_linii=0.001175s
+linia=858 rank=03 czas_obliczen=0.001187s sleep=0.000000s czas_calkowity_linii=0.001187s
+linia=857 rank=05 czas_obliczen=0.001186s sleep=0.000000s czas_calkowity_linii=0.001186s
+linia=859 rank=06 czas_obliczen=0.001159s sleep=0.000000s czas_calkowity_linii=0.001159s
+linia=860 rank=01 czas_obliczen=0.001155s sleep=0.000000s czas_calkowity_linii=0.001155s
+linia=864 rank=04 czas_obliczen=0.001136s sleep=0.000000s czas_calkowity_linii=0.001136s
+linia=865 rank=05 czas_obliczen=0.001161s sleep=0.000000s czas_calkowity_linii=0.001161s
+linia=866 rank=03 czas_obliczen=0.001167s sleep=0.000000s czas_calkowity_linii=0.001167s
+linia=867 rank=06 czas_obliczen=0.001145s sleep=0.000000s czas_calkowity_linii=0.001146s
+linia=862 rank=07 czas_obliczen=0.001142s sleep=0.000000s czas_calkowity_linii=0.001142s
+linia=868 rank=01 czas_obliczen=0.001138s sleep=0.000000s czas_calkowity_linii=0.001138s
+linia=863 rank=08 czas_obliczen=0.001135s sleep=0.000000s czas_calkowity_linii=0.001135s
+linia=869 rank=04 czas_obliczen=0.001133s sleep=0.000000s czas_calkowity_linii=0.001133s
+linia=873 rank=07 czas_obliczen=0.001126s sleep=0.000000s czas_calkowity_linii=0.001126s
+linia=872 rank=06 czas_obliczen=0.001139s sleep=0.000000s czas_calkowity_linii=0.001139s
+linia=870 rank=05 czas_obliczen=0.001155s sleep=0.000000s czas_calkowity_linii=0.001155s
+linia=871 rank=03 czas_obliczen=0.001160s sleep=0.000000s czas_calkowity_linii=0.001160s
+linia=874 rank=01 czas_obliczen=0.001128s sleep=0.000000s czas_calkowity_linii=0.001129s
+linia=875 rank=08 czas_obliczen=0.001118s sleep=0.000000s czas_calkowity_linii=0.001118s
+linia=876 rank=04 czas_obliczen=0.001117s sleep=0.000000s czas_calkowity_linii=0.001117s
+linia=878 rank=06 czas_obliczen=0.001126s sleep=0.000000s czas_calkowity_linii=0.001127s
+linia=879 rank=05 czas_obliczen=0.001136s sleep=0.000000s czas_calkowity_linii=0.001136s
+linia=881 rank=01 czas_obliczen=0.001113s sleep=0.000000s czas_calkowity_linii=0.001114s
+linia=880 rank=03 czas_obliczen=0.001140s sleep=0.000000s czas_calkowity_linii=0.001141s
+linia=882 rank=08 czas_obliczen=0.001102s sleep=0.000000s czas_calkowity_linii=0.001102s
+linia=877 rank=07 czas_obliczen=0.001118s sleep=0.000000s czas_calkowity_linii=0.001118s
+linia=883 rank=04 czas_obliczen=0.001103s sleep=0.000000s czas_calkowity_linii=0.001103s
+linia=884 rank=06 czas_obliczen=0.001113s sleep=0.000000s czas_calkowity_linii=0.001114s
+linia=888 rank=08 czas_obliczen=0.001085s sleep=0.000000s czas_calkowity_linii=0.001085s
+linia=886 rank=01 czas_obliczen=0.001103s sleep=0.000000s czas_calkowity_linii=0.001103s
+linia=885 rank=05 czas_obliczen=0.001122s sleep=0.000000s czas_calkowity_linii=0.001122s
+linia=887 rank=03 czas_obliczen=0.001127s sleep=0.000000s czas_calkowity_linii=0.001128s
+linia=889 rank=07 czas_obliczen=0.001094s sleep=0.000000s czas_calkowity_linii=0.001094s
+linia=893 rank=01 czas_obliczen=0.001093s sleep=0.000000s czas_calkowity_linii=0.001093s
+linia=892 rank=08 czas_obliczen=0.001087s sleep=0.000000s czas_calkowity_linii=0.001088s
+linia=891 rank=06 czas_obliczen=0.001103s sleep=0.000000s czas_calkowity_linii=0.001103s
+linia=896 rank=07 czas_obliczen=0.001077s sleep=0.000000s czas_calkowity_linii=0.001077s
+linia=890 rank=04 czas_obliczen=0.001088s sleep=0.000000s czas_calkowity_linii=0.001088s
+linia=895 rank=03 czas_obliczen=0.001108s sleep=0.000000s czas_calkowity_linii=0.001108s
+linia=894 rank=05 czas_obliczen=0.001105s sleep=0.000000s czas_calkowity_linii=0.001105s
+linia=900 rank=07 czas_obliczen=0.001065s sleep=0.000000s czas_calkowity_linii=0.001066s
+linia=901 rank=04 czas_obliczen=0.001057s sleep=0.000000s czas_calkowity_linii=0.001057s
+linia=897 rank=08 czas_obliczen=0.001072s sleep=0.000000s czas_calkowity_linii=0.001072s
+linia=902 rank=05 czas_obliczen=0.001081s sleep=0.000000s czas_calkowity_linii=0.001081s
+linia=903 rank=03 czas_obliczen=0.001081s sleep=0.000000s czas_calkowity_linii=0.001081s
+linia=898 rank=01 czas_obliczen=0.001076s sleep=0.000000s czas_calkowity_linii=0.001076s
+linia=899 rank=06 czas_obliczen=0.001078s sleep=0.000000s czas_calkowity_linii=0.001078s
+linia=906 rank=08 czas_obliczen=0.001028s sleep=0.000000s czas_calkowity_linii=0.001029s
+linia=905 rank=04 czas_obliczen=0.001036s sleep=0.000000s czas_calkowity_linii=0.001036s
+linia=904 rank=07 czas_obliczen=0.001046s sleep=0.000000s czas_calkowity_linii=0.001047s
+linia=909 rank=01 czas_obliczen=0.001033s sleep=0.000000s czas_calkowity_linii=0.001033s
+linia=910 rank=06 czas_obliczen=0.001038s sleep=0.000000s czas_calkowity_linii=0.001038s
+linia=908 rank=03 czas_obliczen=0.001051s sleep=0.000000s czas_calkowity_linii=0.001051s
+linia=907 rank=05 czas_obliczen=0.001048s sleep=0.000000s czas_calkowity_linii=0.001048s
+linia=914 rank=01 czas_obliczen=0.001030s sleep=0.000000s czas_calkowity_linii=0.001030s
+linia=913 rank=04 czas_obliczen=0.001022s sleep=0.000000s czas_calkowity_linii=0.001022s
+linia=912 rank=07 czas_obliczen=0.001024s sleep=0.000000s czas_calkowity_linii=0.001025s
+linia=911 rank=08 czas_obliczen=0.001021s sleep=0.000000s czas_calkowity_linii=0.001022s
+linia=916 rank=05 czas_obliczen=0.001025s sleep=0.000000s czas_calkowity_linii=0.001025s
+linia=917 rank=03 czas_obliczen=0.001048s sleep=0.000000s czas_calkowity_linii=0.001048s
+linia=915 rank=06 czas_obliczen=0.001052s sleep=0.000000s czas_calkowity_linii=0.001052s
+linia=921 rank=04 czas_obliczen=0.001014s sleep=0.000000s czas_calkowity_linii=0.001014s
+linia=919 rank=07 czas_obliczen=0.001017s sleep=0.000000s czas_calkowity_linii=0.001017s
+linia=920 rank=08 czas_obliczen=0.001016s sleep=0.000000s czas_calkowity_linii=0.001016s
+linia=922 rank=05 czas_obliczen=0.001019s sleep=0.000000s czas_calkowity_linii=0.001019s
+linia=923 rank=06 czas_obliczen=0.001027s sleep=0.000000s czas_calkowity_linii=0.001027s
+linia=924 rank=03 czas_obliczen=0.001042s sleep=0.000000s czas_calkowity_linii=0.001042s
+linia=918 rank=01 czas_obliczen=0.001026s sleep=0.000000s czas_calkowity_linii=0.001026s
+linia=931 rank=01 czas_obliczen=0.001019s sleep=0.000000s czas_calkowity_linii=0.001020s
+linia=926 rank=04 czas_obliczen=0.001016s sleep=0.000000s czas_calkowity_linii=0.001016s
+linia=928 rank=05 czas_obliczen=0.001020s sleep=0.000000s czas_calkowity_linii=0.001020s
+linia=927 rank=07 czas_obliczen=0.001019s sleep=0.000000s czas_calkowity_linii=0.001019s
+linia=925 rank=08 czas_obliczen=0.001018s sleep=0.000000s czas_calkowity_linii=0.001019s
+linia=929 rank=06 czas_obliczen=0.001033s sleep=0.000000s czas_calkowity_linii=0.001033s
+linia=930 rank=03 czas_obliczen=0.001044s sleep=0.000000s czas_calkowity_linii=0.001044s
+linia=935 rank=04 czas_obliczen=0.001002s sleep=0.000000s czas_calkowity_linii=0.001002s
+linia=933 rank=07 czas_obliczen=0.001011s sleep=0.000000s czas_calkowity_linii=0.001011s
+linia=934 rank=08 czas_obliczen=0.001004s sleep=0.000000s czas_calkowity_linii=0.001005s
+linia=937 rank=06 czas_obliczen=0.001020s sleep=0.000000s czas_calkowity_linii=0.001020s
+linia=938 rank=03 czas_obliczen=0.001031s sleep=0.000000s czas_calkowity_linii=0.001031s
+linia=932 rank=01 czas_obliczen=0.001021s sleep=0.000000s czas_calkowity_linii=0.001022s
+linia=936 rank=05 czas_obliczen=0.001013s sleep=0.000000s czas_calkowity_linii=0.001013s
+linia=944 rank=01 czas_obliczen=0.001019s sleep=0.000000s czas_calkowity_linii=0.001019s
+linia=945 rank=05 czas_obliczen=0.001009s sleep=0.000000s czas_calkowity_linii=0.001009s
+linia=941 rank=04 czas_obliczen=0.001008s sleep=0.000000s czas_calkowity_linii=0.001008s
+linia=940 rank=07 czas_obliczen=0.001008s sleep=0.000000s czas_calkowity_linii=0.001008s
+linia=939 rank=08 czas_obliczen=0.001005s sleep=0.000000s czas_calkowity_linii=0.001005s
+linia=942 rank=06 czas_obliczen=0.001022s sleep=0.000000s czas_calkowity_linii=0.001022s
+linia=943 rank=03 czas_obliczen=0.001031s sleep=0.000000s czas_calkowity_linii=0.001031s
+linia=948 rank=07 czas_obliczen=0.000996s sleep=0.000000s czas_calkowity_linii=0.000996s
+linia=949 rank=08 czas_obliczen=0.000990s sleep=0.000000s czas_calkowity_linii=0.000990s
+linia=946 rank=01 czas_obliczen=0.001004s sleep=0.000000s czas_calkowity_linii=0.001004s
+linia=951 rank=06 czas_obliczen=0.001008s sleep=0.000000s czas_calkowity_linii=0.001008s
+linia=952 rank=03 czas_obliczen=0.001020s sleep=0.000000s czas_calkowity_linii=0.001020s
+linia=950 rank=04 czas_obliczen=0.000990s sleep=0.000000s czas_calkowity_linii=0.000990s
+linia=947 rank=05 czas_obliczen=0.001007s sleep=0.000000s czas_calkowity_linii=0.001008s
+linia=953 rank=08 czas_obliczen=0.000992s sleep=0.000000s czas_calkowity_linii=0.000992s
+linia=954 rank=07 czas_obliczen=0.000996s sleep=0.000000s czas_calkowity_linii=0.000996s
+linia=955 rank=01 czas_obliczen=0.001000s sleep=0.000000s czas_calkowity_linii=0.001001s
+linia=956 rank=06 czas_obliczen=0.001008s sleep=0.000000s czas_calkowity_linii=0.001008s
+linia=957 rank=03 czas_obliczen=0.001018s sleep=0.000000s czas_calkowity_linii=0.001018s
+linia=958 rank=04 czas_obliczen=0.000987s sleep=0.000000s czas_calkowity_linii=0.000987s
+linia=959 rank=05 czas_obliczen=0.000989s sleep=0.000000s czas_calkowity_linii=0.000990s
+linia=001 rank=02 czas_obliczen=0.001063s sleep=1.001013s czas_calkowity_linii=1.002078s
+KONIEC: sleep: 1.040578 s, workerow=8
+Zapisano: sleep.pgm, sleep.csv, sleep.json
+=== GENEROWANIE RAPORTU ===
+LAB 4 - ANALIZA ZBIORU JULII (MPI FUTURES)
+===========================================================================
+PRZEBIEG BASELINE - 960 linii, 8 workerow
+Calkowity czas programu (wall time, wl. MPI i zapis pliku): 0.772351 s
+
+Punkt 2. Zmiennosc czasow obliczania linii (BEZ sleep):
+  Minimum: linia 955, rank 5, 0.000992 s
+  Maksimum: linia 645, rank 1, 0.010022 s
+  Roznica max-min: 0.009030 s
+
+Punkt 3. Przydzial linii do rang MPI:
+  Pierwsze 40 przypisanych rang (kolejnosc numerow linii):
+  01 02 03 04 05 06 07 08 02 03 05 04 08 07 06 01 03 04 02 01 07 08 05 06 03 04 02 01 08 07 06 05 02 04 06 03 05 08 01 07
+  Scisle blokowy: NIE
+  Scisle cykliczny: NIE
+  Algorytm: dynamiczna kolejka zadan, wolny worker dostaje kolejna linie.
+  UWAGA: chwila podobienstwa do cyklicznego nie oznacza statycznego przydzialu.
+
+Punkty 4 i 5. Liczba linii, suma czasow, porownanie z calym programem:
+  rank | linie | suma obliczen [s] | suma sleep [s] | suma razem [s] | razem / wall
+     1 |   120 |          0.554327 |       0.000000 |       0.554373 |      71.78%
+     2 |   120 |          0.533533 |       0.000000 |       0.533585 |      69.09%
+     3 |   120 |          0.548959 |       0.000000 |       0.549011 |      71.08%
+     4 |   120 |          0.544795 |       0.000000 |       0.544845 |      70.54%
+     5 |   120 |          0.534345 |       0.000000 |       0.534399 |      69.19%
+     6 |   120 |          0.534229 |       0.000000 |       0.534281 |      69.18%
+     7 |   120 |          0.535636 |       0.000000 |       0.535688 |      69.36%
+     8 |   120 |          0.540188 |       0.000000 |       0.540241 |      69.95%
+  Roznica liczby linii max-min: 0
+  Roznica sum czasow workerow max-min: 0.020789 s
+  Suma czasow obliczen wszystkich workerow: 4.326012 s
+  Suma czasow razem wszystkich workerow: 4.326424 s
+  Sumy workerow moga przekraczac wall time, gdyz procesy licza rownolegle.
+  Wall time dodatkowo obejmuje start MPI, komunikacje i zapis obrazu.
+
+===========================================================================
+PRZEBIEG SLEEP - 960 linii, 8 workerow
+Calkowity czas programu (wall time, wl. MPI i zapis pliku): 1.040578 s
+
+Punkt 2. Zmiennosc czasow obliczania linii (BEZ sleep):
+  Minimum: linia 958, rank 4, 0.000987 s
+  Maksimum: linia 645, rank 3, 0.009609 s
+  Roznica max-min: 0.008622 s
+
+Punkt 3. Przydzial linii do rang MPI:
+  Pierwsze 40 przypisanych rang (kolejnosc numerow linii):
+  01 02 03 04 05 06 07 08 03 01 05 04 08 07 06 03 01 04 05 08 07 06 04 05 08 01 07 06 03 03 04 08 01 07 05 06 04 07 08 01
+  Scisle blokowy: NIE
+  Scisle cykliczny: NIE
+  Algorytm: dynamiczna kolejka zadan, wolny worker dostaje kolejna linie.
+  UWAGA: chwila podobienstwa do cyklicznego nie oznacza statycznego przydzialu.
+
+Punkty 4 i 5. Liczba linii, suma czasow, porownanie z calym programem:
+  rank | linie | suma obliczen [s] | suma sleep [s] | suma razem [s] | razem / wall
+     1 |   137 |          0.610961 |       0.000000 |       0.611007 |      58.72%
+     2 |     1 |          0.001063 |       1.001013 |       1.002078 |      96.30%
+     3 |   137 |          0.614919 |       0.000000 |       0.614966 |      59.10%
+     4 |   137 |          0.608179 |       0.000000 |       0.608227 |      58.45%
+     5 |   137 |          0.611079 |       0.000000 |       0.611126 |      58.73%
+     6 |   137 |          0.613419 |       0.000000 |       0.613460 |      58.95%
+     7 |   137 |          0.607563 |       0.000000 |       0.607606 |      58.39%
+     8 |   137 |          0.607309 |       0.000000 |       0.607352 |      58.37%
+  Roznica liczby linii max-min: 136
+  Roznica sum czasow workerow max-min: 0.394726 s
+  Suma czasow obliczen wszystkich workerow: 4.274491 s
+  Suma czasow razem wszystkich workerow: 5.275822 s
+  Sumy workerow moga przekraczac wall time, gdyz procesy licza rownolegle.
+  Wall time dodatkowo obejmuje start MPI, komunikacje i zapis obrazu.
+
+===========================================================================
+Punkt 6. POROWNANIE PRZED / PO SLEEP
+Sleep ustawiony dla linii 1, zadany czas 1.000 s.
+Czas programu: 0.772351 s -> 1.040578 s (roznica +0.268227 s).
+
+rank | liczba linii: przed -> po | suma czasu linii [s]: przed -> po
+   1 |  120 ->  137 |    0.55437 ->    0.61101
+   2 |  120 ->    1 |    0.53358 ->    1.00208
+   3 |  120 ->  137 |    0.54901 ->    0.61497
+   4 |  120 ->  137 |    0.54485 ->    0.60823
+   5 |  120 ->  137 |    0.53440 ->    0.61113
+   6 |  120 ->  137 |    0.53428 ->    0.61346
+   7 |  120 ->  137 |    0.53569 ->    0.60761
+   8 |  120 ->  137 |    0.54024 ->    0.60735
+
+Linia 1: rank przed=2, rank po=2, faktyczny sleep=1.001013 s.
+Wniosek do weryfikacji: worker obciazony sleep dostaje zwykle mniej kolejnych linii, poniewaz inne procesy odbieraja zadania z kolejki.
+Obserwacje opieraj na liczbach z tabeli; rozklad jest niedeterministyczny.
+
+Punkt 7. PCAM:
+P - Partitioning: obraz rozbijany na 960 niezaleznych zadan (po jednej linii).
+C - Communication: master wysyla numer linii; worker zwraca 1280 bajtow pikseli i metadane (rank, czas). Brak wymiany miedzy workerami.
+A - Agglomeration: granulat 1 linia (chunksize=1); prostota i rownomierny podzial kosztem 960 komunikatow/zadan.
+M - Mapping: dynamiczna kolejka MPIPoolExecutor; gdy worker konczy linie, otrzymuje nastepna. Sleep testuje rownowazenie obciazenia.
+Potencjalne ograniczenia: narzut MPI, rozne koszty linii, szeregowy zapis PGM przez mastera, efekty oczekiwania na wyniki in-order.
+=== GOTOWE ===
+Pliki: baseline.csv, sleep.csv, baseline.pgm, sleep.pgm, raport.txt

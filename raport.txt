@@ -1,0 +1,94 @@
+LAB 4 - ANALIZA ZBIORU JULII (MPI FUTURES)
+===========================================================================
+PRZEBIEG BASELINE - 960 linii, 8 workerow
+Calkowity czas programu (wall time, wl. MPI i zapis pliku): 0.772351 s
+
+Punkt 2. Zmiennosc czasow obliczania linii (BEZ sleep):
+  Minimum: linia 955, rank 5, 0.000992 s
+  Maksimum: linia 645, rank 1, 0.010022 s
+  Roznica max-min: 0.009030 s
+
+Punkt 3. Przydzial linii do rang MPI:
+  Pierwsze 40 przypisanych rang (kolejnosc numerow linii):
+  01 02 03 04 05 06 07 08 02 03 05 04 08 07 06 01 03 04 02 01 07 08 05 06 03 04 02 01 08 07 06 05 02 04 06 03 05 08 01 07
+  Scisle blokowy: NIE
+  Scisle cykliczny: NIE
+  Algorytm: dynamiczna kolejka zadan, wolny worker dostaje kolejna linie.
+  UWAGA: chwila podobienstwa do cyklicznego nie oznacza statycznego przydzialu.
+
+Punkty 4 i 5. Liczba linii, suma czasow, porownanie z calym programem:
+  rank | linie | suma obliczen [s] | suma sleep [s] | suma razem [s] | razem / wall
+     1 |   120 |          0.554327 |       0.000000 |       0.554373 |      71.78%
+     2 |   120 |          0.533533 |       0.000000 |       0.533585 |      69.09%
+     3 |   120 |          0.548959 |       0.000000 |       0.549011 |      71.08%
+     4 |   120 |          0.544795 |       0.000000 |       0.544845 |      70.54%
+     5 |   120 |          0.534345 |       0.000000 |       0.534399 |      69.19%
+     6 |   120 |          0.534229 |       0.000000 |       0.534281 |      69.18%
+     7 |   120 |          0.535636 |       0.000000 |       0.535688 |      69.36%
+     8 |   120 |          0.540188 |       0.000000 |       0.540241 |      69.95%
+  Roznica liczby linii max-min: 0
+  Roznica sum czasow workerow max-min: 0.020789 s
+  Suma czasow obliczen wszystkich workerow: 4.326012 s
+  Suma czasow razem wszystkich workerow: 4.326424 s
+  Sumy workerow moga przekraczac wall time, gdyz procesy licza rownolegle.
+  Wall time dodatkowo obejmuje start MPI, komunikacje i zapis obrazu.
+
+===========================================================================
+PRZEBIEG SLEEP - 960 linii, 8 workerow
+Calkowity czas programu (wall time, wl. MPI i zapis pliku): 1.040578 s
+
+Punkt 2. Zmiennosc czasow obliczania linii (BEZ sleep):
+  Minimum: linia 958, rank 4, 0.000987 s
+  Maksimum: linia 645, rank 3, 0.009609 s
+  Roznica max-min: 0.008622 s
+
+Punkt 3. Przydzial linii do rang MPI:
+  Pierwsze 40 przypisanych rang (kolejnosc numerow linii):
+  01 02 03 04 05 06 07 08 03 01 05 04 08 07 06 03 01 04 05 08 07 06 04 05 08 01 07 06 03 03 04 08 01 07 05 06 04 07 08 01
+  Scisle blokowy: NIE
+  Scisle cykliczny: NIE
+  Algorytm: dynamiczna kolejka zadan, wolny worker dostaje kolejna linie.
+  UWAGA: chwila podobienstwa do cyklicznego nie oznacza statycznego przydzialu.
+
+Punkty 4 i 5. Liczba linii, suma czasow, porownanie z calym programem:
+  rank | linie | suma obliczen [s] | suma sleep [s] | suma razem [s] | razem / wall
+     1 |   137 |          0.610961 |       0.000000 |       0.611007 |      58.72%
+     2 |     1 |          0.001063 |       1.001013 |       1.002078 |      96.30%
+     3 |   137 |          0.614919 |       0.000000 |       0.614966 |      59.10%
+     4 |   137 |          0.608179 |       0.000000 |       0.608227 |      58.45%
+     5 |   137 |          0.611079 |       0.000000 |       0.611126 |      58.73%
+     6 |   137 |          0.613419 |       0.000000 |       0.613460 |      58.95%
+     7 |   137 |          0.607563 |       0.000000 |       0.607606 |      58.39%
+     8 |   137 |          0.607309 |       0.000000 |       0.607352 |      58.37%
+  Roznica liczby linii max-min: 136
+  Roznica sum czasow workerow max-min: 0.394726 s
+  Suma czasow obliczen wszystkich workerow: 4.274491 s
+  Suma czasow razem wszystkich workerow: 5.275822 s
+  Sumy workerow moga przekraczac wall time, gdyz procesy licza rownolegle.
+  Wall time dodatkowo obejmuje start MPI, komunikacje i zapis obrazu.
+
+===========================================================================
+Punkt 6. POROWNANIE PRZED / PO SLEEP
+Sleep ustawiony dla linii 1, zadany czas 1.000 s.
+Czas programu: 0.772351 s -> 1.040578 s (roznica +0.268227 s).
+
+rank | liczba linii: przed -> po | suma czasu linii [s]: przed -> po
+   1 |  120 ->  137 |    0.55437 ->    0.61101
+   2 |  120 ->    1 |    0.53358 ->    1.00208
+   3 |  120 ->  137 |    0.54901 ->    0.61497
+   4 |  120 ->  137 |    0.54485 ->    0.60823
+   5 |  120 ->  137 |    0.53440 ->    0.61113
+   6 |  120 ->  137 |    0.53428 ->    0.61346
+   7 |  120 ->  137 |    0.53569 ->    0.60761
+   8 |  120 ->  137 |    0.54024 ->    0.60735
+
+Linia 1: rank przed=2, rank po=2, faktyczny sleep=1.001013 s.
+Wniosek do weryfikacji: worker obciazony sleep dostaje zwykle mniej kolejnych linii, poniewaz inne procesy odbieraja zadania z kolejki.
+Obserwacje opieraj na liczbach z tabeli; rozklad jest niedeterministyczny.
+
+Punkt 7. PCAM:
+P - Partitioning: obraz rozbijany na 960 niezaleznych zadan (po jednej linii).
+C - Communication: master wysyla numer linii; worker zwraca 1280 bajtow pikseli i metadane (rank, czas). Brak wymiany miedzy workerami.
+A - Agglomeration: granulat 1 linia (chunksize=1); prostota i rownomierny podzial kosztem 960 komunikatow/zadan.
+M - Mapping: dynamiczna kolejka MPIPoolExecutor; gdy worker konczy linie, otrzymuje nastepna. Sleep testuje rownowazenie obciazenia.
+Potencjalne ograniczenia: narzut MPI, rozne koszty linii, szeregowy zapis PGM przez mastera, efekty oczekiwania na wyniki in-order.

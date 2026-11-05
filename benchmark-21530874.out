@@ -1,0 +1,14 @@
+N=  550, P=  1, repeat=1/1: 443.173902 s
+N=  550, P=  2, repeat=1/1: 264.694102 s
+N=  550, P=  4, repeat=1/1: 129.534836 s
+N=  550, P=  8, repeat=1/1: 47.125124 s
+N=  550, P= 16, repeat=1/1: 28.099939 s
+N=  550, P= 32, repeat=1/1: 17.644854 s
+N= 1000, P=  1, repeat=1/1: 1784.235438 s
+N= 1000, P=  2, repeat=1/1: 901.054148 s
+N= 1000, P=  4, repeat=1/1: 556.259241 s
+N= 1000, P=  8, repeat=1/1: 255.140898 s
+N= 1000, P= 16, repeat=1/1: 82.146720 s
+N= 1000, P= 32, repeat=1/1: 42.963165 s
+Saved benchmark data to: results/benchmark.csv
+Saved plots to: results/plots

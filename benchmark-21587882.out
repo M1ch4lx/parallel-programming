@@ -1,0 +1,32 @@
+N=  500, P=  1, repeat=1/1: 4.132071 s
+N=  500, P=  2, repeat=1/1: 2.324879 s
+N=  500, P=  4, repeat=1/1: 0.778008 s
+N=  500, P=  8, repeat=1/1: 0.442232 s
+N=  500, P= 16, repeat=1/1: 0.354921 s
+N= 1000, P=  1, repeat=1/1: 16.297726 s
+N= 1000, P=  2, repeat=1/1: 10.524461 s
+N= 1000, P=  4, repeat=1/1: 6.561002 s
+N= 1000, P=  8, repeat=1/1: 3.618005 s
+N= 1000, P= 16, repeat=1/1: 1.399713 s
+N= 1500, P=  1, repeat=1/1: 40.195078 s
+N= 1500, P=  2, repeat=1/1: 22.528315 s
+N= 1500, P=  4, repeat=1/1: 14.770273 s
+N= 1500, P=  8, repeat=1/1: 9.251719 s
+N= 1500, P= 16, repeat=1/1: 7.106527 s
+N= 2000, P=  1, repeat=1/1: 75.552671 s
+N= 2000, P=  2, repeat=1/1: 42.687055 s
+N= 2000, P=  4, repeat=1/1: 25.835327 s
+N= 2000, P=  8, repeat=1/1: 18.173630 s
+N= 2000, P= 16, repeat=1/1: 15.551769 s
+N= 2500, P=  1, repeat=1/1: 133.185503 s
+N= 2500, P=  2, repeat=1/1: 70.828744 s
+N= 2500, P=  4, repeat=1/1: 43.554667 s
+N= 2500, P=  8, repeat=1/1: 29.965169 s
+N= 2500, P= 16, repeat=1/1: 26.058062 s
+N= 3000, P=  1, repeat=1/1: 194.781545 s
+N= 3000, P=  2, repeat=1/1: 109.771816 s
+N= 3000, P=  4, repeat=1/1: 61.858635 s
+N= 3000, P=  8, repeat=1/1: 44.481730 s
+N= 3000, P= 16, repeat=1/1: 38.889214 s
+Saved benchmark data to: results/benchmark.csv
+Saved plots to: results/plots

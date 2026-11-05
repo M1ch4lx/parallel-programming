@@ -1,0 +1,46 @@
+ gcccore/11.2.0 loaded.
+ zlib/1.2.11-gcccore-11.2.0 loaded.
+ binutils/2.37-gcccore-11.2.0 loaded.
+ intel-compilers/2021.4.0 loaded.
+ numactl/2.0.14-gcccore-11.2.0 loaded.
+ ucx/1.11.2-gcccore-11.2.0 loaded.
+ impi/2021.4.0-intel-compilers-2021.4.0 loaded.
+ imkl/2021.4.0 loaded.
+ iimpi/2021b loaded.
+ imkl-fftw/2021.4.0-iimpi-2021b loaded.
+ intel/2021b loaded.
+ bzip2/1.0.8-gcccore-11.2.0 loaded.
+ ncurses/6.2-gcccore-11.2.0 loaded.
+ libreadline/8.1-gcccore-11.2.0 loaded.
+ tcl/8.6.11-gcccore-11.2.0 loaded.
+ sqlite/3.36-gcccore-11.2.0 loaded.
+ xz/5.2.5-gcccore-11.2.0 loaded.
+ gmp/6.2.1-gcccore-11.2.0 loaded.
+ libffi/3.4.2-gcccore-11.2.0 loaded.
+ openssl/1.1 loaded.
+ python/3.9.6-gcccore-11.2.0 loaded.
+ pybind11/2.7.1-gcccore-11.2.0 loaded.
+ scipy-bundle/2021.10-intel-2021b loaded.
+Traceback (most recent call last):
+  File "/net/software/testing/software/Python/3.9.6-GCCcore-11.2.0/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/net/software/testing/software/Python/3.9.6-GCCcore-11.2.0/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/net/software/testing/software/SciPy-bundle/2021.10-intel-2021b/lib/python3.9/site-packages/mpi4py/futures/__main__.py", line 74, in <module>
+    main()
+  File "/net/software/testing/software/SciPy-bundle/2021.10-intel-2021b/lib/python3.9/site-packages/mpi4py/futures/__main__.py", line 62, in main
+    run_command_line()
+  File "/net/software/testing/software/SciPy-bundle/2021.10-intel-2021b/lib/python3.9/site-packages/mpi4py/run.py", line 47, in run_command_line
+    run_path(sys.argv[0], run_name='__main__')
+  File "/net/software/testing/software/Python/3.9.6-GCCcore-11.2.0/lib/python3.9/runpy.py", line 268, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/net/software/testing/software/Python/3.9.6-GCCcore-11.2.0/lib/python3.9/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/net/software/testing/software/Python/3.9.6-GCCcore-11.2.0/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "julia.py", line 145, in <module>
+    main()
+  File "julia.py", line 109, in main
+    number_of_workers = executor.num_workers
+AttributeError: 'MPIPoolExecutor' object has no attribute 'num_workers'
+Abort(1) on node 0 (rank 0 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0

@@ -1,0 +1,5 @@
+MPI startup(): PMI server not found. Please set I_MPI_PMI_LIBRARY variable if it is not a singleton case.
+MPI: Intel(R) MPI Library 2021.4 for Linux* OS
+mpi4py OK
+=== PRZEBIEG 1: bez sleep ===
+START tryb=baseline; rozdzielczosc=1280x960; sleep_line=None; sleep_seconds=0.0
