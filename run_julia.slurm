@@ -1,4 +1,3 @@
-
 #!/bin/bash -l
 
 #SBATCH -A plgar2026-cpu
