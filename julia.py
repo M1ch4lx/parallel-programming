@@ -106,7 +106,7 @@ def main():
         initializer=configure_worker,
         initargs=(sleep_line, sleep_seconds),
     ) as executor:
-        number_of_workers = executor.num_workers
+        number_of_workers = number_of_workers = MPI.COMM_WORLD.Get_size() - 1
         with open(image_path, "wb") as image_file, open(
             csv_path, "w", newline="", encoding="utf-8"
         ) as csv_file:
