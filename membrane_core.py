@@ -34,15 +34,6 @@ def jacobi_serial(
     tol: float = 1.0e-8,
     max_iters: int = 200_000,
 ) -> SolverResult:
-    """Solve Δh = -p/T on [0,a]x[0,a], with h=0 on the boundary.
-
-    A uniform n x n grid is used. Jacobi iteration gives
-
-        h[i,j] = 1/4 * (h[i-1,j] + h[i+1,j]
-                        + h[i,j-1] + h[i,j+1] + dx^2 p/T).
-
-    The sign therefore yields positive deflection h for p>0.
-    """
     validate_problem(n, a, p, tension)
     if tol <= 0:
         raise ValueError("tol must be > 0.")
@@ -77,7 +68,6 @@ def jacobi_serial(
 
 
 def save_visualizations(field: np.ndarray, a: float, prefix: str | Path) -> tuple[Path, Path]:
-    """Save heatmap and 3D surface of the membrane deflection."""
     import matplotlib.pyplot as plt
 
     prefix = Path(prefix)

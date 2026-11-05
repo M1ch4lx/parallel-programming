@@ -1,39 +1,71 @@
+
 #!/bin/bash -l
-#SBATCH --job-name=lab4-julia-mpi
-#SBATCH --partition=plgrid
-#SBATCH --account=UZUPELNIJ_GRANT-cpu
-#SBATCH --nodes=1
-#SBATCH --ntasks=9
+
+#SBATCH -A plgar2026-cpu
+#SBATCH -p plgrid
+#SBATCH -N 1
+#SBATCH --ntasks-per-node=9
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4G
-#SBATCH --time=00:15:00
-#SBATCH --output=lab4-%j.out
-#SBATCH --error=lab4-%j.err
+#SBATCH -t 00:15:00
+#SBATCH -J lab4-julia-mpi
+#SBATCH -o lab4-%j.out
+#SBATCH -e lab4-%j.err
 
 set -euo pipefail
-cd "${SLURM_SUBMIT_DIR}"
 
-# W razie potrzeby wybierz na Aresie zgodne ze soba wersje Python+MPI+mpi4py.
-module load openmpi
-module load python
+export PYTHONUNBUFFERED=1
 
-python -c 'from mpi4py import MPI; import mpi4py.futures; print("MPI:", MPI.Get_library_version().splitlines()[0]); print("mpi4py OK")'
+cd "$SLURM_SUBMIT_DIR"
 
-# 9 procesow = 1 master + 8 workerow; kazdy proces ma 1 rdzen.
-echo '=== PRZEBIEG 1: bez sleep (punkty 1-5) ==='
-mpiexec -n "${SLURM_NTASKS}" python -m mpi4py.futures julia.py --mode baseline
+# Srodowisko z dzialajacego benchmarku
+module load scipy-bundle/2021.10-intel-2021b
 
-# Opoznienie wieksze od najwiekszej sumy liczenia jednego workera w 1. przebiegu.
+# Kontrola dostepnosci MPI i mpi4py
+if ! python -c 'from mpi4py import MPI; import mpi4py.futures' >/dev/null 2>&1; then
+    echo "BLAD: Brak mpi4py lub niezgodny mpi4py." >&2
+    echo "Sprawdz: module spider mpi4py" >&2
+    echo "Zaladuj modul zgodny z Intel 2021b." >&2
+    exit 1
+fi
+
+if ! command -v mpiexec >/dev/null 2>&1; then
+    echo "BLAD: Brak mpiexec." >&2
+    exit 1
+fi
+
+for file in julia.py analysis.py; do
+    if [[ ! -f "$file" ]]; then
+        echo "BLAD: Brak $file w katalogu $PWD" >&2
+        exit 1
+    fi
+done
+
+python -c 'from mpi4py import MPI; print("MPI:", MPI.Get_library_version().splitlines()[0]); print("mpi4py OK")'
+
+echo "=== PRZEBIEG 1: bez sleep ==="
+
+mpiexec -n "${SLURM_NTASKS}" \
+    python -m mpi4py.futures julia.py --mode baseline
+
+# Dobor sleep na podstawie pierwszego przebiegu
 SLEEP_SECONDS="$(python analysis.py recommend --file baseline.csv)"
-echo "Wybrany sleep dla linii 1: ${SLEEP_SECONDS} s"
 
-echo '=== PRZEBIEG 2: sleep (punkt 6) ==='
-mpiexec -n "${SLURM_NTASKS}" python -m mpi4py.futures julia.py \
-    --mode sleep --sleep-line 1 --sleep-seconds "${SLEEP_SECONDS}"
+echo "Wybrany sleep: ${SLEEP_SECONDS} s"
 
-# Raport dla punktow 2-7; pojedynczy plik z liczbami rzeczywistymi z klastra.
+echo "=== PRZEBIEG 2: z sleep ==="
+
+mpiexec -n "${SLURM_NTASKS}" \
+    python -m mpi4py.futures julia.py \
+    --mode sleep \
+    --sleep-line 1 \
+    --sleep-seconds "${SLEEP_SECONDS}"
+
+echo "=== GENEROWANIE RAPORTU ==="
+
 python analysis.py report > raport.txt
+
 cat raport.txt
 
-echo '=== GOTOWE ==='
-echo 'Pliki: baseline.pgm, sleep.pgm, baseline.csv, sleep.csv, raport.txt'
+echo "=== GOTOWE ==="
+echo "Pliki: baseline.csv, sleep.csv, baseline.pgm, sleep.pgm, raport.txt"
