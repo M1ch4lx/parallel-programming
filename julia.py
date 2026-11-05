@@ -1,12 +1,4 @@
 #!/usr/bin/env python3
-"""Lab 4: dynamiczny przydzial linii zbioru Julii przez MPIPoolExecutor.
-
-Uruchomienie TYLKO w ramach alokacji MPI:
-    mpiexec -n 9 python -m mpi4py.futures julia.py --mode baseline
-    mpiexec -n 9 python -m mpi4py.futures julia.py --mode sleep --sleep-line 1 --sleep-seconds 10
-
-9 rang MPI = 1 master + 8 workerow. Wymaga mpi4py i zgodnego runtime MPI.
-"""
 
 import argparse
 import csv
@@ -17,14 +9,12 @@ from pathlib import Path
 from mpi4py import MPI
 from mpi4py.futures import MPIPoolExecutor
 
-# Parametry IDENTYCZNE jak w przykladzie mpi4py.
 x0, x1, w = -2.0, +2.0, 640 * 2
 y0, y1, h = -1.5, +1.5, 480 * 2
 dx = (x1 - x0) / w
 dy = (y1 - y0) / h
 c = complex(0, 0.65)
 
-# Ustawiane oddzielnie w kazdym workerze przez initializer.
 SLEEP_LINE = None
 SLEEP_SECONDS = 0.0
 
@@ -45,11 +35,6 @@ def julia(x, y):
 
 
 def julia_line(k):
-    """Wykonaj jedna linie i zwroc obraz oraz czasy i range wykonawcy.
-
-    calc_s: samo liczenie, bez sleep i drukowania.
-    total_s: liczenie + ewentualny sleep, bez drukowania.
-    """
     rank = MPI.COMM_WORLD.Get_rank()
     started = time.perf_counter()
 
@@ -129,7 +114,6 @@ def main():
             writer.writerow(("line", "rank", "calc_s", "sleep_s", "total_s"))
             image_file.write(b"P5 %d %d %d\n" % (w, h, 255))
 
-            # map z chunksize=1: 960 niezaleznych zadan, wyniki w porzadku linii.
             for expected_k, (k, pixels, rank, calc_s, slept_s, total_s) in enumerate(
                 executor.map(julia_line, range(h), chunksize=1)
             ):

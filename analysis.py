@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-"""Analiza punktow 2-6 laboratorium (standardowa biblioteka Pythona)."""
 
 import argparse
 import csv
@@ -39,10 +38,10 @@ def per_worker(records):
 def regular_mapping(records, worker_count):
     ranks = [r["rank"] for r in records]
     groups = per_worker(records)
-    # Blokowy: kazda ranga dostaje co najwyzej jeden spojny przedzial linii.
+    
     block = all(lines == list(range(lines[0], lines[-1] + 1)) for lines in
                 (d["lines"] for d in groups.values()) if lines)
-    # Scisle cykliczny: stale powtarzanie jednej pelnej permutacji rang.
+    
     first = ranks[:worker_count]
     cyclic = (
         len(first) == worker_count
