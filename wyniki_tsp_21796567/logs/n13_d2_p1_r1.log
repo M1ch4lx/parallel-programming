@@ -1,0 +1,25 @@
+KOMENDA: mpiexec -n 2 /net/software/testing/software/Python/3.9.6-GCCcore-11.2.0/bin/python -m mpi4py.futures /net/people/plgrid/plgmicheros/parallel-programming/tsp_bb.py --mode mpi --n 13 --seed 2026 --radius 100.0 --bound minedge --depth 2 --output /net/people/plgrid/plgmicheros/parallel-programming/wyniki_tsp_21796567/runs/n13_d2_p1_r1.json
+START N=13 seed=2026 d=2 taskow=12 bound=minedge mode=mpi
+Traceback (most recent call last):
+  File "/net/software/testing/software/Python/3.9.6-GCCcore-11.2.0/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/net/software/testing/software/Python/3.9.6-GCCcore-11.2.0/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/net/software/testing/software/SciPy-bundle/2021.10-intel-2021b/lib/python3.9/site-packages/mpi4py/futures/__main__.py", line 74, in <module>
+    main()
+  File "/net/software/testing/software/SciPy-bundle/2021.10-intel-2021b/lib/python3.9/site-packages/mpi4py/futures/__main__.py", line 62, in main
+    run_command_line()
+  File "/net/software/testing/software/SciPy-bundle/2021.10-intel-2021b/lib/python3.9/site-packages/mpi4py/run.py", line 47, in run_command_line
+    run_path(sys.argv[0], run_name='__main__')
+  File "/net/software/testing/software/Python/3.9.6-GCCcore-11.2.0/lib/python3.9/runpy.py", line 268, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/net/software/testing/software/Python/3.9.6-GCCcore-11.2.0/lib/python3.9/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/net/software/testing/software/Python/3.9.6-GCCcore-11.2.0/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/net/people/plgrid/plgmicheros/parallel-programming/tsp_bb.py", line 299, in <module>
+    main()
+  File "/net/people/plgrid/plgmicheros/parallel-programming/tsp_bb.py", line 249, in main
+    n_workers = executor.num_workers
+AttributeError: 'MPIPoolExecutor' object has no attribute 'num_workers'
+Abort(1) on node 0 (rank 0 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0

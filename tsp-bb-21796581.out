@@ -1,0 +1,64 @@
+MPI startup(): PMI server not found. Please set I_MPI_PMI_LIBRARY variable if it is not a singleton case.
+MPI: Intel(R) MPI Library 2021.4 for Linux* OS
+matplotlib: 3.5.2
+mpi4py.futures: OK
+Plany (d, liczba workerow): [(2, 1), (2, 8), (3, 1), (3, 2), (3, 4), (3, 8), (4, 1), (4, 8)]
+Czas T liczony zewnetrznie: obejmuje mpiexec + generowanie prefiksow + MPI.
+[powt. 1/3] d=2 p=1 START
+  -> T=3.824s, koszt=588.311097, wezly=365821, taski=12
+[powt. 1/3] d=2 p=8 START
+  -> T=1.317s, koszt=588.311097, wezly=365821, taski=12
+[powt. 1/3] d=3 p=1 START
+  -> T=12.611s, koszt=588.311097, wezly=1496585, taski=132
+[powt. 1/3] d=3 p=2 START
+  -> T=6.714s, koszt=588.311097, wezly=1496585, taski=132
+[powt. 1/3] d=3 p=4 START
+  -> T=3.750s, koszt=588.311097, wezly=1496585, taski=132
+[powt. 1/3] d=3 p=8 START
+  -> T=2.327s, koszt=588.311097, wezly=1496585, taski=132
+[powt. 1/3] d=4 p=1 START
+  -> T=42.602s, koszt=588.311097, wezly=5386586, taski=1320
+[powt. 1/3] d=4 p=8 START
+  -> T=5.979s, koszt=588.311097, wezly=5386586, taski=1320
+[powt. 2/3] d=2 p=1 START
+  -> T=3.796s, koszt=588.311097, wezly=365821, taski=12
+[powt. 2/3] d=2 p=8 START
+  -> T=1.322s, koszt=588.311097, wezly=365821, taski=12
+[powt. 2/3] d=3 p=1 START
+  -> T=12.642s, koszt=588.311097, wezly=1496585, taski=132
+[powt. 2/3] d=3 p=2 START
+  -> T=6.742s, koszt=588.311097, wezly=1496585, taski=132
+[powt. 2/3] d=3 p=4 START
+  -> T=3.731s, koszt=588.311097, wezly=1496585, taski=132
+[powt. 2/3] d=3 p=8 START
+  -> T=2.351s, koszt=588.311097, wezly=1496585, taski=132
+[powt. 2/3] d=4 p=1 START
+  -> T=42.808s, koszt=588.311097, wezly=5386586, taski=1320
+[powt. 2/3] d=4 p=8 START
+  -> T=5.977s, koszt=588.311097, wezly=5386586, taski=1320
+[powt. 3/3] d=2 p=1 START
+  -> T=3.875s, koszt=588.311097, wezly=365821, taski=12
+[powt. 3/3] d=2 p=8 START
+  -> T=1.316s, koszt=588.311097, wezly=365821, taski=12
+[powt. 3/3] d=3 p=1 START
+  -> T=12.623s, koszt=588.311097, wezly=1496585, taski=132
+[powt. 3/3] d=3 p=2 START
+  -> T=6.721s, koszt=588.311097, wezly=1496585, taski=132
+[powt. 3/3] d=3 p=4 START
+  -> T=3.758s, koszt=588.311097, wezly=1496585, taski=132
+[powt. 3/3] d=3 p=8 START
+  -> T=2.334s, koszt=588.311097, wezly=1496585, taski=132
+[powt. 3/3] d=4 p=1 START
+  -> T=42.905s, koszt=588.311097, wezly=5386586, taski=1320
+[powt. 3/3] d=4 p=8 START
+  -> T=5.953s, koszt=588.311097, wezly=5386586, taski=1320
+Zapisano wyniki_tsp_21796581/exp1_speedup.png
+Zapisano wyniki_tsp_21796581/exp1_efficiency.png
+Zapisano wyniki_tsp_21796581/exp1_serial_fraction.png
+Zapisano wyniki_tsp_21796581/exp2_speedup.png
+Zapisano wyniki_tsp_21796581/exp2_efficiency.png
+Zapisano wyniki_tsp_21796581/exp2_serial_fraction.png
+Zapisano wyniki_tsp_21796581/summary.csv oraz wyniki_tsp_21796581/raport.md
+GOTOWE: wyniki_tsp_21796581/measurements.csv oraz 6 wykresow PNG w wyniki_tsp_21796581/
+=== GOTOWE ===
+Zobacz: wyniki_tsp_21796581/raport.md i 6 wykresow PNG.

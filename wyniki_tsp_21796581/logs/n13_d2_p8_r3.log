@@ -1,0 +1,4 @@
+KOMENDA: mpiexec -n 9 /net/software/testing/software/Python/3.9.6-GCCcore-11.2.0/bin/python -m mpi4py.futures /net/people/plgrid/plgmicheros/parallel-programming/tsp_bb.py --mode mpi --n 13 --seed 2026 --radius 100.0 --bound minedge --depth 2 --output /net/people/plgrid/plgmicheros/parallel-programming/wyniki_tsp_21796581/runs/n13_d2_p8_r3.json
+START N=13 seed=2026 d=2 taskow=12 bound=minedge mode=mpi
+KONIEC p=8 d=2 T_internal=0.570775s generowanie_prefiksow=0.000005s best=588.311097407 wezly=365821 pruned=295550 walidacja=True
+TRASA: 1 -> 5 -> 4 -> 9 -> 12 -> 13 -> 11 -> 7 -> 8 -> 10 -> 3 -> 2 -> 6 -> 1
