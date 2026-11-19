@@ -246,7 +246,7 @@ def main():
     else:
         from mpi4py.futures import MPIPoolExecutor
         with MPIPoolExecutor(initializer=init_worker, initargs=(distances, args.bound)) as executor:
-            n_workers = executor.num_workers
+            n_workers = executor._max_workers
             # Przydzial dynamiczny: kolejne prefiksy ida do wolnych workerow.
             consume(executor.map(solve_subtree, prefixes, chunksize=1))
 
