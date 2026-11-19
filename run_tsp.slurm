@@ -1,7 +1,7 @@
 #!/bin/bash -l
 #SBATCH --job-name=tsp-bb-mpi
-#SBATCH -A plgar2026-cpu
-#SBATCH -p plgrid
+#SBATCH --partition=plgrid
+#SBATCH --account=plgar2026-cpu
 #SBATCH --nodes=1
 #SBATCH --ntasks=9
 #SBATCH --cpus-per-task=1
@@ -13,17 +13,26 @@
 set -euo pipefail
 cd "${SLURM_SUBMIT_DIR}"
 
-# Tak jak w przeslanym run_julia.slurm; wersje modulow moga sie roznic
-# w zaleznosci od konfiguracji srodowiska na Aresie.
-module load openmpi
-module load python
+# Sprawdzone srodowisko z dzialajacego laboratorium Julii.
+module load scipy-bundle/2021.10-intel-2021b
+
+# Zgodnie z instrukcja Ares: kolejne uruchomienia mpiexec w alokacji SLURM.
+export SLURM_OVERLAP=1
+export PYTHONUNBUFFERED=1
 
 export OMP_NUM_THREADS=1
 export OPENBLAS_NUM_THREADS=1
 export MKL_NUM_THREADS=1
 export MPLBACKEND=Agg
 
-python -c 'from mpi4py import MPI; from mpi4py.futures import MPIPoolExecutor; import matplotlib; print("MPI:", MPI.Get_library_version().splitlines()[0]); print("matplotlib:", matplotlib.__version__)'
+python - <<'PY_CHECK'
+from mpi4py import MPI
+from mpi4py.futures import MPIPoolExecutor
+import matplotlib
+print("MPI:", MPI.Get_library_version().splitlines()[0])
+print("matplotlib:", matplotlib.__version__)
+print("mpi4py.futures: OK")
+PY_CHECK
 
 # 9 procesow = 1 master i do 8 workerow.
 # Program pomiarowy uruchamia mpiexec osobno dla kazdej pary (d,p).

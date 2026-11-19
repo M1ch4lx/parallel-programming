@@ -1,50 +1,70 @@
 #!/bin/bash -l
-#SBATCH --job-name=tsp-bb-mpi
-#SBATCH --partition=plgrid
-#SBATCH --account=plgar2026-cpu
-#SBATCH --nodes=1
-#SBATCH --ntasks=9
+
+#SBATCH -A plgar2026-cpu
+#SBATCH -p plgrid
+#SBATCH -N 1
+#SBATCH --ntasks-per-node=9
 #SBATCH --cpus-per-task=1
-#SBATCH --mem=8G
-#SBATCH --time=01:00:00
-#SBATCH --output=tsp-bb-%j.out
-#SBATCH --error=tsp-bb-%j.err
+#SBATCH --mem=4G
+#SBATCH -t 00:15:00
+#SBATCH -J lab4-julia-mpi
+#SBATCH -o lab4-%j.out
+#SBATCH -e lab4-%j.err
 
 set -euo pipefail
-cd "${SLURM_SUBMIT_DIR}"
 
-# Sprawdzone srodowisko z dzialajacego laboratorium Julii.
-module load scipy-bundle/2021.10-intel-2021b
-
-# Zgodnie z instrukcja Ares: kolejne uruchomienia mpiexec w alokacji SLURM.
-export SLURM_OVERLAP=1
 export PYTHONUNBUFFERED=1
 
-export OMP_NUM_THREADS=1
-export OPENBLAS_NUM_THREADS=1
-export MKL_NUM_THREADS=1
-export MPLBACKEND=Agg
+cd "$SLURM_SUBMIT_DIR"
 
-python - <<'PY_CHECK'
-from mpi4py import MPI
-from mpi4py.futures import MPIPoolExecutor
-import matplotlib
-print("MPI:", MPI.Get_library_version().splitlines()[0])
-print("matplotlib:", matplotlib.__version__)
-print("mpi4py.futures: OK")
-PY_CHECK
+# Srodowisko z dzialajacego benchmarku
+module load scipy-bundle/2021.10-intel-2021b
 
-# 9 procesow = 1 master i do 8 workerow.
-# Program pomiarowy uruchamia mpiexec osobno dla kazdej pary (d,p).
-# Eksperyment 1: d=3, p=1,2,4,8.
-# Eksperyment 2: p=8, d=2,3,4 (plus osobne bazowe p=1 dla kazdego d).
-# Caly czas jest mierzony na zewnatrz mpiexec, wiec generowanie prefiksow
-# na pewno wchodzi do pomiarow, podobnie jak start/stop MPI.
-python benchmark_tsp.py \
-    --n 13 --seed 2026 --radius 100 --bound minedge \
-    --depth-fixed 3 --workers 1,2,4,8 \
-    --workers-fixed 8 --depths 2,3,4 \
-    --repeats 3 --outdir "wyniki_tsp_${SLURM_JOB_ID}"
+# Kontrola dostepnosci MPI i mpi4py
+if ! python -c 'from mpi4py import MPI; import mpi4py.futures' >/dev/null 2>&1; then
+    echo "BLAD: Brak mpi4py lub niezgodny mpi4py." >&2
+    echo "Sprawdz: module spider mpi4py" >&2
+    echo "Zaladuj modul zgodny z Intel 2021b." >&2
+    exit 1
+fi
 
-echo '=== GOTOWE ==='
-echo "Zobacz: wyniki_tsp_${SLURM_JOB_ID}/raport.md i 6 wykresow PNG."
+if ! command -v mpiexec >/dev/null 2>&1; then
+    echo "BLAD: Brak mpiexec." >&2
+    exit 1
+fi
+
+for file in julia.py analysis.py; do
+    if [[ ! -f "$file" ]]; then
+        echo "BLAD: Brak $file w katalogu $PWD" >&2
+        exit 1
+    fi
+done
+
+python -c 'from mpi4py import MPI; print("MPI:", MPI.Get_library_version().splitlines()[0]); print("mpi4py OK")'
+
+echo "=== PRZEBIEG 1: bez sleep ==="
+
+mpiexec -n "${SLURM_NTASKS}" \
+    python -m mpi4py.futures julia.py --mode baseline
+
+# Dobor sleep na podstawie pierwszego przebiegu
+SLEEP_SECONDS="$(python analysis.py recommend --file baseline.csv)"
+
+echo "Wybrany sleep: ${SLEEP_SECONDS} s"
+
+echo "=== PRZEBIEG 2: z sleep ==="
+
+mpiexec -n "${SLURM_NTASKS}" \
+    python -m mpi4py.futures julia.py \
+    --mode sleep \
+    --sleep-line 1 \
+    --sleep-seconds "${SLEEP_SECONDS}"
+
+echo "=== GENEROWANIE RAPORTU ==="
+
+python analysis.py report > raport.txt
+
+cat raport.txt
+
+echo "=== GOTOWE ==="
+echo "Pliki: baseline.csv, sleep.csv, baseline.pgm, sleep.pgm, raport.txt"
